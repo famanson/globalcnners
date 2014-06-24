@@ -1,0 +1,286 @@
+.container {
+    width: 100% !important;
+}
+
+.ribbon-headline {
+  text-align: center;
+  width: 40%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background: #e5e5e5;
+  background: linear-gradient(#f5f5f5, #e5e5e5);
+  box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ribbon-headline:before,
+.ribbon-headline:after {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  content:'';
+  border-top: 6px solid #555;
+  border-left: 6px solid transparent;
+}
+
+.ribbon-headline:before {
+  border-top: 6px solid #555;
+  border-right: 6px solid transparent;
+  border-left: none;
+  left: auto;
+  right: 0;
+  bottom: -6px;
+}
+
+.caption {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-style: italic;
+}
+
+menu {
+    color: red;
+}
+
+navigation {
+    background-color: #333;
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    padding-bottom: 40px;
+    color: #000;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main .col-lg-4 {
+    margin-bottom: 20px;
+}
+
+.main h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.main .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.main .lead {
+    font-size: 16px;
+}
+
+.main img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+}
+
+.featurette-divider {
+    margin: 50px 0;
+}
+
+.featurette-divider .invisible {
+    border: none;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.featurette-heading.text-schedule {
+    color: #3594cb;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-header {
+    background-color: #3594cb;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%
+}
+
+.main-header ul {
+    width: 100%;
+}
+
+.main-header ul .brand {
+    color: #fff;
+    padding: 15px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+}
+
+.main-header ul li:first-child {
+    float:left;
+}
+
+.main-header ul li {
+    float:right;
+}
+
+
+.main-header ul a {
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+
+.main-header ul a.last {
+    border-right: 1px solid #fff;
+}
+
+.main-header ul a:hover {
+    background-color: #6cbfee;
+}
+
+.main-header h1 {
+    font-size: 56px;
+}
+
+.testimonial p.content {
+    padding: 0 5px;
+}
+
+.banner {
+    margin-top: 50px;
+}
+
+span.laquo{
+    background:url(../img/laquo.png) no-repeat;
+    width:14px;
+    height:11px;
+    position:absolute;
+    left:0;
+    top:4px;
+    display:block;
+}
+
+span.raquo{
+    background:url(../img/raquo.png) no-repeat right 4px;
+    width:13px;
+    height:15px;
+    padding-left:20px;
+    display:inline-block;
+}
+
+.footer {
+    background-color: #000;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.container .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container .row {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container .row {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container .row {
+        width: 1170px;
+    }
+}
+
+
+.pin {
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pin img {
+    margin: 0;
+    width: 100%;
+    height: auto !important;
+}
+
+.pin .text {
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+}
+
+.pin.uk {
+    background-color: #d83049;
+}
+
+.pin.us {
+    background-color: #6cbfee;
+}
+
+.flag-wrapper:after {
+    padding-top: 75%; /* ratio */
+    display: block;
+    content: '';
+}
+
+.flag-wrapper .flag {
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.cnn-bg {
+    background: url("../img/cnn.jpg")
+}
