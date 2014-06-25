@@ -70,7 +70,8 @@ $(document).ready(function () {
                     $(this).slideDown(250);
                 }
             });
-            $("#flag-tip").text("Filter by country by clicking on a flag.");
+            $("#flag-tip-1").slideDown(250);
+            $("#flag-tip-2").slideUp(250);
         } else {
             $("#flag-picker .flag").each(function() {
                 if (!$(this).hasClass("flag-icon-" + country)) {
@@ -82,7 +83,8 @@ $(document).ready(function () {
             $("#staff-view .pin." + country).slideUp(250, function(){
                 $("#staff-view .pin:not(." + country + ")").slideDown(250);
             });
-            $("#flag-tip").text("Click the active flag to clear filter or an inactive one to switch country.");
+            $("#flag-tip-1").slideUp(250);
+            $("#flag-tip-2").slideDown(250);
         }
         $("#flag-picker").toggleClass("filtered");
     });
