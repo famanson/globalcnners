@@ -296,6 +296,10 @@ span.raquo{
     -webkit-filter: grayscale(1); /* Old WebKit */
 }
 
+#staff-view {
+    min-height: 400px;
+}
+
 .show-all {
     margin-bottom: 10px;
 }

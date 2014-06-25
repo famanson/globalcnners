@@ -64,7 +64,8 @@ $(document).ready(function () {
             $("#flag-picker .flag").each(function() {
                 $(this).removeClass("grayscale");
             });
-            $(".staff .pin").each(function(){
+
+            $("#staff-view .pin").each(function(){
                 if (!$(this).is(":visible")) {
                     $(this).slideDown(250);
                 }
@@ -78,12 +79,8 @@ $(document).ready(function () {
                     $(this).removeClass("grayscale");
                 }
             });
-            $(".staff .pin").each(function(){
-                if (!$(this).hasClass(country)) {
-                    $(this).slideUp(250);
-                } else {
-                    $(this).slideDown(250);
-                }
+            $("#staff-view .pin." + country).slideUp(250, function(){
+                $("#staff-view .pin:not(." + country + ")").slideDown(250);
             });
             $("#flag-tip").text("Click the active flag to clear filter or an inactive one to switch country.");
         }
