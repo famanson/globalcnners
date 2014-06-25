@@ -23,14 +23,6 @@ function identifyBrowser(e, t, n) {
     return null
 }
 
-function hover(e, t) {
-    e.setAttribute("src", t)
-}
-
-function unhover(e, t) {
-    e.setAttribute("src", t)
-}
-
 $(window).on("beforeunload", function () {
     $(window).scrollTop(0)
 });
@@ -73,4 +65,39 @@ $(document).ready(function () {
             }
         }
     });
-})
+    $(".flag-picker .flag-wrapper").bind("click", function() {
+        var country = $(this).attr("country");
+        if (!$(this).find(".flag").hasClass("grayscale") && $(".flag-picker").hasClass("filtered")) {
+            $(".flag-picker .flag").each(function() {
+                $(this).removeClass("grayscale");
+            });
+            $(".staff .pin").each(function(){
+                if (!$(this).is(":visible")) {
+                    $(this).slideDown(250, function() {
+                        // $(this).show();
+                    });
+                }
+            });
+        } else {
+            $(".flag-picker .flag").each(function() {
+                if (!$(this).hasClass("flag-icon-" + country)) {
+                    $(this).addClass("grayscale");
+                } else {
+                    $(this).removeClass("grayscale");
+                }
+            });
+            $(".staff .pin").each(function(){
+                if (!$(this).hasClass(country)) {
+                    $(this).slideUp(250, function() {
+                        // $(this).hide();
+                    });
+                } else {
+                    $(this).slideDown(250, function() {
+                        // $(this).show();
+                    });
+                }
+            });
+        }
+        $(".flag-picker").toggleClass("filtered");
+    });
+});

@@ -92,6 +92,7 @@ body {
 
 .main .lead {
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .main img {
@@ -267,12 +268,40 @@ span.raquo{
     background-color: #6cbfee;
 }
 
-.pin.uk {
+.pin.gb {
     background-color: #d83049;
 }
 
 .pin.us {
     background-color: #6cbfee;
+}
+
+.flag-picker {
+    margin-bottom: 10px;
+}
+
+.flag-picker div {
+    margin-right: 5px;
+    padding: 0;
+}
+
+.flag-picker .flag.grayscale {
+    filter: grayscale(100%); /* Current draft standard */
+    -webkit-filter: grayscale(100%); /* New WebKit */
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%); 
+    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */ 
+    filter: url(resources.svg#desaturate); /* Gecko */
+    filter: gray; /* IE */
+    -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+.show-all {
+    margin-bottom: 10px;
+}
+
+.show-all .core {
+    text-align: center;
 }
 
 .flag-wrapper:after {
@@ -282,6 +311,7 @@ span.raquo{
 }
 
 .flag-wrapper .flag {
+    cursor: pointer;
     position: absolute;
     top: 0; bottom: 0; right: 0; left: 0;
     width: 100%;
