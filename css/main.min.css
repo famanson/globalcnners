@@ -73,8 +73,7 @@ body {
 }
 
 .main {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0;
 }
 
 .main .col-lg-4 {
@@ -110,6 +109,10 @@ body {
     margin: 50px 0;
 }
 
+.featurette-divider.half {
+    margin: 25px 0;
+}
+
 .featurette-divider .invisible {
     border: none;
 }
@@ -118,6 +121,7 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+    font-weight: bolder;
 }
 
 .featurette-heading.text-schedule {
@@ -133,7 +137,8 @@ body {
     position: fixed;
     top: 0;
     z-index: 10000;
-    width: 100%
+    width: 100%;
+    border-bottom: 1px solid #fff;
 }
 
 .main-header ul {
@@ -205,7 +210,6 @@ span.raquo{
     position: absolute;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
     padding: 30px;
 }
 
@@ -258,6 +262,10 @@ span.raquo{
     padding: 10px;
 }
 
+.pin.guest {
+    background-color: #6cbfee;
+}
+
 .pin.uk {
     background-color: #d83049;
 }
@@ -281,6 +289,29 @@ span.raquo{
     border-radius: 0;
 }
 
-.cnn-bg {
+.featurette-wrapper.cnn-bg {
     background: url("../img/cnn.jpg")
+}
+
+.featurette-wrapper {
+    padding: 20px 0;
+}
+
+.hello-wrapper {
+    background-color: #6cbfee;
+    color: #fff;
+}
+
+.speakers-wrapper {
+    background-color: #546067;
+    color: #fff;
+}
+
+.docs-wrapper {
+    background-color: #ffcd35;
+}
+
+.contact-us-wrapper {
+    background-color: #e91e63;
+    color: #fff;
 }
