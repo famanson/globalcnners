@@ -133,7 +133,7 @@ body {
 }
 
 .main-header {
-    background-color: #3594cb;
+    background-color: #333;
     position: fixed;
     top: 0;
     z-index: 10000;
@@ -148,6 +148,7 @@ body {
 .main-header ul .brand {
     color: #fff;
     padding: 15px;
+    font-size: 20px;
     line-height: 20px;
     position: relative;
     display: block;
@@ -172,7 +173,7 @@ body {
 }
 
 .main-header ul a:hover {
-    background-color: #6cbfee;
+    background-color: #888;
 }
 
 .main-header h1 {
