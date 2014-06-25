@@ -173,7 +173,7 @@ body {
     border-right: 1px solid #fff;
 }
 
-.main-header ul a:hover {
+.main-header ul a:hover,.main-header ul li.active {
     background-color: #888;
 }
 
@@ -276,16 +276,16 @@ span.raquo{
     background-color: #6cbfee;
 }
 
-.flag-picker {
+#flag-picker {
     margin-bottom: 10px;
 }
 
-.flag-picker div {
+#flag-picker div {
     margin-right: 5px;
     padding: 0;
 }
 
-.flag-picker .flag.grayscale {
+#flag-picker .flag.grayscale {
     filter: grayscale(100%); /* Current draft standard */
     -webkit-filter: grayscale(100%); /* New WebKit */
     -moz-filter: grayscale(100%);

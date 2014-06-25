@@ -30,10 +30,6 @@ $(document).ready(function () {
     if (window.location.hash) {
         window.location = ""
     }
-    $("body").scrollspy({
-        target: "#sidebar.spy-active",
-        offset: 280
-    });
     var e = "body";
     if (identifyBrowser(null) === "firefox" || identifyBrowser(null) === "msie") {
         e = "html"
@@ -57,29 +53,25 @@ $(document).ready(function () {
                 }
                 $("html,body").animate({
                     scrollTop: n
-                }, i, function () {
-                    $(e).closest("li").addClass("active");
-                    $("body").scrollspy("refresh")
-                });
+                }, i);
                 return false
             }
         }
     });
-    $(".flag-picker .flag-wrapper").bind("click", function() {
+    $("#flag-picker .flag-wrapper").bind("click", function() {
         var country = $(this).attr("country");
-        if (!$(this).find(".flag").hasClass("grayscale") && $(".flag-picker").hasClass("filtered")) {
-            $(".flag-picker .flag").each(function() {
+        if (!$(this).find(".flag").hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
+            $("#flag-picker .flag").each(function() {
                 $(this).removeClass("grayscale");
             });
             $(".staff .pin").each(function(){
                 if (!$(this).is(":visible")) {
-                    $(this).slideDown(250, function() {
-                        // $(this).show();
-                    });
+                    $(this).slideDown(250);
                 }
             });
+            $("#flag-tip").text("Filter by country by clicking on a flag.");
         } else {
-            $(".flag-picker .flag").each(function() {
+            $("#flag-picker .flag").each(function() {
                 if (!$(this).hasClass("flag-icon-" + country)) {
                     $(this).addClass("grayscale");
                 } else {
@@ -88,16 +80,13 @@ $(document).ready(function () {
             });
             $(".staff .pin").each(function(){
                 if (!$(this).hasClass(country)) {
-                    $(this).slideUp(250, function() {
-                        // $(this).hide();
-                    });
+                    $(this).slideUp(250);
                 } else {
-                    $(this).slideDown(250, function() {
-                        // $(this).show();
-                    });
+                    $(this).slideDown(250);
                 }
             });
+            $("#flag-tip").text("Click the active flag to clear filter or an inactive one to switch country.");
         }
-        $(".flag-picker").toggleClass("filtered");
+        $("#flag-picker").toggleClass("filtered");
     });
 });
