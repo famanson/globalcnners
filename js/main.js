@@ -73,7 +73,7 @@ $(document).ready(function () {
             $("#flag-tip-2").fadeOut(250, function() {
                 $("#flag-tip-1").fadeIn(250);
             });
-            
+            $("#flag-picker").removeClass("filtered");
         } else {
             $("#flag-picker .flag").each(function() {
                 if (!$(this).hasClass("flag-icon-" + country)) {
@@ -88,7 +88,7 @@ $(document).ready(function () {
             $("#flag-tip-1").fadeOut(250, function() {
                 $("#flag-tip-2").fadeIn(250);
             });
+            $("#flag-picker").addClass("filtered");
         }
-        $("#flag-picker").toggleClass("filtered");
     });
 });

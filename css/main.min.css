@@ -252,6 +252,7 @@ span.raquo{
     column-break-inside: avoid;
     text-align: center;
     margin-bottom: 20px;
+    box-shadow: 0 0 3px #888;
 }
 
 .pin img {
@@ -359,6 +360,15 @@ span.raquo{
 
 .docs-wrapper {
     background-color: #ffcd35;
+}
+
+.docs-wrapper button {
+    margin: 0 auto;
+    display: block;
+}
+
+.docs-wrapper #docs-desc,.docs-wrapper button {
+    margin-bottom: 20px;
 }
 
 .contact-us-wrapper {
