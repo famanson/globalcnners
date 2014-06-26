@@ -134,12 +134,12 @@ body {
 }
 
 .main-header {
-    background-color: #333;
+    background-color: #fff;
     position: fixed;
     top: 0;
     z-index: 10000;
     width: 100%;
-    border-bottom: 1px solid #fff;
+    box-shadow: 0 4px 2px -2px #333;
 }
 
 .main-header ul {
@@ -147,7 +147,7 @@ body {
 }
 
 .main-header ul .brand {
-    color: #fff;
+    color: #333;
     padding: 15px;
     font-size: 20px;
     line-height: 20px;
@@ -165,16 +165,19 @@ body {
 
 
 .main-header ul a {
-    color: #fff;
-    border-left: 1px solid #fff;
+    color: #d83049;
+    font-weight: bold;
+    border-bottom: 5px solid #fff;
+    /*border-left: 1px solid #fff;*/
 }
 
 .main-header ul a.last {
-    border-right: 1px solid #fff;
+    /*border-right: 1px solid #fff;*/
 }
 
-.main-header ul a:hover,.main-header ul li.active {
-    background-color: #888;
+.main-header ul a:hover {
+    background-color: #fff;
+    border-bottom: 5px solid #000;
 }
 
 .main-header h1 {
