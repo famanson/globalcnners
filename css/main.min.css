@@ -300,6 +300,10 @@ span.raquo{
     min-height: 400px;
 }
 
+#flag-tip-1, #flag-tip-2 {
+    min-height: 22px;
+}
+
 #flag-tip-2 {
     display: none;
 }
