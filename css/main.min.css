@@ -272,16 +272,16 @@ span.raquo{
     padding: 10px;
 }
 
+.pin.guest {
+    background-color: #6cbfee;
+}
+
 .pin.high {
     background-color: #d83049;
 }
 
-.pin.medium {
-    background-color: #6cbfee;
-}
-
 .pin.low {
-    background-color: #6cbfee;
+    background-color: #7eb400;
 }
 
 #flag-picker-tip {
@@ -380,23 +380,7 @@ span.raquo{
 }
 
 .staff-wrapper {
-        /* IE10 Consumer Preview */ 
-    background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
-
-    /* Mozilla Firefox */ 
-    background-image: -moz-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
-
-    /* Opera */ 
-    background-image: -o-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
-
-    /* Webkit (Safari/Chrome 10) */ 
-    background-image: -webkit-gradient(radial, center center, 0, center center, 505, color-stop(0, #FFFFFF), color-stop(1, #666666));
-
-    /* Webkit (Chrome 11+) */ 
-    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
-
-    /* W3C Markup, IE10 Release Preview */ 
-    background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #666666 100%);
+    background-color: #bbb;
     color: #fff;
 }
 
