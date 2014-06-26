@@ -285,6 +285,10 @@ span.raquo{
     padding: 0;
 }
 
+#flag-picker .flag:hover {
+    box-shadow: 0 0 7px #000;
+}
+
 #flag-picker .flag.grayscale {
     filter: grayscale(100%); /* Current draft standard */
     -webkit-filter: grayscale(100%); /* New WebKit */
