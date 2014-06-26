@@ -380,7 +380,12 @@ span.raquo{
 }
 
 .staff-wrapper {
-    background-color: #bbb;
+    background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+    background-image: -moz-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+    background-image: -o-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+    background-image: -webkit-gradient(radial, center center, 0, center center, 505, color-stop(0, #FFFFFF), color-stop(1, #666666));
+    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+    background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #666666 100%);
     color: #fff;
 }
 
