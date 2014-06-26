@@ -272,20 +272,37 @@ span.raquo{
     padding: 10px;
 }
 
-.pin.guest {
-    background-color: #6cbfee;
-}
-
-.pin.gb {
+.pin.high {
     background-color: #d83049;
 }
 
-.pin.us {
+.pin.medium {
     background-color: #6cbfee;
 }
 
+.pin.low {
+    background-color: #6cbfee;
+}
+
+#flag-picker-tip {
+    display: inline-block;
+}
+#flag-picker-tip p {
+    margin: 0;
+}
+
 #flag-picker {
-    margin-bottom: 10px;
+    margin: 0 0 10px 30px;
+    width: 15%;
+    background-color: #fff;
+    box-shadow: 0 0 7px #555;
+    color: #666;
+    padding: 5px;
+    display: inline-block;
+}
+
+#flag-picker h1 {
+    margin: 0;
 }
 
 #flag-picker div {
@@ -294,6 +311,7 @@ span.raquo{
 }
 
 #flag-picker .flag-icon:hover {
+    cursor: pointer;
     box-shadow: 0 0 7px #000;
 }
 
@@ -335,7 +353,6 @@ span.raquo{
 }
 
 .flag-wrapper .flag {
-    cursor: pointer;
     position: absolute;
     top: 0; bottom: 0; right: 0; left: 0;
     width: 100%;
@@ -353,12 +370,33 @@ span.raquo{
 }
 
 .hello-wrapper {
-    background-color: #6cbfee;
+    background-color: #46a4da;
     color: #fff;
 }
 
 .speakers-wrapper {
     background-color: #546067;
+    color: #fff;
+}
+
+.staff-wrapper {
+        /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 505, color-stop(0, #FFFFFF), color-stop(1, #666666));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #666666 100%);
     color: #fff;
 }
 
@@ -378,4 +416,44 @@ span.raquo{
 .contact-us-wrapper {
     background-color: #e91e63;
     color: #fff;
+}
+
+.bubble {
+    margin-left: 5px;
+    position: relative;
+    padding: 5px;
+    background: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: #7F7F7F solid 1px;
+    color: #555;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 9px 8px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -8px;
+    left: -9px;
+    top: 50%;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 9px 8px 0;
+    border-color: transparent #7F7F7F;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -8px;
+    left: -10px;
+    top: 50%;
 }
