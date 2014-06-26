@@ -58,10 +58,10 @@ $(document).ready(function () {
             }
         }
     });
-    $("#flag-picker .flag-wrapper").bind("click", function() {
+    $("#flag-picker .flag-icon").bind("click", function() {
         var country = $(this).attr("country");
-        if (!$(this).find(".flag").hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
-            $("#flag-picker .flag").each(function() {
+        if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
+            $("#flag-picker .flag-icon").each(function() {
                 $(this).removeClass("grayscale");
             });
 
@@ -73,22 +73,22 @@ $(document).ready(function () {
             $("#flag-tip-2").fadeOut(250, function() {
                 $("#flag-tip-1").fadeIn(250);
             });
-            $("#flag-picker").removeClass("filtered");
+            
         } else {
-            $("#flag-picker .flag").each(function() {
-                if (!$(this).hasClass("flag-icon-" + country)) {
+            $("#flag-picker .flag-icon").each(function() {
+                if ($(this).attr("country") !== country) {
                     $(this).addClass("grayscale");
                 } else {
                     $(this).removeClass("grayscale");
                 }
             });
-            $("#staff-view .pin:not(." + country + ")").slideDown(250, function(){
-                $("#staff-view .pin." + country).slideUp(250);
+            $("#staff-view .pin." + country).slideUp(250, function(){
+                $("#staff-view .pin:not(." + country + ")").slideDown(250);
             });
             $("#flag-tip-1").fadeOut(250, function() {
                 $("#flag-tip-2").fadeIn(250);
             });
-            $("#flag-picker").addClass("filtered");
         }
+        $("#flag-picker").toggleClass("filtered");
     });
 });

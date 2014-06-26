@@ -96,8 +96,12 @@ body {
 }
 
 .main img {
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main > div {
+    margin: 3px auto;
 }
 
 .anchor {
@@ -165,7 +169,7 @@ body {
 
 
 .main-header ul a {
-    color: #d83049;
+    color: #3594cb;
     font-weight: bold;
     border-bottom: 5px solid #fff;
     /*border-left: 1px solid #fff;*/
@@ -289,11 +293,11 @@ span.raquo{
     padding: 0;
 }
 
-#flag-picker .flag:hover {
+#flag-picker .flag-icon:hover {
     box-shadow: 0 0 7px #000;
 }
 
-#flag-picker .flag.grayscale {
+#flag-picker .flag-icon.grayscale {
     filter: grayscale(100%); /* Current draft standard */
     -webkit-filter: grayscale(100%); /* New WebKit */
     -moz-filter: grayscale(100%);

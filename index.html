@@ -179,22 +179,13 @@
             <div class="row featurette last">
                 <a class="anchor" id="staff"></a>
                 <h2 class="featurette-heading center"><b class="text-muted">CNN Conference staff</b></h2>
-                <p class="center lead"><b>A complete list of all those behind the scene. Q&amp;A staff will be available on the Conference day.</b></p>
-                <p class="center lead" id="flag-tip-1">Filter by country by clicking on a flag  <i class="fa fa-flag"></i></p>
-                <p class="center lead" id="flag-tip-2">Click the active flag to clear filter  <i class="fa fa-times"></i> Click an inactive flag to switch country  <i class="fa fa-refresh"></i></p>
-                <div class="col-md-12" id="flag-picker">
-                    <div class="col-md-5"></div>
-                    <div class="col-md-1" >
-                        <div class="flag-wrapper" country="us">
-                            <div class="img-thumbnail flag flag-icon-background flag-icon-us"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-                        <div class="flag-wrapper" country="gb">
-                            <div class="img-thumbnail flag flag-icon-background flag-icon-gb"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-5"/></div>
+                <div id="flag-picker" class="row featurette">
+                    <h1 class="center">
+                        <span class="flag-icon flag-icon-gb" country="gb"></span>
+                        <span class="flag-icon flag-icon-us" country="us"></span>
+                    </h1>
+                    <p class="center lead" id="flag-tip-1">Click an above flag to filter by country  <i class="fa fa-flag"></i></p>
+                    <p class="center lead" id="flag-tip-2">Click the active flag to clear filter  <i class="fa fa-times"></i> Click an inactive flag to switch country  <i class="fa fa-refresh"></i></p>
                 </div>
 
                 <div class="col-md-12" id="staff-view">
