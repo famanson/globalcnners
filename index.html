@@ -56,74 +56,18 @@
             </div>
         </div>
 
-        <div class="featurette-wrapper cnn-bg">
+        <div class="featurette-wrapper schedule-wrapper" ng-controller="ScheduleCtrl">
             <div class="row featurette">
                 <a class="anchor" id="schedule"></a>
                 <div class="col-md-12">
                     <h2 class="featurette-heading center text-schedule"><b>Conference Schedule</b></h2>
                     <ul class="cbp_tmtimeline">
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 07:30"><span>01/01/14</span> <span>07:45</span></time>
-                            <div class="cbp_tmicon fa fa-users fa-lg"></div>
+                        <li ng-repeat="entry in schedule">
+                            <time class="cbp_tmtime" datetime="2014-01-01 {{ entry.time }}"><span>01/01/14</span> <span>{{ entry.time }}</span></time>
+                            <div class="cbp_tmicon fa {{ entry.logo }} fa-lg"></div>
                             <div class="cbp_tmlabel">
-                                <h2>Meetup</h2>
-                                <p>Conference is open to the public</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 08:30"><span>01/01/14</span><span>08:30</span></time>
-                            <div class="cbp_tmicon fa-paper-plane-o fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Guest Speaker #1: High School Application</h2>
-                                <p>High School application, scholarships, papers and exams etc</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 09:00"><span>01/01/14</span><span>09:00</span></time>
-                            <div class="cbp_tmicon fa-university fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Guest Speaker #2: University Application</h2>
-                                <p>University application, scholarships, papers and exams etc</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 09:30"><span>01/01/14</span><span>09:30</span></time>
-                            <div class="cbp_tmicon fa-comments-o fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Q&amp;A #1</h2>
-                                <p>Question and Answer session #1</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 10:00"><span>01/01/14</span><span>10:00</span></time>
-                            <div class="cbp_tmicon fa-coffee fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Tea break: Casual hangout</h2>
-                                <p>Tea, coffee, soft drinks, biscuits</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 10:30"><span>01/01/14</span><span>10:30</span></time>
-                            <div class="cbp_tmicon fa-mortar-board fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Guest Speaker #3: School, Uni life</h2>
-                                <p>Daily life</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 11:00"><span>01/01/14</span><span>11:00</span></time>
-                            <div class="cbp_tmicon fa-music fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Guest Speaker #4: Whatever other stuff</h2>
-                                <p>Have fun?</p>
-                            </div>
-                        </li>
-                        <li>
-                            <time class="cbp_tmtime" datetime="2014-01-01 11:30"><span>01/01/14</span><span>11:30</span></time>
-                            <div class="cbp_tmicon fa-comments-o fa-lg"></div>
-                            <div class="cbp_tmlabel">
-                                <h2>Q&amp;A #2</h2>
-                                <p>Question and Answer session #2</p>
+                                <h2 ng-bind-html="entry.title"></h2>
+                                <p ng-bind-html="entry.description"></p>
                             </div>
                         </li>
                     </ul>

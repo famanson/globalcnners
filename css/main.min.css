@@ -334,7 +334,7 @@ span.raquo{
     border-radius: 0;
 }
 
-.featurette-wrapper.cnn-bg {
+.featurette-wrapper.schedule-wrapper {
     background: url("../img/cnn.jpg");
     background-size: cover;
 }

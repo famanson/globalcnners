@@ -12,4 +12,6 @@ app.controller("StaffCtrl", function($scope) {
         member['flippable'] = (member.back && member.back !== null && member.back !== '');
     }
     $scope.guests = guests;
-});;
+}).controller("ScheduleCtrl", function($scope) {
+    $scope.schedule = schedule;
+});
