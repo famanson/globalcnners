@@ -375,18 +375,19 @@ span.raquo{
 }
 
 .speakers-wrapper {
-    background-color: #546067;
-    color: #fff;
+    background-color: #eee;
+    color: #3594cb;
 }
 
 .staff-wrapper {
-    background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
+    /*background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
     background-image: -moz-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
     background-image: -o-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
     background-image: -webkit-gradient(radial, center center, 0, center center, 505, color-stop(0, #FFFFFF), color-stop(1, #666666));
     background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
-    background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #666666 100%);
-    color: #fff;
+    background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #666666 100%);*/
+    background: url("../img/crew.jpg");
+    color: #3594cb;
 }
 
 .docs-wrapper {
