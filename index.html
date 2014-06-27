@@ -1,6 +1,6 @@
 <!-- This website was built with Bootstrap (http://getbootstrap.com/) and hosted on GitHub Pages (https://pages.github.com/) -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="GlobalCNNers">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,15 @@
     <link href="./css/timeline.css" rel="stylesheet">
     <link href="./css/flag-icon.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/holder.js"></script>
+    <script src="./js/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-sanitize.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/staff.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/freewall.js"></script>
   </head>
   <body>
     <div class="main-header">
@@ -175,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div class="featurette-wrapper staff-wrapper">
+        <div class="featurette-wrapper staff-wrapper" ng-controller="StaffCtrl">
             <div class="row featurette last">
                 <a class="anchor" id="staff"></a>
                 <h2 class="featurette-heading center"><b>Rest of the Crew</b></h2>
@@ -196,99 +205,42 @@
                 
                 <div class="col-md-12" id="staff-view">
                     <!-- UK -->
-                    <div class="flip-container gb member" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-                            <div class="front">
-                                <div class="pin high">
-                                    <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                                    <div class="text">
-                                        <h4><span class="flag-icon flag-icon-gb"></span>  <b>Pham Anh Son, Project Consultant.</b></h4>
-                                        <div>K37 CNNer, Oxford Uni Alumni.</div>
-                                        <div>Software Engineer, UK</div>
+                    <div ng-repeat="member in staff">
+                        <div ng-if="member.flippable" class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <div class="pin {{ member.rank }}">
+                                        <img class="img-square img-responsive" data-src="holder.js/{{ member.picsize }}">
+                                        <div class="text">
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title }}.</b></h4>
+                                            <div>{{ member.firstBioLine }}</div>
+                                            <div>{{ member.secondBioLine }}</div>
+                                        </div>
+                                        <div style='clear: both'></div>
                                     </div>
-                                    <div style='clear: both'></div>
+                                </div>
+                                <div class="back">
+                                    <div class="pin {{ member.rank }}">
+                                        <div class="text">
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title }}.</b></h4>
+                                            <p class="lead" ng-bind-html="member.back"></p>
+                                        </div>
+                                        <div style='clear: both'></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="back">
-                                <div class="pin high">
-                                    <div class="text">
-                                        <h4><span class="flag-icon flag-icon-gb"></span>  <b>Pham Anh Son, Project Consultant.</b></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                                    </div>
-                                    <div style='clear: both'></div>
-                                </div>
+                            <div style='clear: both'></div>
+                        </div>
+
+                        <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
+                            <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
+                            <div class="text">
+                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title }}.</b></h4>
+                                <div>{{ member.firstBioLine }}</div>
+                                <div>{{ member.secondBioLine }}</div>
                             </div>
+                            <div style='clear: both'></div>
                         </div>
-                        <div style='clear: both'></div>
-                    </div>
-
-                    <div class="pin low gb member">
-                        <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                        <div class="text">
-                            <h4><span class="flag-icon flag-icon-gb"></span>  <b>John Doe, Q&amp;A staff.</b></h4>
-                            <div>Incididunt ut labore et</div>
-                            <div>Ut enim ad minim veniam</div>
-                        </div>
-                        <div style='clear: both'></div>
-                    </div>
-
-                    <div class="flip-container gb member" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-                            <div class="front">
-                                <div class="pin high">
-                                    <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                                    <div class="text">
-                                        <h4><span class="flag-icon flag-icon-gb"></span>  <b>Minh 'madmin' Dang, Project Consultant.</b></h4>
-                                        <div>K38 CNNer, Lancaster Uni Alumni.</div>
-                                        <div>Loan shark, Vietnam</div>
-                                    </div>
-                                    <div style='clear: both'></div>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="pin high">
-                                    <div class="text">
-                                        <h4><span class="flag-icon flag-icon-gb"></span>  <b>Minh 'madmin' Dang, Project Consultant.</b></h4>
-                                        <p>Minh studied in class I of K38. He is one of the founding members of Global CNNers. Minh went to England to study A-Level and then business management at Lancaster University, England. He also spent a year abroad at Richmond University in the States.</p>
-                                        <p>He is currently working at SSI Vietnam</p>
-                                    </div>
-                                    <div style='clear: both'></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style='clear: both'></div>
-                    </div>
-
-                    <!-- US -->                    
-
-                    <div class="pin high us member">
-                        <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                        <div class="text">
-                            <h4><span class="flag-icon flag-icon-us"></span>  <b>Ly Bao Tran, Project Consultant.</b></h4>
-                            <div>Lorem ipsum dolor sit amet</div>
-                            <div>Consectetur adipisicing</div>
-                        </div>
-                        <div style='clear: both'></div>
-                    </div>
-
-                    <div class="pin low us member">
-                        <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                        <div class="text">
-                            <h4><span class="flag-icon flag-icon-us"></span>  <b>John Doe, Q&amp;A staff.</b></h4>
-                            <div>Incididunt ut labore et</div>
-                            <div>Ut enim ad minim veniam</div>
-                        </div>
-                        <div style='clear: both'></div>
-                    </div>
-
-                    <div class="pin high us member">
-                        <img class="img-square img-responsive" data-src="holder.js/1024x1024">
-                        <div class="text">
-                            <h4><span class="flag-icon flag-icon-us"></span>  <b>Nguyen Mai Phuong, Conference Admin.</b></h4>
-                            <div>Lorem ipsum dolor sit amet</div>
-                            <div>Consectetur adipisicing</div>
-                        </div>
-                        <div style='clear: both'></div>
                     </div>
                 </div>
             </div>
@@ -369,14 +321,5 @@
         </div>
         <div class="col-md-3"></div>
     </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/holder.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/freewall.js"></script>
   </body>
 </html>
