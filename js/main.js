@@ -98,6 +98,9 @@ $(window).bind("load", function() {
             $("#flag-picker .flag-icon").each(function() {
                 $(this).removeClass("grayscale");
             });
+            $("#flag-tip-2").fadeOut(250, function() {
+                $("#flag-tip-1").fadeIn(250);
+            });
             wall.unFilter();
             $("#flag-picker").removeClass("filtered");
         } else {

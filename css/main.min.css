@@ -383,9 +383,10 @@ span.raquo{
     position: relative;
     padding: 5px;
     background: #FFFFFF;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #888;
     border: #7F7F7F solid 1px;
     color: #555;
 }
