@@ -82,8 +82,8 @@ $(document).ready(function () {
                     $(this).removeClass("grayscale");
                 }
             });
-            $("#staff-view .member." + country).slideUp(250, function(){
-                $("#staff-view .member:not(." + country + ")").slideDown(250);
+            $("#staff-view .member:not(." + country + ")").slideUp(250, function(){
+                $("#staff-view .member." + country).slideDown(250);
             });
             $("#flag-tip-1").fadeOut(250, function() {
                 $("#flag-tip-2").fadeIn(250);
