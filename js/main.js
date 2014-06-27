@@ -58,55 +58,22 @@ $(document).ready(function () {
             }
         }
     });
-    $("#flag-picker .flag-icon").bind("click", function() {
-        var country = $(this).attr("country");
-        // if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
-        //     $("#flag-picker .flag-icon").each(function() {
-        //         $(this).removeClass("grayscale");
-        //     });
-
-        //     $("#staff-view .member").each(function(){
-        //         if (!$(this).is(":visible")) {
-        //             $(this).slideDown(250);
-        //         }
-        //     });
-        //     $("#flag-tip-2").fadeOut(250, function() {
-        //         $("#flag-tip-1").fadeIn(250);
-        //     });
-        //     $("#flag-picker").removeClass("filtered");
-        // } else {
-        //     $("#flag-picker .flag-icon").each(function() {
-        //         if ($(this).attr("country") !== country) {
-        //             $(this).addClass("grayscale");
-        //         } else {
-        //             $(this).removeClass("grayscale");
-        //         }
-        //     });
-        //     $("#staff-view .member:not(." + country + ")").slideUp(250, function(){
-        //         $("#staff-view .member." + country).slideDown(250);
-        //     });
-        //     $("#flag-tip-1").fadeOut(250, function() {
-        //         $("#flag-tip-2").fadeIn(250);
-        //     });
-        //     $("#flag-picker").addClass("filtered");
-        // }
-    });
 });
 
 $(window).bind("load", function() {
     // Loop through elements children to find & set the biggest height
     $(".flip-container .flipper").each(function(){
         var biggestHeight = "0";
-        $(this).find(".front,.back").each(function(){
+        $(this).find(".front").each(function(){
             // If this elements height is bigger than the biggestHeight
             if ($(this).innerHeight() > biggestHeight ) {
                 // Set the biggestHeight to this Height
-                biggestHeight = $(this).height();
+                biggestHeight = $(this).innerHeight();
             }
         });
         // Set the container height
         $(this).height(biggestHeight);
-        $(this).find(".back .text").height(biggestHeight - 20); // 20 is the padding of text
+        $(this).find(".back .text").height(biggestHeight - 20);
     });
 
     var wall = new freewall("#staff-view");
@@ -124,5 +91,28 @@ $(window).bind("load", function() {
         }
     });
     wall.fitWidth();
-        
+
+    $("#flag-picker .flag-icon").bind("click", function() {
+        var country = $(this).attr("country");
+        if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
+            $("#flag-picker .flag-icon").each(function() {
+                $(this).removeClass("grayscale");
+            });
+            wall.unFilter();
+            $("#flag-picker").removeClass("filtered");
+        } else {
+            $("#flag-picker .flag-icon").each(function() {
+                if ($(this).attr("country") !== country) {
+                    $(this).addClass("grayscale");
+                } else {
+                    $(this).removeClass("grayscale");
+                }
+            });
+            wall.filter(".member." + country);
+            $("#flag-tip-1").fadeOut(250, function() {
+                $("#flag-tip-2").fadeIn(250);
+            });
+            $("#flag-picker").addClass("filtered");
+        }
+    });
 });
