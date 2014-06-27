@@ -61,36 +61,42 @@ $(document).ready(function () {
 });
 
 $(window).bind("load", function() {
-    // Loop through elements children to find & set the biggest height
-    $(".flip-container .flipper").each(function(){
-        var biggestHeight = "0";
-        $(this).find(".front").each(function(){
-            // If this elements height is bigger than the biggestHeight
-            if ($(this).innerHeight() > biggestHeight ) {
-                // Set the biggestHeight to this Height
-                biggestHeight = $(this).innerHeight();
-            }
-        });
-        // Set the container height
-        $(this).height(biggestHeight);
-        $(this).find(".back .text").height(biggestHeight - 20);
-    });
+    setFlippableHeight()
 
-    var wall = new freewall("#staff-view");
-    // wall.fitWidth();
-
-    wall.reset({
-        selector: '.member',
-        animate: true,
-        cellW: 380,
+    // Guests Wall
+    var guestsWall = new freewall("#guests-view");
+    var guestCellW = ($("#guests-view").width() - 40)/2;
+    guestsWall.reset({
+        selector: '.guest',
+        animate: false,
+        cellW: guestCellW,
         cellH: 'auto',
         gutterX: 20,
         gutterY: 20,
         onResize: function() {
-            wall.fitWidth();
+            guestsWall.fitWidth();
         }
     });
-    wall.fitWidth();
+    guestsWall.fitWidth();
+
+    // Staff Wall
+    var staffWall = new freewall("#staff-view");
+    var staffCellW = ($("#staff-view").width() - 40)/3;
+    staffWall.reset({
+        selector: '.member',
+        animate: true,
+        cellW: staffCellW,
+        cellH: 'auto',
+        gutterX: 20,
+        gutterY: 20,
+        onResize: function() {
+            staffWall.fitWidth();
+        }
+    });
+    staffWall.fitWidth();
+
+    // Need to correct the height once more
+    setFlippableHeight()
 
     $("#flag-picker .flag-icon").bind("click", function() {
         var country = $(this).attr("country");
@@ -119,3 +125,20 @@ $(window).bind("load", function() {
         }
     });
 });
+
+function setFlippableHeight() {
+    // Loop through elements children to find & set the biggest height
+    $(".flip-container .flipper").each(function(){
+        var biggestHeight = "0";
+        $(this).find(".front").each(function(){
+            // If this elements height is bigger than the biggestHeight
+            if ($(this).innerHeight() > biggestHeight ) {
+                // Set the biggestHeight to this Height
+                biggestHeight = $(this).innerHeight();
+            }
+        });
+        // Set the container height
+        $(this).height(biggestHeight);
+        $(this).find(".back .text").height(biggestHeight - 20);
+    });
+}

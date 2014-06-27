@@ -25,7 +25,7 @@
     <script src="./lib/angular-sanitize.js"></script>
     <script src="./lib/freewall.js"></script>
     <script src="./js/data.js"></script>
-    <script src="./js/staff.js"></script>
+    <script src="./js/controllers.js"></script>
     <script src="./js/main.js"></script>
   </head>
   <body>
@@ -131,51 +131,35 @@
             </div>
         </div>
 
-        <div class="featurette-wrapper speakers-wrapper">
+        <div class="featurette-wrapper speakers-wrapper" ng-controller="GuestsCtrl">
             <div class="row featurette">
                 <a class="anchor" id="speakers"></a>
-                <div class="col-md-12">
-                    <h2 class="featurette-heading center"><b>Guest Speakers</b></h2>
-                    <p class="lead center"><b>Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.</b></p>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6">
-                        <div class="pin guest">
-                            <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                            <div class="text">
-                                <h4><b>Dr. Quack.</b></h4>
-                                <div>KXX CNNer, Some Uni Alumni.</div>
-                                <div>CEO</div>
-                            </div>
-                            <div style='clear: both'></div>
-                        </div>
-                        <div class="pin guest">
-                            <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                            <div class="text">
-                                <h4><b>Dr. Quack.</b></h4>
-                                <div>KXX CNNer, Some Uni Alumni.</div>
-                                <div>CEO</div>
-                            </div>
-                            <div style='clear: both'></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="pin guest">
-                            <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                            <div class="text">
-                                <h4><b>Dr. Quack.</b></h4>
-                                <div>KXX CNNer, Some Uni Alumni.</div>
-                                <div>CEO</div>
-                            </div>
-                            <div style='clear: both'></div>
-                        </div>
-                        <div class="pin guest">
-                            <img class="img-square img-responsive" data-src="holder.js/1024x512">
-                            <div class="text">
-                                <h4><b>Dr. Quack.</b></h4>
-                                <div>KXX CNNer, Some Uni Alumni.</div>
-                                <div>CEO</div>
+                <h2 class="featurette-heading center"><b>Guest Speakers</b></h2>
+                <p class="lead center"><b>Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.</b></p>
+                <div class="col-md-12" id="guests-view">
+                    <div ng-repeat="guest in guests">
+                        <div class="flip-container guest" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <div class="pin">
+                                        <img class="img-responsive" data-src="holder.js/1024x1024">
+                                        <div class="text">
+                                            <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}</b></h4>
+                                            <div>{{ guest.firstBioLine }}</div>
+                                            <div>{{ guest.secondBioLine }}</div>
+                                        </div>
+                                        <div style='clear: both'></div>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="pin">
+                                        <div class="text">
+                                            <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}.</b></h4>
+                                            <p class="lead" ng-bind-html="guest.back"></p>
+                                        </div>
+                                        <div style='clear: both'></div>
+                                    </div>
+                                </div>
                             </div>
                             <div style='clear: both'></div>
                         </div>
@@ -209,7 +193,7 @@
                             <div class="flipper">
                                 <div class="front">
                                     <div class="pin {{ member.rank }}">
-                                        <img class="img-square img-responsive" data-src="holder.js/{{ member.picsize }}">
+                                        <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                                         <div class="text">
                                             <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title }}.</b></h4>
                                             <div>{{ member.firstBioLine }}</div>

@@ -232,7 +232,11 @@ span.raquo{
     padding: 10px;
 }
 
-.pin.guest {
+#guests-view .guest {
+    width: 50%;
+}
+
+#guests-view .pin {
     background-color: #6cbfee;
 }
 
@@ -244,12 +248,16 @@ span.raquo{
     background-color: #7eb400;
 }
 
+#staff-view {
+    min-height: 1024px;
+}
+
 #staff-view .member {
     width: 33.333%;
     margin: 0;
 }
 
-#staff-view .pin {
+#staff-view .pin, #guests-view .pin {
     margin: 0;
 }
 
@@ -293,10 +301,6 @@ span.raquo{
     filter: url(resources.svg#desaturate); /* Gecko */
     filter: gray; /* IE */
     -webkit-filter: grayscale(1); /* Old WebKit */
-}
-
-#staff-view {
-    min-height: 1024px;
 }
 
 #flag-tip-1, #flag-tip-2 {
