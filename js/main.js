@@ -107,7 +107,7 @@ $(window).bind("load", function() {
             $("#flag-tip-2").fadeOut(250, function() {
                 $("#flag-tip-1").fadeIn(250);
             });
-            wall.unFilter();
+            staffWall.unFilter();
             $("#flag-picker").removeClass("filtered");
         } else {
             $("#flag-picker .flag-icon").each(function() {
@@ -117,7 +117,7 @@ $(window).bind("load", function() {
                     $(this).removeClass("grayscale");
                 }
             });
-            wall.filter(".member." + country);
+            staffWall.filter(".member." + country);
             $("#flag-tip-1").fadeOut(250, function() {
                 $("#flag-tip-2").fadeIn(250);
             });
