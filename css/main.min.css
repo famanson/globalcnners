@@ -375,8 +375,8 @@ span.raquo{
 }
 
 .speakers-wrapper {
-    background-color: #eee;
-    color: #3594cb;
+    background-color: #3594cb;
+    color: #fff;
 }
 
 .staff-wrapper {
@@ -387,7 +387,7 @@ span.raquo{
     background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #666666 100%);
     background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #666666 100%);*/
     background: url("../img/crew.jpg");
-    color: #3594cb;
+    color: #414242;
 }
 
 .docs-wrapper {
