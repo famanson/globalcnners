@@ -92,3 +92,32 @@ $(document).ready(function () {
         }
     });
 });
+
+document.addEventListener('DOMComponentsLoaded', function(){
+  xtag.addEvent(document, 'click:delegate(button[data-action-type])', function(e) {
+    xtag.query(document, 'x-flipbox').forEach(function(flipbox){
+      var action = e.target;
+      switch(action.getAttribute('data-action-type')) {
+
+        case 'toggleFlip':
+          flipbox.toggle();
+          break;
+
+        case 'toggleDirection':
+          var directions = ['right','left','up','down'];
+          var idx = directions.indexOf(flipbox.direction)+1;
+          idx = idx >= 4 ? 0 : idx;
+          action.innerHTML = action.innerHTML.replace(/\((\w+)\)/, function() {
+            return '(' + directions[idx] + ')';
+          });
+          //flipbox.direction = directions[idx];
+          flipbox.setAttribute("direction", directions[idx]);
+          break;
+      }
+    });
+  });
+
+  xtag.addEvent(document, "flipend:delegate(x-flipbox)", function(e){
+    console.log("flipend detected on", e.target);
+  });
+});
