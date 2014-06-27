@@ -65,7 +65,7 @@ $(document).ready(function () {
                 $(this).removeClass("grayscale");
             });
 
-            $("#staff-view .pin").each(function(){
+            $("#staff-view .member").each(function(){
                 if (!$(this).is(":visible")) {
                     $(this).slideDown(250);
                 }
@@ -82,8 +82,8 @@ $(document).ready(function () {
                     $(this).removeClass("grayscale");
                 }
             });
-            $("#staff-view .pin." + country).slideUp(250, function(){
-                $("#staff-view .pin:not(." + country + ")").slideDown(250);
+            $("#staff-view .member." + country).slideUp(250, function(){
+                $("#staff-view .member:not(." + country + ")").slideDown(250);
             });
             $("#flag-tip-1").fadeOut(250, function() {
                 $("#flag-tip-2").fadeIn(250);
