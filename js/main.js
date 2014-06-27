@@ -91,20 +91,21 @@ $(document).ready(function () {
             $("#flag-picker").addClass("filtered");
         }
     });
-    $("x-flipbox").bind("click", function() {
-        $(this).toggle();
-    });
 });
 
-document.addEventListener('DOMComponentsLoaded', function(){
-  xtag.addEvent(document, 'click:delegate(x-flipbox)', function(e) {
-    var id = e.target.getAttribute('id');
-    xtag.query(document, 'x-flipbox#' + id).forEach(function(flipbox){
-        flipbox.toggle();
+$(window).bind("load", function() {
+    // Loop through elements children to find & set the biggest height
+    $(".flip-container .flipper").each(function(){
+        var biggestHeight = "0";
+        $(this).find(".front,.back").each(function(){
+            // If this elements height is bigger than the biggestHeight
+            if ($(this).innerHeight() > biggestHeight ) {
+                // Set the biggestHeight to this Height
+                biggestHeight = $(this).height();
+            }
+        });
+        // Set the container height
+        $(this).height(biggestHeight);
+        $(this).find(".back .text").height(biggestHeight - 40); // 20 is the padding of text + 20 margin-bottom of pin
     });
-  });
-
-  xtag.addEvent(document, "flipend:delegate(x-flipbox)", function(e){
-    console.log("flipend detected on", e.target);
-  });
 });
