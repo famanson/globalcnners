@@ -128,7 +128,11 @@ $(window).bind("load", function() {
 
     // Activate flippable info
     $(".flip-container").bind("click", function() {
-        $(this).toggleClass("flipped");
+        if($(this).hasClass("flipped")) {
+            $(this).removeClass("flipped")
+        } else {
+            $(this).addClass("flipped")
+        }
     });
 });
 
