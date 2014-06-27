@@ -1,3 +1,5 @@
+var countries = [ 'us', 'gb' ];
+
 var staff = [
     {
         name: "Pham Anh Son",
