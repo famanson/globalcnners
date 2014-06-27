@@ -244,6 +244,15 @@ span.raquo{
     background-color: #7eb400;
 }
 
+#staff-view .member {
+    width: 33.333%;
+    margin: 0;
+}
+
+#staff-view .pin {
+    margin: 0;
+}
+
 #flag-picker-tip {
     display: inline-block;
 }

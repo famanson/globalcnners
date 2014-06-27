@@ -60,36 +60,36 @@ $(document).ready(function () {
     });
     $("#flag-picker .flag-icon").bind("click", function() {
         var country = $(this).attr("country");
-        if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
-            $("#flag-picker .flag-icon").each(function() {
-                $(this).removeClass("grayscale");
-            });
+        // if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
+        //     $("#flag-picker .flag-icon").each(function() {
+        //         $(this).removeClass("grayscale");
+        //     });
 
-            $("#staff-view .member").each(function(){
-                if (!$(this).is(":visible")) {
-                    $(this).slideDown(250);
-                }
-            });
-            $("#flag-tip-2").fadeOut(250, function() {
-                $("#flag-tip-1").fadeIn(250);
-            });
-            $("#flag-picker").removeClass("filtered");
-        } else {
-            $("#flag-picker .flag-icon").each(function() {
-                if ($(this).attr("country") !== country) {
-                    $(this).addClass("grayscale");
-                } else {
-                    $(this).removeClass("grayscale");
-                }
-            });
-            $("#staff-view .member:not(." + country + ")").slideUp(250, function(){
-                $("#staff-view .member." + country).slideDown(250);
-            });
-            $("#flag-tip-1").fadeOut(250, function() {
-                $("#flag-tip-2").fadeIn(250);
-            });
-            $("#flag-picker").addClass("filtered");
-        }
+        //     $("#staff-view .member").each(function(){
+        //         if (!$(this).is(":visible")) {
+        //             $(this).slideDown(250);
+        //         }
+        //     });
+        //     $("#flag-tip-2").fadeOut(250, function() {
+        //         $("#flag-tip-1").fadeIn(250);
+        //     });
+        //     $("#flag-picker").removeClass("filtered");
+        // } else {
+        //     $("#flag-picker .flag-icon").each(function() {
+        //         if ($(this).attr("country") !== country) {
+        //             $(this).addClass("grayscale");
+        //         } else {
+        //             $(this).removeClass("grayscale");
+        //         }
+        //     });
+        //     $("#staff-view .member:not(." + country + ")").slideUp(250, function(){
+        //         $("#staff-view .member." + country).slideDown(250);
+        //     });
+        //     $("#flag-tip-1").fadeOut(250, function() {
+        //         $("#flag-tip-2").fadeIn(250);
+        //     });
+        //     $("#flag-picker").addClass("filtered");
+        // }
     });
 });
 
@@ -106,6 +106,23 @@ $(window).bind("load", function() {
         });
         // Set the container height
         $(this).height(biggestHeight);
-        $(this).find(".back .text").height(biggestHeight - 40); // 20 is the padding of text + 20 margin-bottom of pin
+        $(this).find(".back .text").height(biggestHeight - 20); // 20 is the padding of text
     });
+
+    var wall = new freewall("#staff-view");
+    // wall.fitWidth();
+
+    wall.reset({
+        selector: '.member',
+        animate: true,
+        cellW: 380,
+        cellH: 'auto',
+        gutterX: 20,
+        gutterY: 20,
+        onResize: function() {
+            wall.fitWidth();
+        }
+    });
+    wall.fitWidth();
+        
 });
