@@ -51,7 +51,7 @@ var staff = [
     },
     {
         name: "Jane Roe",
-        title: "Q&amp;A Panel Staff",
+        title: "Q&A Panel Staff",
         rank: "low",
         firstBioLine: "Lorem ipsum dolor sit amet",
         secondBioLine: "Ut enim ad minim veniam, quis",
@@ -61,7 +61,7 @@ var staff = [
     },
     {
         name: "John Doe",
-        title: "Q&amp;A Panel Staff",
+        title: "Q&A Panel Staff",
         rank: "low",
         firstBioLine: "Lorem ipsum dolor sit amet",
         secondBioLine: "Ut enim ad minim veniam, quis",
