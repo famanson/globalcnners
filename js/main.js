@@ -98,6 +98,7 @@ $(window).bind("load", function() {
     // Need to correct the height once more
     setFlippableHeight()
 
+    // Activate flag picker
     $("#flag-picker .flag-icon").bind("click", function() {
         var country = $(this).attr("country");
         if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
@@ -123,6 +124,11 @@ $(window).bind("load", function() {
             });
             $("#flag-picker").addClass("filtered");
         }
+    });
+
+    // Activate flippable info
+    $(".flip-container").bind("click", function() {
+        $(this).toggleClass("flipped");
     });
 });
 

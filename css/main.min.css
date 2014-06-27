@@ -428,10 +428,21 @@ span.raquo{
     -moz-perspective: 1000;
     -o-perspective: 1000;
     perspective: 1000;
+    cursor: pointer;
 }
 
-.flip-container:hover .flipper,  
-.flip-container.hover .flipper {
+.flip-container:hover .front .text {
+    border-left: 10px solid #333;
+}
+.flip-container .front .text {
+    border-left: 0px solid #333;
+}
+
+.flip-container:hover .front .text, .flip-container .front .text {
+    transition: border-width 0.2s ease-in-out;
+}
+
+.flip-container.flipped .flipper {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
