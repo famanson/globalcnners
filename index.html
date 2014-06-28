@@ -125,7 +125,7 @@
                 <a class="anchor" id="staff"></a>
                 <h2 class="featurette-heading center"><b>{{ 'STAFF_HEADING' | translate }}</b></h2>
                 <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_1' | translate }}</b></h4>
-                <div id="flag-picker-wrapper">
+                <div id="flag-picker-wrapper" ng-if="flagFilterEnabled">
                     <div id="flag-picker">
                         <h1>
                             <i class="fa fa-reorder"></i>
@@ -142,7 +142,7 @@
                 
                 <div class="col-md-12" id="staff-view">
                     <!-- UK -->
-                    <div ng-repeat="member in staff">
+                    <!-- <div ng-repeat="member in staff" ng-if="flagFilterEnabled">
                         <div ng-if="member.flippable" class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
                                 <div class="front">
@@ -178,7 +178,49 @@
                             </div>
                             <div style='clear: both'></div>
                         </div>
+                    </div> -->
+
+                    <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!flagFilterEnabled">
+                        <div ng-repeat="member in staff">
+                        <div ng-if="member.flippable" class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <div class="pin {{ member.rank }}">
+                                        <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
+                                        <div class="text">
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
+                                            <div>{{ member.firstBioLine | translate }}</div>
+                                            <div>{{ member.secondBioLine | translate }}</div>
+                                        </div>
+                                        <div style='clear: both'></div>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="pin {{ member.rank }}">
+                                        <div class="text">
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
+                                            <p class="lead">{{ member.back | translate }}</p>
+                                        </div>
+                                        <div style='clear: both'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style='clear: both'></div>
+                        </div>
+
+                        <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
+                            <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
+                            <div class="text">
+                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
+                                <div>{{ member.firstBioLine | translate }}</div>
+                                <div>{{ member.secondBioLine | translate }}</div>
+                            </div>
+                            <div style='clear: both'></div>
+                        </div>
+
                     </div>
+                    </div>
+
                 </div>
             </div>
         </div>

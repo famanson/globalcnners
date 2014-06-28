@@ -175,38 +175,6 @@ body {
     margin-right: auto;
 }
 
-@media (max-width: 1365px) {
-    .main-header {
-        position: relative;
-    }
-
-    .main-header ul li:not(.brand){
-        display: none;
-    }
-
-    .banner {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 768px) {
-    .container .row {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container .row {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container .row {
-        width: 1170px;
-    }
-}
-
 
 .pin {
     -webkit-column-break-inside: avoid;
@@ -492,4 +460,45 @@ body {
 .testimonial {
     min-height: 200px;
     padding: 10px 0;
+}
+
+@media (max-width: 1365px) {
+    .main-header {
+        position: relative;
+    }
+
+    .main-header ul li:not(.brand){
+        display: none;
+    }
+
+    .banner {
+        margin-top: 0;
+    }
+
+    #staff-view {
+        margin-top: 20px;
+    }
+
+    #staff-view .member {
+        width: auto;
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .container .row {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container .row {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container .row {
+        width: 1170px;
+    }
 }

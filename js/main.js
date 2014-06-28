@@ -64,52 +64,53 @@ $(window).bind("load", function() {
     setFlippableHeight()
 
     // Staff Wall
-    var staffWall = new freewall("#staff-view");
-    var staffCellW = ($("#staff-view").width() - 40)/3;
-    staffWall.reset({
-        selector: '.member',
-        animate: true,
-        cellW: staffCellW,
-        cellH: 'auto',
-        gutterX: 20,
-        gutterY: 20,
-        onResize: function() {
-            staffWall.fitWidth();
-        }
-    });
-    staffWall.fitWidth();
+    if (window.innerWidth > 1365) {
+        var staffWall = new freewall("#staff-view");
+        var staffCellW = ($("#staff-view").width() - 40)/3;
+        staffWall.reset({
+            selector: '.member',
+            animate: true,
+            cellW: staffCellW,
+            cellH: 'auto',
+            gutterX: 20,
+            gutterY: 20,
+            onResize: function() {
+                staffWall.fitWidth();
+            }
+        });
+        staffWall.fitWidth();
 
-    // Need to correct the height once more
-    setFlippableHeight()
+        // Need to correct the height once more
+        setFlippableHeight()
 
-    // Activate flag picker
-    $("#flag-picker .flag-icon").bind("click", function() {
-        var country = $(this).attr("country");
-        if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
-            $("#flag-picker .flag-icon").each(function() {
-                $(this).removeClass("grayscale");
-            });
-            $("#flag-tip-2").fadeOut(250, function() {
-                $("#flag-tip-1").fadeIn(250);
-            });
-            staffWall.unFilter();
-            $("#flag-picker").removeClass("filtered");
-        } else {
-            $("#flag-picker .flag-icon").each(function() {
-                if ($(this).attr("country") !== country) {
-                    $(this).addClass("grayscale");
-                } else {
+        // Activate flag picker
+        $("#flag-picker .flag-icon").bind("click", function() {
+            var country = $(this).attr("country");
+            if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
+                $("#flag-picker .flag-icon").each(function() {
                     $(this).removeClass("grayscale");
-                }
-            });
-            staffWall.filter(".member." + country);
-            $("#flag-tip-1").fadeOut(250, function() {
-                $("#flag-tip-2").fadeIn(250);
-            });
-            $("#flag-picker").addClass("filtered");
-        }
-    });
-
+                });
+                $("#flag-tip-2").fadeOut(250, function() {
+                    $("#flag-tip-1").fadeIn(250);
+                });
+                staffWall.unFilter();
+                $("#flag-picker").removeClass("filtered");
+            } else {
+                $("#flag-picker .flag-icon").each(function() {
+                    if ($(this).attr("country") !== country) {
+                        $(this).addClass("grayscale");
+                    } else {
+                        $(this).removeClass("grayscale");
+                    }
+                });
+                staffWall.filter(".member." + country);
+                $("#flag-tip-1").fadeOut(250, function() {
+                    $("#flag-tip-2").fadeIn(250);
+                });
+                $("#flag-picker").addClass("filtered");
+            }
+        });
+    }
     // Activate flippable info
     $(".flip-container").bind("click", function() {
         if($(this).hasClass("flipped")) {

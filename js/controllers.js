@@ -1,3 +1,16 @@
+// function fireScreenSizeChange() {
+//     var domElt = document.getElementById('html');
+//     scope = angular.element(domElt).scope();
+//     scope.$apply(function() {
+//         scope.width = window.innerWidth;
+//         scope.height = window.innerHeight;
+//     });
+// }
+
+// document.addEventListener("DOMContentLoaded", fireScreenSizeChange, false);
+
+// window.onresize = fireScreenSizeChange;
+
 var app = angular.module('GlobalCNNers', ['ngSanitize', 'pascalprecht.translate']);
 
 app.controller("LanguageCtrl", function ($scope, $translate, $location) {
@@ -18,6 +31,21 @@ app.controller("LanguageCtrl", function ($scope, $translate, $location) {
     }
     $scope.staff = staff;
     $scope.countries = countries;
+
+    // Construct guest groups for fallback
+    var staffPartitionSize = 2;
+    var staffGroup = [];
+    for (var i = 0; i < staffPartitionSize; i += 1) {
+        staffGroup[i] = [];
+    }
+    for (key in staff) {
+        var member = staff[key];
+        var partition = key % staffPartitionSize;
+        staffGroup[partition].push(member);
+    }
+    $scope.staffGroup = staffGroup;
+    $scope.flagFilterEnabled = (window.innerWidth > 1365);
+    $scope.staffPartitionSize = staffPartitionSize;
 }).controller("GuestsCtrl", function($scope) {
     for (key in guests) {
         var member = guests[key];
