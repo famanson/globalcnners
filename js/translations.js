@@ -48,6 +48,26 @@ app.config(function ($translateProvider) {
         FACEBOOK: "Like our page on Facebook",
         FACEBOOK_TEXT: "Here for our latest news and updates. Scholarship and application information pops up from time to time too!",
         FACEBOOK_CLICK: "Our Page",
+
+        // Staff
+        CONSULT_TITLE: "Project Consultant",
+        QA_TITLE: "Q&A Panel Staff",
+        BOOTH_TITLE: "Booth Staff",
+        ADMIN_TITLE: "Conference Adminstrator",
+
+        // INDIVIDUAL STAFF
+        SONPHAM_UK_BIO_1: "K37 CNNer, Oxford Uni Alumni",
+        SONPHAM_UK_BIO_2: "Software Engineer, UK",
+        SONPHAM_UK_BACK_INFO: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+
+        MADMIN_UK_BIO_1: "K38 CNNer, Lancaster Uni Alumni.",
+        MADMIN_UK_BIO_2: "Loan shark, Vietnam",
+        MADMIN_UK_BACK_INFO: "Minh studied in class I of K38. He is one of the founding members of Global CNNers. Minh went to England to study A-Level and then business management at Lancaster University, England. He also spent a year abroad at Richmond University in the States.",
+
+        // Mock staff
+        MOCK_BIO_1: "Lorem ipsum dolor sit amet",
+        MOCK_BIO_2: "Ut enim ad minim veniam, quis",
+        MOCK_BACK_INFO: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     });
 
     $translateProvider.preferredLanguage('en');
