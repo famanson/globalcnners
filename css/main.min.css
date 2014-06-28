@@ -287,6 +287,10 @@ span.raquo{
     padding: 0;
 }
 
+#flag-picker .flag-icon {
+    margin: 0 10px 0 0
+}
+
 #flag-picker .flag-icon:hover {
     cursor: pointer;
     box-shadow: 0 0 7px #000;
@@ -485,4 +489,9 @@ span.raquo{
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+.testimonial {
+    min-height: 200px;
+    padding: 10px 0;
 }

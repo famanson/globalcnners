@@ -34,6 +34,7 @@
             <ul id="topbar" class="nav navbar-nav">
                 <li><span class="brand"><b>CNN Conference 2014</b></span></li>
                 <li><a href="#contact-us" class="last">Register/Contact Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#docs">Resources</a></li>
                 <li><a href="#staff">Rest of the Crew</a></li>
                 <li><a href="#speakers">Guest Speakers</a></li>
@@ -120,7 +121,9 @@
                     <div id="flag-picker">
                         <h1>
                             <i class="fa fa-reorder"></i>
-                            <span ng-repeat="country in countries" class="flag-icon flag-icon-{{ country }}" country="{{ country }}"></span>
+                            <span ng-repeat="country in countries" class="flag-icon flag-icon-{{ country }}" country="{{ country }}">
+                                &nbsp;
+                            </span>
                         </h1>
                     </div>
                     <div id="flag-picker-tip" class="bubble">
@@ -194,14 +197,28 @@
                 </button>
             </div>
         </div>
-        <div class="featurette-wrapper testimonials-wrapper">
+
+        <div class="featurette-wrapper testimonials-wrapper" ng-controller="TestimonialsCtrl">
             <div class="row featurette">
                 <a class="anchor" id="testimonials"></a>
                 <h2 class="featurette-heading center"><b>Testimonials</b></h2>
-                <div class="col-md-12">
+                <div class="col-md-12" id="testimonials-view">
+                    <div class="col-md-{{ 12/partitionSize }}" ng-repeat="testimonials in testimonialGroup">
+                        <div ng-repeat="testimonial in testimonials">
+                            <div class="testimonial">
+                                <div class="center">
+                                    <img class="img-circle img-responsive" data-src="holder.js/120x120">
+                                    <p class="lead"><strong>— {{ testimonial.author }} —</strong></p>
+                                    <p class="lead"><i class="fa fa-quote-left"></i>  {{ testimonial.content }}  <i class="fa fa-quote-right"></i></p>
+                                </div>
+                                <div style='clear: both'></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="featurette-wrapper contact-us-wrapper">
             <div class="row featurette">
                 <a class="anchor" id="contact-us"></a>
