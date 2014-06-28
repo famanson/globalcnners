@@ -233,7 +233,7 @@ span.raquo{
 }
 
 #guests-view .guest {
-    width: 50%;
+    margin: 20px 0;
 }
 
 #guests-view .pin {

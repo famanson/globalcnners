@@ -12,20 +12,32 @@ app.controller("StaffCtrl", function($scope) {
         var member = guests[key];
         member['flippable'] = (member.back && member.back !== null && member.back !== '');
     }
-    $scope.guests = guests;
+    // $scope.guests = guests;
+    var guestPartitionSize = 2;
+    var guestGroup = [];
+    for (var i = 0; i < guestPartitionSize; i += 1) {
+        guestGroup[i] = [];
+    }
+    for (key in guests) {
+        var guest = guests[key];
+        var partition = key % guestPartitionSize;
+        guestGroup[partition].push(guest);
+    }
+    $scope.guestGroup = guestGroup;
+    $scope.guestPartitionSize = guestPartitionSize;
 }).controller("ScheduleCtrl", function($scope) {
     $scope.schedule = schedule;
 }).controller("TestimonialsCtrl", function($scope) {
-    var partitionSize = 3;
+    var testimonialPartitionSize = 3;
     var testimonialGroup = [];
-    for (var i = 0; i < partitionSize; i += 1) {
+    for (var i = 0; i < testimonialPartitionSize; i += 1) {
         testimonialGroup[i] = [];
     }
     for (key in testimonials) {
         var testimonial = testimonials[key];
-        var partition = key % partitionSize;
+        var partition = key % testimonialPartitionSize;
         testimonialGroup[partition].push(testimonial);
     }
     $scope.testimonialGroup = testimonialGroup;
-    $scope.partitionSize = partitionSize;
+    $scope.testimonialPartitionSize = testimonialPartitionSize;
 });

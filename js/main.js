@@ -63,22 +63,6 @@ $(document).ready(function () {
 $(window).bind("load", function() {
     setFlippableHeight()
 
-    // Guests Wall
-    var guestsWall = new freewall("#guests-view");
-    var guestCellW = ($("#guests-view").width() - 40)/2;
-    guestsWall.reset({
-        selector: '.guest',
-        animate: false,
-        cellW: guestCellW,
-        cellH: 'auto',
-        gutterX: 20,
-        gutterY: 20,
-        onResize: function() {
-            guestsWall.fitWidth();
-        }
-    });
-    guestsWall.fitWidth();
-
     // Staff Wall
     var staffWall = new freewall("#staff-view");
     var staffCellW = ($("#staff-view").width() - 40)/3;

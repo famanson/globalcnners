@@ -82,31 +82,33 @@
                 <h2 class="featurette-heading center"><b>Guest Speakers</b></h2>
                 <p class="lead center"><b>Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.</b></p>
                 <div class="col-md-12" id="guests-view">
-                    <div ng-repeat="guest in guests">
-                        <div class="flip-container guest" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="pin">
-                                        <img class="img-responsive" data-src="holder.js/1024x512">
-                                        <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}</b></h4>
-                                            <div>{{ guest.firstBioLine }}</div>
-                                            <div>{{ guest.secondBioLine }}</div>
+                    <div class="col-md-{{ 12/guestPartitionSize }}" ng-repeat="guests in guestGroup">
+                        <div ng-repeat="guest in guests">
+                            <div class="flip-container guest" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div class="pin">
+                                            <img class="img-responsive" data-src="holder.js/1024x512">
+                                            <div class="text">
+                                                <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}</b></h4>
+                                                <div>{{ guest.firstBioLine }}</div>
+                                                <div>{{ guest.secondBioLine }}</div>
+                                            </div>
+                                            <div style='clear: both'></div>
                                         </div>
-                                        <div style='clear: both'></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="pin">
+                                            <div class="text">
+                                                <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}.</b></h4>
+                                                <p class="lead" ng-bind-html="guest.back"></p>
+                                            </div>
+                                            <div style='clear: both'></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="back">
-                                    <div class="pin">
-                                        <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}.</b></h4>
-                                            <p class="lead" ng-bind-html="guest.back"></p>
-                                        </div>
-                                        <div style='clear: both'></div>
-                                    </div>
-                                </div>
+                                <div style='clear: both'></div>
                             </div>
-                            <div style='clear: both'></div>
                         </div>
                     </div>
                 </div>
