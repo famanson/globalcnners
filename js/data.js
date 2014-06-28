@@ -155,6 +155,7 @@ var schedule = [
     }
 ];
 
+// No translation for testimonials
 var testimonials = [
     {
         author: "Ut labore et dolore magna aliqua",

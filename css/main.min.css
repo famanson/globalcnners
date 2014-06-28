@@ -118,16 +118,12 @@ body {
     line-height: 20px;
     position: relative;
     display: block;
-}
-
-.main-header ul li:first-child {
     float:left;
 }
 
 .main-header ul li {
     float:right;
 }
-
 
 .main-header ul a {
     color: #3594cb;
@@ -148,6 +144,15 @@ body {
 .main-header h1 {
     font-size: 56px;
 }
+
+.main-header #language .flag-icon {
+    cursor: pointer;
+}
+
+.main-header #language .flag-icon:hover {
+    box-shadow: 0 0 5px #333;
+}
+
 
 .testimonial p.content {
     padding: 0 5px;

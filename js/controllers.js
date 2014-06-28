@@ -1,6 +1,17 @@
 var app = angular.module('GlobalCNNers', ['ngSanitize', 'pascalprecht.translate']);
 
-app.controller("StaffCtrl", function($scope) {
+app.controller("LanguageCtrl", function ($scope, $translate, $location) {
+    if ('lang' in $location.search() && $location.search().lang === 'vn') {
+        $translate.use('vn');
+    } else {
+        $translate.use('en');
+    }
+
+    $scope.changeLanguage = function(key) {
+        $location.search("lang", key);
+        $translate.use(key);
+    };
+}).controller("StaffCtrl", function($scope) {
     for (key in staff) {
         var member = staff[key];
         member['flippable'] = (member.back && member.back !== null && member.back !== '');
