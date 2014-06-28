@@ -1,4 +1,4 @@
-var app = angular.module('GlobalCNNers', ['ngSanitize']);
+var app = angular.module('GlobalCNNers', ['ngSanitize', 'pascalprecht.translate']);
 
 app.controller("StaffCtrl", function($scope) {
     for (key in staff) {

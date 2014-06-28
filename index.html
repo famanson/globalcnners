@@ -14,6 +14,7 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/main.min.css" rel="stylesheet">
     <link href="./css/timeline.css" rel="stylesheet">
@@ -23,23 +24,25 @@
     <script src="./lib/holder.js"></script>
     <script src="./lib/angular.js"></script>
     <script src="./lib/angular-sanitize.js"></script>
+    <script src="./lib/angular-translate.min.js"></script>
     <script src="./lib/freewall.js"></script>
     <script src="./js/data.js"></script>
     <script src="./js/controllers.js"></script>
+    <script src="./js/translations.js"></script>
     <script src="./js/main.js"></script>
   </head>
   <body>
     <div class="main-header">
         <div class="col-md-12">
             <ul id="topbar" class="nav navbar-nav">
-                <li><span class="brand"><b>CNN Conference 2014</b></span></li>
-                <li><a href="#contact-us" class="last">Register/Contact Us</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#docs">Resources</a></li>
-                <li><a href="#staff">Rest of the Crew</a></li>
-                <li><a href="#speakers">Guest Speakers</a></li>
-                <li><a href="#schedule">Conference Schedule</a></li>
-                <li><a href="#hello">Hello CNNers!</a></li>
+                <li><span class="brand"><b>{{ 'TITLE_HEADING' | translate }}</b></span></li>
+                <li><a href="#contact-us" class="last">{{ 'CONTACT_HEADING' | translate }}</a></li>
+                <li><a href="#testimonials">{{ 'TESTIMONIALS_HEADING' | translate }}</a></li>
+                <li><a href="#docs">{{ 'DOCS_HEADING' | translate }}</a></li>
+                <li><a href="#staff">{{ 'STAFF_HEADING' | translate }}</a></li>
+                <li><a href="#speakers">{{ 'SPEAKERS_HEADING' | translate }}</a></li>
+                <li><a href="#schedule">{{ 'SCHEDULE_HEADING' | translate }}</a></li>
+                <li><a href="#hello">{{ 'HELLO_HEADING' | translate }}</a></li>
             </ul>
         </div>
         <div style='clear: both'></div>
@@ -51,8 +54,8 @@
             <div class="row featurette">
                 <a class="anchor" id="hello"></a>
                 <div class="col-md-12">
-                    <h2 class="featurette-heading center"><b>Hello CNNers!</b></h2>
-                    <h2 class="center">We are Global CNNers, and we've come around to say hi.</h2>
+                    <h2 class="featurette-heading center"><b>{{ 'HELLO_HEADING' | translate }}</b></h2>
+                    <h2 class="center">{{ 'HELLO_TEXT_1' | translate }}</h2>
                 </div>
             </div>
         </div>
@@ -61,7 +64,9 @@
             <div class="row featurette">
                 <a class="anchor" id="schedule"></a>
                 <div class="col-md-12">
-                    <h2 class="featurette-heading center text-schedule"><b>Conference Schedule</b></h2>
+                    <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_HEADING' | translate }}</b></h2>
+                    <h3 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_TEXT_1' | translate }}</b></h3>
+                    <h4 class="featurette-heading center text-schedule">{{ 'SCHEDULE_TEXT_2' | translate }}</h4>
                     <ul class="cbp_tmtimeline">
                         <li ng-repeat="entry in schedule">
                             <time class="cbp_tmtime" datetime="2014-01-01 {{ entry.time }}"><span>01/01/14</span> <span>{{ entry.time }}</span></time>
@@ -79,8 +84,8 @@
         <div class="featurette-wrapper speakers-wrapper" ng-controller="GuestsCtrl">
             <div class="row featurette">
                 <a class="anchor" id="speakers"></a>
-                <h2 class="featurette-heading center"><b>Guest Speakers</b></h2>
-                <p class="lead center"><b>Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.</b></p>
+                <h2 class="featurette-heading center"><b>{{ 'SPEAKERS_HEADING' | translate }}</b></h2>
+                <h4 class="featurette-heading center"><b>{{ 'SPEAKERS_TEXT_1' | translate }}</b></h4>
                 <div class="col-md-12" id="guests-view">
                     <div class="col-md-{{ 12/guestPartitionSize }}" ng-repeat="guests in guestGroup">
                         <div ng-repeat="guest in guests">
@@ -117,8 +122,8 @@
         <div class="featurette-wrapper staff-wrapper" ng-controller="StaffCtrl">
             <div class="row featurette last">
                 <a class="anchor" id="staff"></a>
-                <h2 class="featurette-heading center"><b>Rest of the Crew</b></h2>
-                <p class="lead center"><b>Those behind the scene helping make this all happen. All Q&amp;A staff will be available on the day</b></p>
+                <h2 class="featurette-heading center"><b>{{ 'STAFF_HEADING' | translate }}</b></h2>
+                <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_1' | translate }}</b></h4>
                 <div id="flag-picker-wrapper">
                     <div id="flag-picker">
                         <h1>
@@ -129,8 +134,8 @@
                         </h1>
                     </div>
                     <div id="flag-picker-tip" class="bubble">
-                        <p class="lead" id="flag-tip-1">Click a flag  <i class="fa fa-flag"></i>  to filter by country</p>
-                        <p class="lead" id="flag-tip-2">Click active flag to clear filter  <i class="fa fa-times"></i> or an inactive flag to switch country  <i class="fa fa-refresh"></i></p>
+                        <p class="lead" id="flag-tip-1"><i class="fa fa-flag"></i>  {{ 'FLAG_PICKER_TIP_1' | translate }}</p>
+                        <p class="lead" id="flag-tip-2">{{ 'FLAG_PICKER_TIP_2_1' | translate }}  <i class="fa fa-times"></i>  {{ 'FLAG_PICKER_TIP_2_2' | translate }}  <i class="fa fa-refresh"></i></p>
                     </div>
                 </div>
                 
@@ -179,23 +184,23 @@
         <div class="featurette-wrapper docs-wrapper">
             <div class="row featurette">
                 <a class="anchor" id="docs"></a>
-                <h2 class="featurette-heading center"><b>Resources</b></h2>
+                <h2 class="featurette-heading center"><b>{{ 'DOCS_HEADING' | translate }}</b></h2>
                 <div class="col-md-12" id="docs-desc">
                     <div class="col-md-4">
-                        <h3 class="center"><i class="fa fa-cloud-download"></i>  <b>Convenient</b></h3>
-                        <p class="lead">We often e-mailed out our slides and docs in previous years. This time, we host all our resources on Google Drive for better availability and convenience.</p>
+                        <h3 class="center"><i class="fa fa-cloud-download"></i>  <b>{{ 'DOCS_CONVENIENT' | translate }}</b></h3>
+                        <p class="lead">{{ 'DOCS_CONVENIENT_TEXT' | translate }}</p>
                     </div>
                     <div class="col-md-4">
-                        <h3 class="center"><i class="fa fa-cubes"></i>  <b>Organised</b></h3>
-                        <p class="lead">For each country there is one folder, and each file is annotated with the author's/presenter's name, saved in the friendly ppt/doc format that can be viewed by common office tools.</p>
+                        <h3 class="center"><i class="fa fa-cubes"></i>  <b>{{ 'DOCS_ORG' | translate }}</b></h3>
+                        <p class="lead">{{ 'DOCS_ORG_TEXT' | translate }}</p>
                     </div>
                     <div class="col-md-4">
-                        <h3 class="center"><i class="fa fa-lightbulb-o"></i>  <b>Thoughtful</b></h3>
-                        <p class="lead">We cannot host external resources without proper permission, so there will be a dedicated list of recommended readings in each country's folder.</p>
+                        <h3 class="center"><i class="fa fa-lightbulb-o"></i>  <b>{{ 'DOCS_THOUGHT' | translate }}</b></h3>
+                        <p class="lead">{{ 'DOCS_THOUGHT_TEXT' | translate }}</p>
                     </div>
                 </div>
                 <button type="button" class="btn btn-default btn-lg">
-                    <i class="fa fa-folder-open"></i>  Click for Awesomeness
+                    <i class="fa fa-folder-open"></i>  {{ 'DOCS_CLICK' | translate }}
                 </button>
             </div>
         </div>
@@ -203,7 +208,7 @@
         <div class="featurette-wrapper testimonials-wrapper" ng-controller="TestimonialsCtrl">
             <div class="row featurette">
                 <a class="anchor" id="testimonials"></a>
-                <h2 class="featurette-heading center"><b>Testimonials</b></h2>
+                <h2 class="featurette-heading center"><b>{{ 'TESTIMONIALS_HEADING' | translate }}</b></h2>
                 <div class="col-md-12" id="testimonials-view">
                     <div class="col-md-{{ 12/testimonialPartitionSize }}" ng-repeat="testimonials in testimonialGroup">
                         <div ng-repeat="testimonial in testimonials">
@@ -224,30 +229,29 @@
         <div class="featurette-wrapper contact-us-wrapper">
             <div class="row featurette">
                 <a class="anchor" id="contact-us"></a>
-                <h2 class="featurette-heading center"><b>Register/Contact Us</b></h2>
+                <h2 class="featurette-heading center"><b>{{ 'CONTACT_HEADING' | translate }}</b></h2>
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
                     <div id="signup" class="col-md-12">
-                        <h3><i class="fa fa-check"></i>  <b>CNN Conference '14 signup</b></h3>
-                        <p class="lead">Signing up is a click away! After you have completed the form, you will get a confirmation from us, and then you just need to show up on the day. Students from other schools are welcomed, but spaces are limited
-                        </p>
+                        <h3><i class="fa fa-check"></i>  <b>{{ 'SIGNUP' | translate }}</b></h3>
+                        <p class="lead">{{ 'SIGNUP_TEXT' | translate }}</p>
                         <button type="button" class="btn btn-default btn-lg">
-                            <i class="fa fa-rocket"></i>  Register!
+                            <i class="fa fa-rocket"></i>  {{ 'SIGNUP_CLICK' | translate }}
                         </button>
                     </div>
                     <div>
                         <div id="email" class="col-md-6">
-                            <h3><i class="fa fa-envelope"></i>  <b>Drop us an e-mail</b></h3>
-                            <p class="lead">You can ask just about <b>anything</b> about Global CNNers and the Conference or simply say hi. Sorry we don't do romance consultancy.</p>
+                            <h3><i class="fa fa-envelope"></i>  <b>{{ 'EMAIL' | translate }}</b></h3>
+                            <p class="lead">{{ 'EMAIL_TEXT' | translate }}</p>
                             <button type="button" class="btn btn-default btn-lg">
-                                <i class="fa fa-share"></i>  Send e-mail
+                                <i class="fa fa-share"></i>  {{ 'EMAIL_CLICK' | translate }}
                             </button>
                         </div>
                         <div class="facebook col-md-6">
-                            <h3><i class="fa fa-facebook-square"></i>  <b>Like our page on Facebook</b></h3>
-                            <p class="lead">Here for our latest news and updates. Scholarship and application information pops up from time to time too!</p>
+                            <h3><i class="fa fa-facebook-square"></i>  <b>{{ 'FACEBOOK' | translate }}</b></h3>
+                            <p class="lead">{{ 'FACEBOOK_TEXT' | translate }}</p>
                             <button type="button" class="btn btn-default btn-lg">
-                                <i class="fa fa-thumbs-up"></i>  Our Page
+                                <i class="fa fa-thumbs-up"></i>  {{ 'FACEBOOK_CLICK' | translate }}
                             </button>
                         </div>
                     </div>
@@ -263,6 +267,7 @@
         <div class="col-md-6">
             <p class="back-to-top"><a href="#hello">Back to Top</a></p>
             <p>&copy; Global CNNers 2014. All rights reserved.</p>
+            <p>Designed &amp; built by <a href="https://github.com/famanson/" target="_blank">famanson</a></p>
         </div>
         <div class="col-md-3"></div>
     </div>
