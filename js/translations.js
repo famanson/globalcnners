@@ -47,7 +47,7 @@ app.config(function ($translateProvider, $locationProvider) {
         EMAIL: "Drop us an e-mail",
         EMAIL_TEXT: "You can ask just about anything about Global CNNers and the Conference or simply say hi. Sorry we don't do romance consultancy.",
         EMAIL_CLICK: "Send e-mail",
-        FACEBOOK: "Like our page on Facebook",
+        FACEBOOK: "Like our Facebook page",
         FACEBOOK_TEXT: "Here for our latest news and updates. Scholarship and application information pops up from time to time too!",
         FACEBOOK_CLICK: "Our Page",
 
