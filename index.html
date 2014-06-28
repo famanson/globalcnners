@@ -96,8 +96,8 @@
                                             <img class="img-responsive" data-src="holder.js/1024x512">
                                             <div class="text">
                                                 <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}</b></h4>
-                                                <div>{{ guest.firstBioLine }}</div>
-                                                <div>{{ guest.secondBioLine }}</div>
+                                                <div>{{ guest.firstBioLine | translate }}</div>
+                                                <div>{{ guest.secondBioLine | translate }}</div>
                                             </div>
                                             <div style='clear: both'></div>
                                         </div>
@@ -106,7 +106,7 @@
                                         <div class="pin">
                                             <div class="text">
                                                 <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}.</b></h4>
-                                                <p class="lead" ng-bind-html="guest.back"></p>
+                                                <p class="lead">{{ guest.back | translate }}</p>
                                             </div>
                                             <div style='clear: both'></div>
                                         </div>
