@@ -142,7 +142,7 @@
                 
                 <div class="col-md-12" id="staff-view">
                     <!-- UK -->
-                    <!-- <div ng-repeat="member in staff" ng-if="flagFilterEnabled">
+                    <div ng-repeat="member in staff" ng-if="flagFilterEnabled">
                         <div ng-if="member.flippable" class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
                                 <div class="front">
@@ -178,7 +178,7 @@
                             </div>
                             <div style='clear: both'></div>
                         </div>
-                    </div> -->
+                    </div>
 
                     <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!flagFilterEnabled">
                         <div ng-repeat="member in staff">
