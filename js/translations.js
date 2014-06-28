@@ -5,7 +5,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
     $translateProvider.translations("en", {
         // Headings
-        LANGUAGE_HEADING: "Choose a language",
+        LANGUAGE_HEADING: "Language",
         TITLE_HEADING: "CNN Conference 2014",
         CONTACT_HEADING: "Register/Contact Us",
         TESTIMONIALS_HEADING: "Testimonials",

@@ -125,15 +125,11 @@ body {
     float:right;
 }
 
-.main-header ul a {
+.main-header ul li a {
     color: #3594cb;
     font-weight: bold;
     border-bottom: 5px solid #fff;
-    /*border-left: 1px solid #fff;*/
-}
-
-.main-header ul a.last {
-    /*border-right: 1px solid #fff;*/
+    padding: 15px 10px;
 }
 
 .main-header ul a:hover {
@@ -162,24 +158,6 @@ body {
     margin-top: 50px;
 }
 
-span.laquo{
-    background:url(../img/laquo.png) no-repeat;
-    width:14px;
-    height:11px;
-    position:absolute;
-    left:0;
-    top:4px;
-    display:block;
-}
-
-span.raquo{
-    background:url(../img/raquo.png) no-repeat right 4px;
-    width:13px;
-    height:15px;
-    padding-left:20px;
-    display:inline-block;
-}
-
 .footer {
     background-color: #000;
     position: absolute;
@@ -195,6 +173,20 @@ span.raquo{
 .container .row {
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 1365px) {
+    .main-header {
+        position: relative;
+    }
+
+    .main-header ul li:not(.brand){
+        display: none;
+    }
+
+    .banner {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 768px) {
