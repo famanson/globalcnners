@@ -19,8 +19,8 @@ To add new content to the project:
     },
     ```
     where:
-        * ```BIO_1```, ```BIO_2```, ```BACK_INFO``` should have an English and Vietnamese version in ```js/translations.js```
-        * ```country``` is the relevant country if the speaker
+    * ```BIO_1```, ```BIO_2```, ```BACK_INFO``` should have an English and Vietnamese version in ```js/translations.js```
+    * ```country``` is the relevant country if the speaker
 
 * For Staff:
     * Find file ```data.js``` under ```js``` directory
@@ -39,6 +39,6 @@ To add new content to the project:
     }
     ```
     where:
-        * ```title``` is one of ```QA_TITLE```, ```BOOTH_TITLE```, ```CONSULT_TITLE```, ```ADMIN_TITLE```
-        * ```MOCK_BIO_1```, ```MOCK_BIO_2```, ```MOCK_BACK_INFO``` should have an English and Vietnamese version in ```js/translations.js```
-        * ```country``` is the relevant country if the staff member
+    * ```title``` is one of ```QA_TITLE```, ```BOOTH_TITLE```, ```CONSULT_TITLE```, ```ADMIN_TITLE```
+    * ```MOCK_BIO_1```, ```MOCK_BIO_2```, ```MOCK_BACK_INFO``` should have an English and Vietnamese version in ```js/translations.js```
+    * ```country``` is the relevant country if the staff member
