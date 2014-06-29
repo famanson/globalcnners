@@ -19,6 +19,7 @@
     <link href="./css/main.min.css" rel="stylesheet">
     <link href="./css/timeline.css" rel="stylesheet">
     <link href="./css/flag-icon.css" rel="stylesheet">
+    <!-- Libraries/dependencies -->
     <script src="./lib/jquery.min.js"></script>
     <script src="./lib/bootstrap.min.js"></script>
     <script src="./lib/holder.js"></script>
@@ -26,8 +27,10 @@
     <script src="./lib/angular-sanitize.js"></script>
     <script src="./lib/angular-translate.min.js"></script>
     <script src="./lib/freewall.js"></script>
+    <!-- Our own js files -->
     <script src="./js/data.js"></script>
     <script src="./js/controllers.js"></script>
+    <script src="./js/directives.js"></script>
     <script src="./js/translations.js"></script>
     <script src="./js/main.js"></script>
   </head>
@@ -90,7 +93,7 @@
                 <div class="col-md-12" id="guests-view">
                     <div class="col-md-{{ 12/guestPartitionSize }}" ng-repeat="guests in guestGroup">
                         <div ng-repeat="guest in guests">
-                            <div class="flip-container guest" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flip-container guest" flippable ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front">
                                         <div class="pin">
@@ -129,7 +132,7 @@
                     <div id="flag-picker">
                         <h1>
                             <i class="fa fa-reorder"></i>
-                            <span ng-repeat="country in countries" class="flag-icon flag-icon-{{ country }}" country="{{ country }}">
+                            <span flag-picker-activate ng-repeat="country in countries" class="flag-icon flag-icon-{{ country }}" country="{{ country }}">
                                 &nbsp;
                             </span>
                         </h1>
@@ -140,10 +143,10 @@
                     </div>
                 </div>
                 
-                <div class="col-md-12" id="staff-view">
+                <div class="col-md-12" id="staff-view" walls="walls">
                     <!-- UK -->
-                    <div ng-repeat="member in staff" ng-if="flagFilterEnabled">
-                        <div ng-if="member.flippable" class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
+                    <div ng-repeat="member in staff" ng-if="flagFilterEnabled" on-staff-finish>
+                        <div ng-if="member.flippable" flippable class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
                                 <div class="front">
                                     <div class="pin {{ member.rank }}">
@@ -180,9 +183,9 @@
                         </div>
                     </div>
 
-                    <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!flagFilterEnabled">
+                    <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!flagFilterEnabled" on-staff-finish>
                         <div ng-repeat="member in staff">
-                        <div ng-if="member.flippable" class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
+                        <div ng-if="member.flippable" flippable class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
                                 <div class="front">
                                     <div class="pin {{ member.rank }}">

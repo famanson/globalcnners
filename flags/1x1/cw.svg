@@ -9,11 +9,11 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs3"><!-- the following is a regular 5-pointed star, radius 1, vertically aligned, centered at the 
-	origin.  It was produced with the following bc script:
-		scale=100
-		x=(cosd(72)-1)*sind(144)/(cosd(144)-1)
-		r=sqrt(x^2+cosd(72)^2)			(the inner radius)
-		for(i=0; i<5; ++i) {phi=72*i; sind(phi); -cosd(phi); r*sind(phi+36); -r*cosd(phi+36)}
+    origin.  It was produced with the following bc script:
+        scale=100
+        x=(cosd(72)-1)*sind(144)/(cosd(144)-1)
+        r=sqrt(x^2+cosd(72)^2)            (the inner radius)
+        for(i=0; i<5; ++i) {phi=72*i; sind(phi); -cosd(phi); r*sind(phi+36); -r*cosd(phi+36)}
     -->
   <polygon id="pentagram" points="0 -1 0.22451 -0.30902 0.95106 -0.30902 0.36327 0.11803 0.58779 0.80902 0 0.38197 -0.58779 0.80902 -0.36327 0.11803 -0.95106 -0.30902 -0.22451 -0.30902"/>
   <clipPath id="clipPath3016" clipPathUnits="userSpaceOnUse">

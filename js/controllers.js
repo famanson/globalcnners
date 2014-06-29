@@ -46,6 +46,45 @@ app.controller("LanguageCtrl", function ($scope, $translate, $location) {
     $scope.staffGroup = staffGroup;
     $scope.flagFilterEnabled = (window.innerWidth > 1365);
     $scope.staffPartitionSize = staffPartitionSize;
+    $scope.walls={};
+
+    $scope.$on("renderWall", function(e) {
+        if ($scope.flagFilterEnabled) {
+            var staffWall = new freewall("#staff-view");
+            var staffCellW = ($("#staff-view").width() - 40)/3;
+            staffWall.reset({
+                selector: '.member',
+                animate: true,
+                cellW: staffCellW,
+                cellH: 'auto',
+                gutterX: 20,
+                gutterY: 20,
+                onResize: function() {
+                    staffWall.fitWidth();
+                }
+            });
+            staffWall.fitWidth();
+            $scope.walls.staffWall = staffWall;
+        }
+    });
+
+    $scope.$on("correctFlippableHeight", function(e) {
+        // Loop through element's children to find & set the biggest height
+        $(" .flip-container .flipper").each(function(){
+            var biggestHeight = "0";
+            $(this).find(".front").each(function(){
+                // If this elements height is bigger than the biggestHeight
+                if ($(this).innerHeight() > biggestHeight ) {
+                    // Set the biggestHeight to this Height
+                    biggestHeight = $(this).innerHeight();
+                }
+            });
+            // Set the container height
+            $(this).height(biggestHeight);
+            $(this).find(".back .text").height(biggestHeight - 20);
+        });
+    });
+
 }).controller("GuestsCtrl", function($scope) {
     for (key in guests) {
         var member = guests[key];

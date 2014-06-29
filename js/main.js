@@ -23,9 +23,6 @@ function identifyBrowser(e, t, n) {
     return null
 }
 
-$(window).on("beforeunload", function () {
-    $(window).scrollTop(0)
-});
 $(document).ready(function () {
     if (window.location.hash) {
         window.location = ""
@@ -60,80 +57,6 @@ $(document).ready(function () {
     });
 });
 
-$(window).bind("load", function() {
-    setFlippableHeight()
-
-    // Staff Wall
-    if (window.innerWidth > 1365) {
-        var staffWall = new freewall("#staff-view");
-        var staffCellW = ($("#staff-view").width() - 40)/3;
-        staffWall.reset({
-            selector: '.member',
-            animate: true,
-            cellW: staffCellW,
-            cellH: 'auto',
-            gutterX: 20,
-            gutterY: 20,
-            onResize: function() {
-                staffWall.fitWidth();
-            }
-        });
-        staffWall.fitWidth();
-
-        // Need to correct the height once more
-        setFlippableHeight()
-
-        // Activate flag picker
-        $("#flag-picker .flag-icon").bind("click", function() {
-            var country = $(this).attr("country");
-            if (!$(this).hasClass("grayscale") && $("#flag-picker").hasClass("filtered")) {
-                $("#flag-picker .flag-icon").each(function() {
-                    $(this).removeClass("grayscale");
-                });
-                $("#flag-tip-2").fadeOut(250, function() {
-                    $("#flag-tip-1").fadeIn(250);
-                });
-                staffWall.unFilter();
-                $("#flag-picker").removeClass("filtered");
-            } else {
-                $("#flag-picker .flag-icon").each(function() {
-                    if ($(this).attr("country") !== country) {
-                        $(this).addClass("grayscale");
-                    } else {
-                        $(this).removeClass("grayscale");
-                    }
-                });
-                staffWall.filter(".member." + country);
-                $("#flag-tip-1").fadeOut(250, function() {
-                    $("#flag-tip-2").fadeIn(250);
-                });
-                $("#flag-picker").addClass("filtered");
-            }
-        });
-    }
-    // Activate flippable info
-    $(".flip-container").bind("click", function() {
-        if($(this).hasClass("flipped")) {
-            $(this).removeClass("flipped")
-        } else {
-            $(this).addClass("flipped")
-        }
-    });
+$(window).bind("beforeunload", function () {
+    $(window).scrollTop(0)
 });
-
-function setFlippableHeight() {
-    // Loop through elements children to find & set the biggest height
-    $(".flip-container .flipper").each(function(){
-        var biggestHeight = "0";
-        $(this).find(".front").each(function(){
-            // If this elements height is bigger than the biggestHeight
-            if ($(this).innerHeight() > biggestHeight ) {
-                // Set the biggestHeight to this Height
-                biggestHeight = $(this).innerHeight();
-            }
-        });
-        // Set the container height
-        $(this).height(biggestHeight);
-        $(this).find(".back .text").height(biggestHeight - 20);
-    });
-}
