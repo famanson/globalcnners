@@ -266,8 +266,8 @@ body {
     filter: grayscale(100%); /* Current draft standard */
     -webkit-filter: grayscale(100%); /* New WebKit */
     -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%); 
-    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */ 
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
     filter: url(resources.svg#desaturate); /* Gecko */
     filter: gray; /* IE */
     -webkit-filter: grayscale(1); /* Old WebKit */
@@ -425,7 +425,7 @@ body {
 
     -moz-transition: 0.6s;
     -moz-transform-style: preserve-3d;
-  
+
     -o-transition: 0.6s;
     -o-transform-style: preserve-3d;
 
@@ -467,8 +467,12 @@ body {
         position: relative;
     }
 
-    .main-header ul li:not(.brand){
+    .main-header ul li:not(.brand), .main-header ul li.brand#language {
         display: none;
+    }
+
+    .main-header ul li.brand {
+        padding: 10px;
     }
 
     .banner {
@@ -482,6 +486,18 @@ body {
     #staff-view .member {
         width: auto;
         margin: 20px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .flipper .back .text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+    .flipper .back .text p {
+        font-size: 12.5px;
     }
 }
 
