@@ -15,16 +15,13 @@ app.directive('flippable', function() {
             });
         }
     };
-}).directive('onStaffFinish', function ($timeout) {
+}).directive('finishLoad', function ($timeout) {
     return {
         restrict: 'A',
         link: function (scope, element, attr) {
-            if (scope.$last === true) {
-                $timeout(function () {
-                    scope.$emit("correctFlippableHeight");
-                    scope.$emit("renderWall");
-                });
-            }
+            $timeout(function () {
+                scope.$emit("finishLoad");
+            });
         }
     }
 }).directive('flagPickerActivate', function() {
@@ -33,7 +30,7 @@ app.directive('flippable', function() {
         restrict: 'A',
         // responsible for registering DOM listeners as well as updating the DOM
         link: function(scope, element, attrs) {
-            if (scope.flagFilterEnabled) {
+            if (scope.staffWallEnabled) {
                 $(element).bind("click", function() {
                     var staffWall = scope.walls.staffWall; // See StaffCtrl in controllers.js
                     var country = $(this).attr("country");

@@ -34,7 +34,7 @@
     <script src="./js/translations.js"></script>
     <script src="./js/main.js"></script>
   </head>
-  <body>
+  <body ng-controller="ParentCtrl">
     <div class="main-header">
         <div class="col-md-12">
             <ul id="topbar" class="nav navbar-nav">
@@ -128,7 +128,7 @@
                 <a class="anchor" id="staff"></a>
                 <h2 class="featurette-heading center"><b>{{ 'STAFF_HEADING' | translate }}</b></h2>
                 <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_1' | translate }}</b></h4>
-                <div id="flag-picker-wrapper" ng-if="flagFilterEnabled">
+                <div id="flag-picker-wrapper" ng-if="staffWallEnabled">
                     <div id="flag-picker">
                         <h1>
                             <i class="fa fa-reorder"></i>
@@ -142,10 +142,10 @@
                         <p class="lead" id="flag-tip-2">{{ 'FLAG_PICKER_TIP_2_1' | translate }}  <i class="fa fa-times"></i>  {{ 'FLAG_PICKER_TIP_2_2' | translate }}  <i class="fa fa-refresh"></i></p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-12" id="staff-view" walls="walls">
                     <!-- UK -->
-                    <div ng-repeat="member in staff" ng-if="flagFilterEnabled" on-staff-finish>
+                    <div ng-repeat="member in staff" ng-if="staffWallEnabled" on-staff-finish>
                         <div ng-if="member.flippable" flippable class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
                                 <div class="front">
@@ -183,7 +183,7 @@
                         </div>
                     </div>
 
-                    <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!flagFilterEnabled" on-staff-finish>
+                    <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!staffWallEnabled" on-staff-finish>
                         <div ng-repeat="member in staff">
                         <div ng-if="member.flippable" flippable class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
@@ -308,7 +308,7 @@
 
         <!-- /END THE FEATURETTES -->
     </div>
-    <div class="footer">
+    <div class="footer" finish-load>
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <p class="back-to-top"><a href="#hello">Back to Top</a></p>
