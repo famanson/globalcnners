@@ -227,6 +227,10 @@ body {
     margin: 0;
 }
 
+#staff-view .pin, h5 {
+    font-size: 16px;
+}
+
 #flag-picker-tip {
     display: inline-block;
 }

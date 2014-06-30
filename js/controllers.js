@@ -38,6 +38,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         $scope.$broadcast("constructStaffWall");
     });
 }).controller("LanguageCtrl", function ($scope, $translate, $location) {
+    $translate.fallbackLanguage('en');
     if ('lang' in $location.search() && $location.search().lang === 'vn') {
         $translate.use('vn');
     } else {

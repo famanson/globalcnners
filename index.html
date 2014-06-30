@@ -152,7 +152,8 @@
                                     <div class="pin {{ member.rank }}">
                                         <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                                         <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}</b></h4>
+                                            <h5><b>{{ member.title | translate }}</b></h5>
                                             <div>{{ member.firstBioLine | translate }}</div>
                                             <div>{{ member.secondBioLine | translate }}</div>
                                         </div>
@@ -175,7 +176,8 @@
                         <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
                             <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                             <div class="text">
-                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
+                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}</b></h4>
+                                <h5><b>{{ member.title | translate }}</b></h5>
                                 <div>{{ member.firstBioLine | translate }}</div>
                                 <div>{{ member.secondBioLine | translate }}</div>
                             </div>
