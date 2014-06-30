@@ -444,10 +444,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .front {
     z-index: 2;
+}
+
+.flipped .front {
+    z-index: 1;
 }
 
 .back {
@@ -455,6 +460,10 @@ body {
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+.flipped .back {
+    z-index: 2;
 }
 
 .testimonial {
