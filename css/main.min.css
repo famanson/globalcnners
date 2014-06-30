@@ -266,7 +266,7 @@ body {
     box-shadow: 0 0 7px #000;
 }
 
-#flag-picker .flag-icon.grayscale {
+.flag-icon.grayscale {
     filter: grayscale(100%); /* Current draft standard */
     -webkit-filter: grayscale(100%); /* New WebKit */
     -moz-filter: grayscale(100%);

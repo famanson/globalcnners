@@ -39,15 +39,24 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     });
 }).controller("LanguageCtrl", function ($scope, $translate, $location) {
     $translate.fallbackLanguage('en');
+
     if ('lang' in $location.search() && $location.search().lang === 'vn') {
         $translate.use('vn');
+        $scope.currentLang = 'vn';
     } else {
         $translate.use('en');
+        $scope.currentLang = 'en';
     }
 
     $scope.changeLanguage = function(key) {
         $location.search("lang", key);
         $translate.use(key);
+        $scope.currentLang = key;
+        $scope.$apply();
+    };
+
+    $scope.isLangActive = function(key) {
+        return $scope.currentLang === key;
     };
 }).controller("StaffCtrl", function($scope) {
     for (key in staff) {
