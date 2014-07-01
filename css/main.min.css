@@ -415,8 +415,22 @@ body {
 .flip-container:hover .front .text, .flip-container .front .text {
     transition: border-width 0.2s ease-in-out;
 }
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+    transform-style: preserve-3d;
+}
 
-.flip-container.flipped .flipper {
+/*  UPDATED! flip the pane when hovered */
+.flipped .back {
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.flipped .front {
+    z-index: 1;
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
@@ -425,15 +439,13 @@ body {
 
 .flipper {
     -webkit-transition: 0.6s;
-    -webkit-transform-style: preserve-3d;
-
     -moz-transition: 0.6s;
-    -moz-transform-style: preserve-3d;
-
     -o-transition: 0.6s;
-    -o-transform-style: preserve-3d;
-
     transition: 0.6s;
+
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
     position: relative;
@@ -445,6 +457,16 @@ body {
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -453,21 +475,20 @@ body {
 
 .front {
     z-index: 2;
+
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
 }
 
-.flipped .front {
-    z-index: 1;
-}
-
+/* back, initially hidden pane */
 .back {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.flipped .back {
-    z-index: 2;
+    z-index: 1;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 
 .testimonial {
