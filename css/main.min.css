@@ -90,10 +90,6 @@ body {
     font-weight: bolder;
 }
 
-.featurette-heading.text-schedule {
-    color: #009999;
-}
-
 .center {
     text-align: center;
 }
@@ -126,7 +122,6 @@ body {
 }
 
 .main-header ul li a {
-    color: #009999;
     font-weight: bold;
     border-bottom: 5px solid #fff;
     padding: 15px 10px;
@@ -200,18 +195,6 @@ body {
 
 #guests-view .guest {
     margin: 20px 0;
-}
-
-#guests-view .pin {
-    background-color: #6ebea5;
-}
-
-.pin.high {
-    background-color: #d83049;
-}
-
-.pin.low {
-    background-color: #7eb400;
 }
 
 #staff-view {
@@ -317,26 +300,6 @@ body {
     padding: 20px 0;
 }
 
-.hello-wrapper {
-    background-color: #009999;
-    color: #fff;
-}
-
-.speakers-wrapper {
-    background-color: #009999;
-    color: #fff;
-}
-
-.staff-wrapper {
-    background: url("../img/crew.jpg");
-    background-size: cover;
-    color: #414242;
-}
-
-.docs-wrapper {
-    background-color: #ffcd35;
-}
-
 .docs-wrapper button {
     margin: 0 auto;
     display: block;
@@ -344,16 +307,6 @@ body {
 
 .docs-wrapper #docs-desc,.docs-wrapper button {
     margin-bottom: 20px;
-}
-
-.contact-us-wrapper {
-    background-color: #e91e63;
-    color: #fff;
-}
-
-.testimonials-wrapper {
-    background-color: #3f51b5;
-    color: #fff;
 }
 
 .bubble {
@@ -418,7 +371,9 @@ body {
 /* entire container, keeps perspective */
 .flip-container {
     perspective: 1000;
-    transform-style: preserve-3d;
+    -o-perspective: 1000;
+    -moz-perspective: 1000;
+    -webkit-perspective: 1000;
 }
 
 /*  UPDATED! flip the pane when hovered */
