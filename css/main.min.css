@@ -91,7 +91,7 @@ body {
 }
 
 .featurette-heading.text-schedule {
-    color: #3594cb;
+    color: #009999;
 }
 
 .center {
@@ -126,7 +126,7 @@ body {
 }
 
 .main-header ul li a {
-    color: #3594cb;
+    color: #009999;
     font-weight: bold;
     border-bottom: 5px solid #fff;
     padding: 15px 10px;
@@ -203,7 +203,7 @@ body {
 }
 
 #guests-view .pin {
-    background-color: #6cbfee;
+    background-color: #6ebea5;
 }
 
 .pin.high {
@@ -318,12 +318,12 @@ body {
 }
 
 .hello-wrapper {
-    background-color: #46a4da;
+    background-color: #009999;
     color: #fff;
 }
 
 .speakers-wrapper {
-    background-color: #3594cb;
+    background-color: #009999;
     color: #fff;
 }
 
