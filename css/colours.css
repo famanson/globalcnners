@@ -5,7 +5,7 @@
 
 #guests-view .pin {
     /* bg colour of each guest card */
-    background-color: #6ebea5;
+    background-color: #F26643;
 }
 
 .hello-wrapper {
@@ -26,27 +26,27 @@
 
 /* "VIP" staff members */
 .staff-wrapper .pin.high {
-    background-color: #d83049;
+    background-color: #DB6B4B;
 }
 
 /* Other staff members */
 .staff-wrapper .pin.low {
-    background-color: #7eb400;
+    background-color: #046784;
 }
 
 .docs-wrapper {
-    /* Resources tab */
-    background-color: #ffcd35;
+    background-color: #891E30;
+    color: #fff;
 }
 
 .contact-us-wrapper {
-    background-color: #e91e63;
+    background-color: #BD584C;
     color: #fff;
 }
 
 .testimonials-wrapper {
-    background-color: #3f51b5;
-    color: #fff;
+    /* Resources tab */
+    background-color: #F7C52C;
 }
 
 /* Text color for schedule heading text*/

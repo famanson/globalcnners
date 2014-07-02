@@ -42,8 +42,11 @@ app.config(function ($translateProvider, $locationProvider) {
 
         // Contact section
         SIGNUP: "CNN Conference '14 signup",
-        SIGNUP_TEXT: "Signing up is a click away! After you have completed the form, you will get a confirmation from us, and then you just need to show up on the day. Students from other schools are welcomed, but spaces are limited",
+        SIGNUP_TEXT: "Signing up is a click away! After you've completed the form, you will get a confirmation from us, then you just need to show up on the day. Students from other schools are welcomed, but spaces are limited",
         SIGNUP_CLICK: "Register!",
+        SUPPORT: "Conference Admin contact",
+        SUPPORT_TEXT: "Do you have an emergency inquiry or do you simply want to talk to somebody regarding your concernts about the conference? Our conference admin, Mai Phuong, is more than ready to help!",
+        SUPPORT_CLICK: "xxxxxxxx, Mai Phuong",
         EMAIL: "Drop us an e-mail",
         EMAIL_TEXT: "You can ask just about anything about Global CNNers and the Conference or simply say hi. Sorry we don't do romance consultancy.",
         EMAIL_CLICK: "Send e-mail",

@@ -282,15 +282,23 @@
             <div class="row featurette">
                 <a class="anchor" id="contact-us"></a>
                 <h2 class="featurette-heading center"><b>{{ 'CONTACT_HEADING' | translate }}</b></h2>
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <div id="signup" class="col-md-12">
+                <div class="col-md-12">
+                    <div id="email" class="col-md-6">
                         <h3><i class="fa fa-check"></i>  <b>{{ 'SIGNUP' | translate }}</b></h3>
                         <p class="lead">{{ 'SIGNUP_TEXT' | translate }}</p>
                         <button type="button" class="btn btn-default btn-lg">
                             <i class="fa fa-rocket"></i>  {{ 'SIGNUP_CLICK' | translate }}
                         </button>
                     </div>
+                    <div id="admin" class="col-md-6">
+                        <h3><i class="fa fa-support"></i>  <b>{{ 'SUPPORT' | translate }}</b></h3>
+                        <p class="lead">{{ 'SUPPORT_TEXT' | translate }}</p>
+                        <button type="button" class="btn btn-default btn-lg">
+                            <i class="fa fa-phone"></i>  {{ 'SUPPORT_CLICK' | translate }}
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-12">
                     <div>
                         <div id="email" class="col-md-6">
                             <h3><i class="fa fa-envelope"></i>  <b>{{ 'EMAIL' | translate }}</b></h3>
@@ -308,7 +316,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
 
@@ -317,7 +324,7 @@
     <div class="footer" finish-load>
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <p class="back-to-top"><a href="#hello">Back to Top</a></p>
+            <p class="back-to-top"><a href="#hello"><i class="fa fa-arrow-circle-o-up"></i>  Back to Top</a></p>
             <p>&copy; Global CNNers 2014. All rights reserved.</p>
             <p>Designed &amp; built by <a href="https://github.com/famanson/" target="_blank">famanson</a></p>
         </div>
