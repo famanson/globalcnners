@@ -1,4 +1,3 @@
-
 app.directive('flippable', function() {
     return {
         // Restrict it to be an attribute in this case
@@ -67,6 +66,24 @@ app.directive('flippable', function() {
         link: function(scope, element, attrs) {
             $(element).bind("click", function() {
                 scope.changeLanguage(attrs.langpicker);
+            });
+        }
+    };
+}).directive('balloonpop', function() {
+    return {
+        // Restrict it to be an attribute in this case
+        restrict: 'A',
+        // responsible for registering DOM listeners as well as updating the DOM
+        link: function(scope, element, attrs) {
+            $(element).bind("click", function(){
+                $(this).addClass("stop");
+                $(this).parent().animate({
+                    top: "-100%"
+                }, 1500, function() {
+                    $("#prologue").hide();
+                    $("body").removeClass("init");
+                    $("body > :not(#prologue)").fadeTo(1000, 1);
+                });
             });
         }
     };

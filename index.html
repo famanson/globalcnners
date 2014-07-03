@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/animations.css" rel="stylesheet">
     <link href="./css/main.min.css" rel="stylesheet">
     <link href="./css/colours.css" rel="stylesheet">
     <link href="./css/timeline.css" rel="stylesheet">
@@ -35,7 +36,12 @@
     <script src="./js/translations.js"></script>
     <script src="./js/main.js"></script>
   </head>
-  <body ng-controller="ParentCtrl">
+  <body ng-controller="ParentCtrl" class="init">
+    <div id="prologue">
+        <div id="balloon-wrapper">
+            <img balloonpop id="balloon" class="bobble" src="./img/balloon-dark.png"></img>
+        </div>
+    </div>
     <div class="main-header">
         <div class="col-md-12">
             <ul id="topbar" class="nav navbar-nav">

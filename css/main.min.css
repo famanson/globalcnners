@@ -8,6 +8,10 @@
     font-style: italic;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: "Open Sans",Georgia,Times,"Times New Roman",serif;
     padding-bottom: 40px;
@@ -510,4 +514,59 @@ body {
     .container .row {
         width: 1170px;
     }
+}
+
+
+body > :not(#prologue) {
+    opacity: 0;
+}
+
+body.init {
+    background-color: #bfe1c8;
+    position: fixed;
+    overflow: hidden;
+}
+
+#prologue {
+    height: 100%;
+    position: relative;
+}
+
+#intro {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    /*animation: animatedBackground 40s linear infinite;
+    -webkit-animation: animatedBackground 40s linear infinite;
+    -moz-animation: animatedBackground 40s linear infinite;
+    -o-animation: animatedBackground 40s linear infinite;*/
+}
+
+#balloon-wrapper {
+    top: 15%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 50%;
+}
+
+#balloon {
+    height: 100%;
+    margin: auto;
+    display: block;
+    width: auto;
+    cursor: pointer;
+}
+
+#balloon.bobble {
+    -webkit-animation: bobble 2s infinite;
+    -o-animation: bobble 2s infinite;
+    -moz-animation: bobble 2s infinite;
+    animation: bobble 2s infinite;
+}
+
+#balloon.bobble.stop {
+    animation-iteration-count: 1;
 }
