@@ -1,0 +1,271 @@
+
+body > :not(#prologue) {
+    opacity: 0;
+}
+
+body.init {
+    background-color: #bfe1c8;
+    position: fixed;
+    overflow: hidden;
+}
+
+#prologue {
+    height: 100%;
+    position: relative;
+}
+
+#banner {
+    margin: auto;
+    width: 700px;
+    top: 80%;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+#banner .rectangle {
+    background: #e5592e;
+    position: relative;
+    top: 0px;
+    left: 50px;
+
+    /* Box Shadow */
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+
+    /* Border Radius */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    width: 600px;
+    height: 62px;
+
+    z-index: 500; /* the stack order: foreground */
+}
+
+#banner .l-triangle-top {
+    position: relative;
+    top: 1px;
+    left: 0px;
+
+    border-color: #d9542b transparent transparent;
+    border-style: solid;
+    border-width: 50px;
+
+    width: 0px;
+    height: 0px;
+
+    float: left;
+}
+
+#banner .l-triangle-bottom {
+    position: relative;
+    top: -40px;
+    left: -100px;
+
+    border-color: transparent transparent #d9542b;
+    border-style: solid;
+    border-width: 50px;
+
+    width: 0px;
+    height: 0px;
+
+    float: left;
+}
+
+
+#banner .r-triangle-top {
+    position: relative;
+    top: -60px;
+    right: 0px;
+
+    border-color: #d9542b transparent transparent;
+    border-style: solid;
+    border-width: 50px;
+
+    width: 0px;
+    height: 0px;
+
+    float: right;
+}
+
+#banner .r-triangle-bottom {
+    position: relative;
+    top: -102px;
+    right: -100px;
+
+    border-color: transparent transparent #d9542b;
+    border-style: solid;
+    border-width: 50px;
+
+    width: 0px;
+    height: 0px;
+
+    float: right;
+}
+
+
+
+#balloon-wrapper {
+    top: 15%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 50%;
+}
+
+#balloon {
+    height: 100%;
+    margin: auto;
+    display: block;
+    width: auto;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+#balloon:hover {
+    -webkit-filter: drop-shadow(0px 0px 25px #fff);
+    filter:         drop-shadow(0px 0px 25px #fff);
+}
+
+#balloon.bobble {
+    -webkit-animation: bobble 2s infinite;
+    -o-animation: bobble 2s infinite;
+    -moz-animation: bobble 2s infinite;
+    animation: bobble 2s infinite;
+}
+
+#balloon.bobble.stop {
+    animation-iteration-count: 1;
+}
+
+#cloud1 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 30%;
+}
+
+#cloud2 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    z-index: 3;
+    top: 80%;
+    left: 55%;
+}
+
+#cloud3 {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 50%;
+}
+
+.cloud-main {
+    background: #f2f2f2;
+    border-radius: 100em;
+    position: absolute;
+    z-index: 100;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    background: linear-gradient(#F2F2F2 70%, #E5E5E5);
+}
+
+.cloud-center {
+    margin: 0 auto;
+    background: #F2F2F2;
+    position: absolute;
+    border-radius: 100em;
+}
+
+.cloud-left {
+    margin: 0 auto;
+    background: #F2F2F2;
+    position: absolute;
+    border-radius: 100em;
+}
+
+@media (max-width: 320px) {
+    #cloud1 {
+        left: 10%
+    }
+}
+
+@media (min-width: 320px) {
+
+    .cloud-main {
+        width: 120px;
+        height: 35px;
+        top: 50px;
+    }
+
+    .cloud-center {
+        width: 50px;
+        height: 50px;
+        top: 30px;
+        left: 15px;
+    }
+
+    .cloud-left {
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        left: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cloud-main {
+        width: 175px;
+        height: 50px;
+        top: 50px;
+    }
+
+    .cloud-center {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        left: 20px;
+    }
+
+    .cloud-left {
+        width: 90px;
+        height: 90px;
+        top: 0;
+        left: 60px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .cloud-main {
+        width: 350px;
+        height: 130px;
+        top: 50px;
+    }
+
+    .cloud-center {
+        width: 130px;
+        height: 130px;
+        top: 10px;
+        left: 40px;
+    }
+
+    .cloud-left {
+        width: 180px;
+        height: 180px;
+        top: -20px;
+        left: 110px;
+    }
+}
+
+

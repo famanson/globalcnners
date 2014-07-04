@@ -77,8 +77,8 @@ app.directive('flippable', function() {
         link: function(scope, element, attrs) {
             $(element).bind("click", function(){
                 $(this).addClass("stop");
-                $(this).parent().animate({
-                    top: "-100%"
+                $(this).animate({
+                    top: "-200%"
                 }, 1500, function() {
                     $("#prologue").hide();
                     $("body").removeClass("init");
