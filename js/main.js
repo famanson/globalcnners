@@ -55,6 +55,22 @@ $(document).ready(function () {
             }
         }
     });
+
+    $("#reveal-button").addClass("fa-lock");
+
+    $("#reveal-button").hover(function() {
+        $(this).removeClass("fa-lock");
+        $(this).addClass("fa-unlock-alt");
+        $("#reveal-text").animate({
+            opacity: 1
+        }, 400);
+    }, function() {
+        $(this).removeClass("fa-unlock-alt");
+        $(this).addClass("fa-lock");
+        $("#reveal-text").animate({
+            opacity: 0
+        }, 400);
+    });
 });
 
 $(window).bind("beforeunload", function () {

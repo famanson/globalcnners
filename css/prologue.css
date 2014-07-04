@@ -4,14 +4,45 @@ body > :not(#prologue) {
 }
 
 body.init {
-    background-color: #bfe1c8;
+    background-color: #61A88C;
     position: fixed;
     overflow: hidden;
+    padding: 0;
 }
 
 #prologue {
     height: 100%;
     position: relative;
+}
+
+#reveal {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    bottom: 10%;
+    padding-bottom: 40px;
+    -webkit-transition: 0.6s;
+    -webkit-transform: translate(0, 10px);
+    z-index: 5;
+}
+
+#reveal-text {
+    font-size: 50px;
+    margin: 10px auto;
+    opacity: 0;
+}
+
+
+#reveal-button {
+    font-size: 50px;
+}
+
+#reveal-button:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(0px 0px 20px #fff);
 }
 
 #balloon-wrapper {
@@ -27,7 +58,6 @@ body.init {
     margin: auto;
     display: block;
     width: auto;
-    cursor: pointer;
     position: absolute;
     left: 0;
     right: 0;
@@ -74,24 +104,24 @@ body.init {
 }
 
 .cloud-main {
-    background: #f2f2f2;
+    background: #DEEBC0;
     border-radius: 100em;
     position: absolute;
     z-index: 100;
     box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
-    background: linear-gradient(#F2F2F2 70%, #E5E5E5);
+    background: linear-gradient(#DEEBC0 70%, #B8DEC9);
 }
 
 .cloud-center {
     margin: 0 auto;
-    background: #F2F2F2;
+    background: #DEEBC0;
     position: absolute;
     border-radius: 100em;
 }
 
 .cloud-left {
     margin: 0 auto;
-    background: #F2F2F2;
+    background: #DEEBC0;
     position: absolute;
     border-radius: 100em;
 }

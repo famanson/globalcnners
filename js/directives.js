@@ -76,8 +76,8 @@ app.directive('flippable', function() {
         // responsible for registering DOM listeners as well as updating the DOM
         link: function(scope, element, attrs) {
             $(element).bind("click", function(){
-                $(this).addClass("stop");
-                $(this).animate({
+                $("#balloon").addClass("stop");
+                $("#balloon").animate({
                     top: "-200%"
                 }, 1500, function() {
                     $("#prologue").hide();
