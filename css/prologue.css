@@ -31,8 +31,13 @@ body.init {
 
 #reveal-text {
     font-size: 50px;
-    margin: 20px auto;
+    margin: 10px auto;
     opacity: 0;
+}
+
+#start-text {
+    margin-top: 5px;
+    font-size: 30px;
 }
 
 
@@ -40,7 +45,7 @@ body.init {
     font-size: 50px;
 }
 
-#reveal-button:hover {
+#reveal:hover {
     cursor: pointer;
     -webkit-filter: drop-shadow(0px 0px 20px #fff);
 }
