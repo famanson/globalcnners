@@ -63,13 +63,21 @@ $(document).ready(function () {
         $("#reveal-button").addClass("fa-unlock-alt");
         $("#reveal-text").animate({
             opacity: 1
-        }, 400);
+        }, 200, function() {
+            $("#start-text").animate({
+                opacity: 0
+            }, 200);
+        });
     }, function() {
         $("#reveal-button").removeClass("fa-unlock-alt");
         $("#reveal-button").addClass("fa-lock");
         $("#reveal-text").animate({
             opacity: 0
-        }, 400);
+        }, 200, function(){
+            $("#start-text").animate({
+                opacity: 1
+            }, 200);
+        });
     });
 });
 
