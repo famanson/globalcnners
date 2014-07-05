@@ -157,7 +157,7 @@ body.init {
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
     #prologue-header {
         top: 5%;
     }
