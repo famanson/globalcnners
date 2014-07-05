@@ -29,7 +29,7 @@ body.init {
 
 #reveal-text {
     font-family: 'Allan', cursive;
-    font-size: 50px;
+    font-size: 40px;
     margin: 5px auto;
     opacity: 0;
 }
@@ -163,7 +163,7 @@ body.init {
         top: 5%;
     }
     #reveal-text {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #start-text {
