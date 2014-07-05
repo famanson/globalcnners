@@ -72,6 +72,14 @@ body.init {
 }
 
 #prologue-header h2 {
+    font-size: 45px;
+}
+
+#prologue-header span {
+    font-size: 25px;
+}
+
+#prologue-header h2 {
     font-size: 60px;
     margin-bottom: 5px;
 }
@@ -152,16 +160,11 @@ body.init {
     border-radius: 100em;
 }
 
-@media (max-width: 480px) {
-    #cloud1 {
-        left: 15px;
-    }
-}
-
 @media (max-width: 1440px) {
     #prologue-header {
         top: 5%;
     }
+
     #reveal-text {
         font-size: 30px;
     }
@@ -174,13 +177,40 @@ body.init {
     #reveal-button {
         font-size: 40px;
     }
+}
+
+@media (max-width: 480px) {
+    #reveal-text {
+        font-size: 25px;
+    }
+
+    #start-text {
+        margin-top: 5px;
+        font-size: 25px;
+    }
 
     #prologue-header h2 {
-        font-size: 45px;
-   }
+        font-size: 30px;
+    }
 
     #prologue-header span {
-        font-size: 25px;
+        font-size: 30px;
+    }
+
+    #cloud1 {
+        left: 25px;
+    }
+}
+
+@media (max-height: 480px) {
+    #reveal-text {
+        display: none;
+    }
+    #reveal-button {
+        font-size: 30px;
+    }
+    #reveal {
+        padding: 0;
     }
 }
 
