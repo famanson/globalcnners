@@ -171,6 +171,14 @@ body.init {
     #reveal-button {
         font-size: 40px;
     }
+
+    #prologue-header h2 {
+        font-size: 45px;
+   }
+
+    #prologue-header span {
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 320px) {
