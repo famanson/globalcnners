@@ -111,28 +111,25 @@ body.init {
     animation-iteration-count: 1;
 }
 
-#cloud1 {
+#cloud1, #cloud2, #cloud3 {
     width: 350px;
     height: 400px;
     position: absolute;
+}
+
+#cloud1 {
     z-index: 1;
     top: 20%;
     right: 55%;
 }
 
 #cloud2 {
-    width: 350px;
-    height: 400px;
-    position: absolute;
     z-index: 1;
     top: 85%;
     left: 40%;
 }
 
 #cloud3 {
-    width: 350px;
-    height: 400px;
-    position: absolute;
     z-index: 3;
     top: 40%;
     left: 55%;
@@ -183,7 +180,7 @@ body.init {
     left: 110px;
 }
 
-@media (max-height: 1440px) {
+@media (max-height: 1024px) {
     #prologue-header {
         top: 5%;
     }
@@ -202,6 +199,12 @@ body.init {
     }
 }
 
+@media (max-height: 800px) {
+    #reveal-text {
+        display: none;
+    }
+}
+
 @media (max-height: 720px) {
     #reveal-text {
         font-size: 25px;
@@ -215,6 +218,11 @@ body.init {
     }
     #prologue-header span {
         font-size: 30px;
+    }
+    #cloud1, #cloud2, #cloud3 {
+        width: 175px;
+        height: 200px;
+        position: absolute;
     }
     .cloud-main {
         width: 175px;
@@ -238,8 +246,8 @@ body.init {
 }
 
 @media (max-height: 480px) {
-    #reveal-text {
-        display: none;
+    #prologue-header {
+        top: 0;
     }
     #reveal-button {
         font-size: 30px;
@@ -247,6 +255,12 @@ body.init {
     #reveal {
         padding: 0;
     }
+    #cloud1, #cloud2, #cloud3 {
+        width: 120px;
+        height: 100px;
+        position: absolute;
+    }
+
     .cloud-main {
         width: 120px;
         height: 35px;
