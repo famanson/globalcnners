@@ -1,56 +1,56 @@
 
 @-webkit-keyframes bobble {
     0% {
-        -webkit-transform: translate3d(0px, 40px, 0px);
+        -webkit-transform: translate3d(0, 0, 0);
         animation-timing-function: ease-in;
     }
     50% {
-        -webkit-transform: translate3d(0px, 50px, 0px);
+        -webkit-transform: translate3d(0, 10px, 0);
         animation-timing-function: ease-out;
     }
     100% {
-        -webkit-transform: translate3d(0px, 40px, 0px);
+        -webkit-transform: translate3d(0, 0, 0);
     }
 }
 
 @-moz-keyframes bobble {
     0% {
-        -moz-transform: translate3d(0px, 40px, 0px);
+        -moz-transform: translate3d(0, 0, 0);
         animation-timing-function: ease-in;
     }
     50% {
-        -moz-transform: translate3d(0px, 50px, 0px);
+        -moz-transform: translate3d(0, 10px, 0);
         animation-timing-function: ease-out;
     }
     100% {
-        -moz-transform: translate3d(0px, 40px, 0px);
+        -moz-transform: translate3d(0, 0, 0);
     }
 }
 
 @-o-keyframes bobble {
     0% {
-        -o-transform: translate3d(0px, 40px, 0px);
+        -o-transform: translate3d(0, 0, 0);
         animation-timing-function: ease-in;
     }
     50% {
-        -o-transform: translate3d(0px, 50px, 0px);
+        -o-transform: translate3d(0, 10px, 0);
         animation-timing-function: ease-out;
     }
     100% {
-        -o-transform: translate3d(0px, 40px, 0px);
+        -o-transform: translate3d(0, 0, 0);
     }
 }
 
 @keyframes bobble {
     0% {
-        transform: translate3d(0px, 40px, 0px);
+        transform: translate3d(0, 0, 0);
         animation-timing-function: ease-in;
     }
     50% {
-        transform: translate3d(0px, 50px, 0px);
+        transform: translate3d(0, 10px, 0);
         animation-timing-function: ease-out;
     }
     100% {
-        transform: translate3d(0px, 40px, 0px);
+        transform: translate3d(0, 0, 0);
     }
 }

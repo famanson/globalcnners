@@ -459,6 +459,28 @@ body {
     padding: 10px 0;
 }
 
+#balloon-text {
+    height: 200px;
+    display: block;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+@media screen {
+    #balloon-text {
+        height: 300px;
+    }
+}
+
+@media handheld {
+    #balloon-text {
+        height: 200px;
+    }
+}
+
 @media (max-width: 1365px) {
     .main-header {
         position: relative;

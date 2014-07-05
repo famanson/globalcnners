@@ -90,24 +90,24 @@ body.init {
 
 #balloon {
     height: 100%;
-    margin: auto;
     display: block;
     width: auto;
     position: absolute;
+    top: 40px;
     left: 0;
     right: 0;
     margin: auto;
     z-index: 2;
 }
 
-#balloon.bobble {
+.bobble {
     -webkit-animation: bobble 2s infinite;
     -o-animation: bobble 2s infinite;
     -moz-animation: bobble 2s infinite;
     animation: bobble 2s infinite;
 }
 
-#balloon.bobble.stop {
+.bobble.stop {
     animation-iteration-count: 1;
 }
 
