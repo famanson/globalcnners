@@ -29,12 +29,14 @@ body.init {
 }
 
 #reveal-text {
+    font-family: 'Allan', cursive;
     font-size: 50px;
     margin: 10px auto;
     opacity: 0;
 }
 
 #start-text {
+    font-family: 'Allan', cursive;
     margin-top: 5px;
     font-size: 30px;
 }
