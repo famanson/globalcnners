@@ -245,6 +245,21 @@ body.init {
     }
 }
 
+@media (max-height: 512px) {
+    #prologue-header h2 {
+        font-size: 20px;
+    }
+    #prologue-header span {
+        font-size: 20px;
+    }
+    #balloon-wrapper {
+        bottom: 35%;
+    }
+    #reveal-text {
+        font-size: 20px;
+    }
+}
+
 @media (max-height: 480px) {
     #prologue-header {
         top: 0;
