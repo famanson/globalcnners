@@ -117,7 +117,7 @@ body.init {
     position: absolute;
     z-index: 1;
     top: 20%;
-    left: 30%;
+    right: 55%;
 }
 
 #cloud2 {
@@ -160,83 +160,62 @@ body.init {
     border-radius: 100em;
 }
 
-@media (max-width: 1440px) {
+#reveal {
+    bottom: 10%;
+}
+.cloud-main {
+    width: 350px;
+    height: 130px;
+    top: 50px;
+}
+
+.cloud-center {
+    width: 130px;
+    height: 130px;
+    top: 10px;
+    left: 40px;
+}
+
+.cloud-left {
+    width: 180px;
+    height: 180px;
+    top: -20px;
+    left: 110px;
+}
+
+@media (max-height: 1440px) {
     #prologue-header {
         top: 5%;
     }
-
     #reveal-text {
         font-size: 30px;
     }
-
     #start-text {
         margin-top: 5px;
         font-size: 30px;
     }
-
+    #reveal {
+        bottom: 0;
+    }
     #reveal-button {
         font-size: 40px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-height: 720px) {
     #reveal-text {
         font-size: 25px;
     }
-
     #start-text {
         margin-top: 5px;
         font-size: 25px;
     }
-
     #prologue-header h2 {
         font-size: 30px;
     }
-
     #prologue-header span {
         font-size: 30px;
     }
-
-    #cloud1 {
-        left: 25px;
-    }
-}
-
-@media (max-height: 480px) {
-    #reveal-text {
-        display: none;
-    }
-    #reveal-button {
-        font-size: 30px;
-    }
-    #reveal {
-        padding: 0;
-    }
-}
-
-@media (min-width: 320px) {
-    .cloud-main {
-        width: 120px;
-        height: 35px;
-        top: 50px;
-    }
-
-    .cloud-center {
-        width: 50px;
-        height: 50px;
-        top: 30px;
-        left: 15px;
-    }
-
-    .cloud-left {
-        width: 60px;
-        height: 60px;
-        top: 20px;
-        left: 45px;
-    }
-}
-
-@media (min-width: 768px) {
     .cloud-main {
         width: 175px;
         height: 50px;
@@ -258,29 +237,33 @@ body.init {
     }
 }
 
-@media (min-width: 1440px) {
+@media (max-height: 480px) {
+    #reveal-text {
+        display: none;
+    }
+    #reveal-button {
+        font-size: 30px;
+    }
     #reveal {
-        bottom: 10%;
+        padding: 0;
     }
     .cloud-main {
-        width: 350px;
-        height: 130px;
+        width: 120px;
+        height: 35px;
         top: 50px;
     }
 
     .cloud-center {
-        width: 130px;
-        height: 130px;
-        top: 10px;
-        left: 40px;
+        width: 50px;
+        height: 50px;
+        top: 30px;
+        left: 15px;
     }
 
     .cloud-left {
-        width: 180px;
-        height: 180px;
-        top: -20px;
-        left: 110px;
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        left: 45px;
     }
 }
-
-
