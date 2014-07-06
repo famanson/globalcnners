@@ -78,7 +78,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         staffGroup[partition].push(member);
     }
     $scope.staffGroup = staffGroup;
-    $scope.staffWallEnabled = (window.innerWidth > 1365);
+    $scope.staffWallEnabled = (window.innerWidth > 1024);
     $scope.staffPartitionSize = staffPartitionSize;
     $scope.walls={};
 
