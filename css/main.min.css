@@ -481,17 +481,29 @@ body {
     }
 }
 
-@media (max-width: 1365px) {
-    .main-header {
-        position: relative;
-    }
-
-    .main-header ul li:not(.brand), .main-header ul li.brand#language {
-        display: none;
+@media (max-width: 1440px) {
+    .main-header ul li a {
+        font-size: 12px;
+        padding: 10px;
     }
 
     .main-header ul li.brand {
         padding: 10px;
+        font-size: 14px;
+    }
+    .banner {
+        margin-top: 45px;
+    }
+
+}
+
+@media (max-width: 1279px) {
+    .main-header {
+        position: relative;
+    }
+
+    .main-header ul li:not(.brand) {
+        display: none;
     }
 
     .banner {
