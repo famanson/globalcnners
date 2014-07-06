@@ -47,7 +47,7 @@ body.init {
 
 #reveal:hover {
     cursor: pointer;
-    text-shadow: 0px 0px 3px rgba(100%,100%,100%,0.8);
+    text-shadow: 0px 0px 30px rgba(100%,100%,100%,0.8);
 }
 
 #balloon-wrapper {
