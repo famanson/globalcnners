@@ -162,7 +162,7 @@ body {
     position: absolute;
     color: #fff;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
 }
 
 .footer a {
@@ -170,6 +170,7 @@ body {
 }
 
 .footer p {
+    margin: 5px 0;
     text-align: center;
 }
 
@@ -308,12 +309,11 @@ body {
     padding: 20px 0 40px 0;
 }
 
-.docs-wrapper button {
-    margin: 0 auto;
-    display: block;
+.docs-wrapper {
+    text-align: center;
 }
 
-.docs-wrapper #docs-desc,.docs-wrapper button {
+.docs-wrapper #docs-desc,.docs-wrapper a {
     margin-bottom: 20px;
 }
 
