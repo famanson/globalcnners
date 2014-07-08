@@ -2,7 +2,7 @@ var countries = [ 'us', 'gb' ];
 
 var staff = [
     {
-        name: "Pham Anh Son",
+        name: "SONPHAM_UK_BIO_NAME",
         title: "CONSULT_TITLE",
         rank: "high",
         firstBioLine: "SONPHAM_UK_BIO_1",
@@ -12,7 +12,7 @@ var staff = [
         picsize: "1024x512"
     },
     {
-        name: "Minh 'madmin' Dang",
+        name: "MADMIN_UK_BIO_NAME",
         title: "CONSULT_TITLE",
         rank: "high",
         firstBioLine: "MADMIN_UK_BIO_1",
@@ -20,16 +20,6 @@ var staff = [
         back: "MADMIN_UK_BACK_INFO",
         country: "gb",
         picsize: "1024x512"
-    },
-    {
-        name: "Jane Roe",
-        title: "BOOTH_TITLE",
-        rank: "low",
-        firstBioLine: "MOCK_BIO_1",
-        secondBioLine: "MOCK_BIO_2",
-        back: "MOCK_BACK_INFO",
-        country: "gb",
-        picsize: "1024x512",
     },
     {
         name: "Ly Bao Tran",
@@ -52,24 +42,14 @@ var staff = [
         picsize: "1024x1024",
     },
     {
-        name: "Jane Roe",
-        title: "QA_TITLE",
-        rank: "low",
+        name: "Le Thuy Trang",
+        title: "ADMIN_TITLE",
+        rank: "high",
         firstBioLine: "MOCK_BIO_1",
         secondBioLine: "MOCK_BIO_2",
         back: "MOCK_BACK_INFO",
         country: "us",
-        picsize: "1024x512",
-    },
-    {
-        name: "John Doe",
-        title: "QA_TITLE",
-        rank: "low",
-        firstBioLine: "MOCK_BIO_1",
-        secondBioLine: "MOCK_BIO_2",
-        back: "MOCK_BACK_INFO",
-        country: "us",
-        picsize: "1024x512",
+        picsize: "1024x1024",
     }
 ];
 
