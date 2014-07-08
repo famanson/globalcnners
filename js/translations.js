@@ -142,7 +142,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
         SONPHAM_UK_BIO_1: "K37 CNNer, cựu sinh viên ĐH Oxford",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Vương Quốc Anh",
-        SONPHAM_UK_BACK_INFO: "Sơn là thành viên lớp A khóa 37 (05-08). . Hiện tại anh đang ở lại Anh Quốc và làm kỹ sư phần mềm tại Ocado Technology. Sơn là trưởng ban tổ chức Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay",
+        SONPHAM_UK_BACK_INFO: "Sơn là thành viên lớp A khóa 37 (05-08). Đứng đầu lớp, đạt  giải 3 trong kỳ thi HSG quốc gia tiếng Anh năm 2007, sau đó Sơn học A-Level và dành 3 năm đại học tại Oxford ngành khoa học máy tính. Hiện tại anh đang ở lại Anh Quốc và làm kỹ sư phần mềm tại Ocado Technology. Sơn là trưởng ban tổ chức Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay",
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "K38 CNNer, cựu sinh viên ĐH Lancaster",
         MADMIN_UK_BIO_2: "SSI, Việt Nam",
