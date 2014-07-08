@@ -63,7 +63,7 @@ app.config(function ($translateProvider, $locationProvider) {
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_1: "K37 CNNer, Oxford Uni Alumni",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Pham Anh Son is a member of the 37th class A (05-08). Like many other Vietnamese students in the UK, Son came to study a 2-year A-Level course before spending 3 years reading Computer Science at University of Oxford. He now lives in the UK and writes code at Ocado Technology. He was the administrator of CNN Conference 2009 and 2010, and has been a senior consultant ever since",
+        SONPHAM_UK_BACK_INFO: "Pham Anh Son is a member of the 37th class A (05-08). Son studied a 2-year A-Level course in England before spending 3 years reading Computer Science at University of Oxford. He now lives in the UK and writes code at Ocado Technology. He was the administrator of CNN Conference 2009 and 2010, and has been a senior consultant ever since.",
 
         MADMIN_UK_BIO_1: "K38 CNNer, Lancaster Uni Alumni.",
         MADMIN_UK_BIO_2: "SSI, Vietnam",
@@ -133,11 +133,11 @@ app.config(function ($translateProvider, $locationProvider) {
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_1: "K37 CNNer, cựu sinh viên ĐH Oxford",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Vương Quốc Anh",
-        SONPHAM_UK_BACK_INFO: "Phạm Anh Sơn là thành viên lớp A khóa 37 (05-08). Như nhiều du học sinh Việt Nam tại Anh, Sơn học khóa A-Level 2 năm tại Reading và sau đó dành 3 năm đại học tại Oxford chuyên ngành khoa học máy tính. Hiện tại anh đang ở lại Anh Quốc và làm kỹ sư phần mềm tại Ocado Technology. Anh là trưởng ban tổ chức CNN Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay",
+        SONPHAM_UK_BACK_INFO: "Phạm Anh Sơn là thành viên lớp A khóa 37 (05-08). Như nhiều du học sinh Việt Nam tại Anh, Sơn học khóa A-Level 2 năm và sau đó dành 3 năm đại học tại Oxford ngành khoa học máy tính. Hiện tại anh đang ở lại Anh Quốc và làm kỹ sư phần mềm tại Ocado Technology. Sơn là trưởng ban tổ chức Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay",
 
         MADMIN_UK_BIO_1: "K38 CNNer, cựu sinh viên ĐH Lancaster",
         MADMIN_UK_BIO_2: "SSI, Việt Nam",
-        MADMIN_UK_BACK_INFO: "Đặng Trần Minh là thành viên lớp I khóa 38 (06-09). Minh học 2 năm A-Level ở Anh và sau đó là đại học chuyên ngành quản trị kinh doanh tại Lancaster. Minh cũng đã dành 1 năm học của mình tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference",
+        MADMIN_UK_BACK_INFO: "Đặng Trần Minh là thành viên lớp I khóa 38 (06-09). Minh học 2 năm A-Level và sau đó là đại học ngành quản trị kinh doanh tại Lancaster và dành 1 năm học tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference",
 
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",

@@ -67,7 +67,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     $scope.countries = countries;
 
     // Construct guest groups for fallback
-    var staffPartitionSize = 2;
+    var staffPartitionSize = 3;
     var staffGroup = [];
     for (var i = 0; i < staffPartitionSize; i += 1) {
         staffGroup[i] = [];
@@ -78,7 +78,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         staffGroup[partition].push(member);
     }
     $scope.staffGroup = staffGroup;
-    $scope.staffWallEnabled = (window.innerWidth > 1024);
+    $scope.staffWallEnabled = (window.innerWidth > 1365);
     $scope.staffPartitionSize = staffPartitionSize;
     $scope.walls={};
 

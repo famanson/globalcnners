@@ -222,45 +222,44 @@
 
                     <div ng-repeat="staff in staffGroup" class="col-md-{{ 12/staffPartitionSize }}" ng-if="!staffWallEnabled" on-staff-finish>
                         <div ng-repeat="member in staff">
-                        <div ng-if="member.flippable" flippable class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="pin {{ member.rank }}">
-                                        <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
-                                        <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}</b></h4>
-                                            <h5><b>{{ member.title | translate }}</b></h5>
-                                            <div>{{ member.firstBioLine | translate }}</div>
-                                            <div>{{ member.secondBioLine | translate }}</div>
+                            <div ng-if="member.flippable" flippable class="flip-container member {{ member.country }}" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <div class="pin {{ member.rank }}">
+                                            <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
+                                            <div class="text">
+                                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}</b></h4>
+                                                <h5><b>{{ member.title | translate }}</b></h5>
+                                                <div>{{ member.firstBioLine | translate }}</div>
+                                                <div>{{ member.secondBioLine | translate }}</div>
+                                            </div>
+                                            <div style='clear: both'></div>
                                         </div>
-                                        <div style='clear: both'></div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="pin {{ member.rank }}">
+                                            <div class="text">
+                                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}</b></h4>
+                                                <h5><b>{{ member.title | translate }}</b></h5>
+                                                <p class="lead">{{ member.back | translate }}</p>
+                                            </div>
+                                            <div style='clear: both'></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="back">
-                                    <div class="pin {{ member.rank }}">
-                                        <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}</b></h4>
-                                            <h5><b>{{ member.title | translate }}</b></h5>
-                                            <p class="lead">{{ member.back | translate }}</p>
-                                        </div>
-                                        <div style='clear: both'></div>
-                                    </div>
+                                <div style='clear: both'></div>
+                            </div>
+
+                            <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
+                                <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
+                                <div class="text">
+                                    <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
+                                    <div>{{ member.firstBioLine | translate }}</div>
+                                    <div>{{ member.secondBioLine | translate }}</div>
                                 </div>
+                                <div style='clear: both'></div>
                             </div>
-                            <div style='clear: both'></div>
                         </div>
-
-                        <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
-                            <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
-                            <div class="text">
-                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name }}, {{ member.title | translate }}.</b></h4>
-                                <div>{{ member.firstBioLine | translate }}</div>
-                                <div>{{ member.secondBioLine | translate }}</div>
-                            </div>
-                            <div style='clear: both'></div>
-                        </div>
-
-                    </div>
                     </div>
 
                 </div>
