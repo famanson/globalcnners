@@ -63,11 +63,11 @@ app.config(function ($translateProvider, $locationProvider) {
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_1: "K37 CNNer, Oxford Uni Alumni",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Pham Anh Son is a member of the 37th class A (05-08). Like many other Vietnamese students in the UK, Son came to study a 2-year A-Level course before spending 3 years reading Computer Science at University of Oxford. He is now living in the UK and working as a software engineer at Ocado Technology. He was the administrator of CNN Conference 2009 and 2010, and has been a senior consultant for every of the subsequent ones ever since",
+        SONPHAM_UK_BACK_INFO: "Pham Anh Son is a member of the 37th class A (05-08). Like many other Vietnamese students in the UK, Son came to study a 2-year A-Level course before spending 3 years reading Computer Science at University of Oxford. He now lives in the UK and writes code at Ocado Technology. He was the administrator of CNN Conference 2009 and 2010, and has been a senior consultant ever since",
 
         MADMIN_UK_BIO_1: "K38 CNNer, Lancaster Uni Alumni.",
         MADMIN_UK_BIO_2: "SSI, Vietnam",
-        MADMIN_UK_BACK_INFO: "Dang Tran Minh (madmin) is a member of the 38th class I (06-09). Minh studied a 2-year A-Level course in England and then read Business and Management at Lancaster University. He also spent a year abroad at Richmond University in the States. Minh now lives in Saigon and work for SSI, Vietnam. He is also one of the founding members of Global CNNers and a regular admin/consultant for CNN Conference.",
+        MADMIN_UK_BACK_INFO: "Dang Tran Minh (madmin) is a member of the 38th class I (06-09). Minh studied a 2-year A-Level course in England and then read Business and Management at Lancaster Uni. He also spent a year abroad at Richmond University in the States. Minh now lives in Saigon and work for SSI, Vietnam. He is also one of the founding members of Global CNNers and a regular admin/consultant for CNN Conference.",
 
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
