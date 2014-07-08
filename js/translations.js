@@ -64,12 +64,18 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "K37 CNNer, Oxford Uni Alumni",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Son is a member of the 37th class A (05-08). Son studied a 2-year A-Level course in England before spending 3 years reading Computer Science at University of Oxford. He now lives in the UK and writes code at Ocado Technology. He was the administrator of CNN Conference 2009 and 2010, and has been a senior consultant ever since.",
+        SONPHAM_UK_BACK_INFO: "Son is a member of the 37th class A (05-08). Having topped his class, won the 3rd prize at the National English contest in 2007, he went on to study A-Level in England then read Computer Science at University of Oxford. He now lives in the UK, writing code at Ocado Technology. He was the CNN Conference Admin in 2009 and 2010, and has been a senior consultant ever since.",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "K38 CNNer, Lancaster Uni Alumni.",
         MADMIN_UK_BIO_2: "SSI, Vietnam",
-        MADMIN_UK_BACK_INFO: "Minh is a member of the 38th class I (06-09). Minh studied a 2-year A-Level course in England and then read Business and Management at Lancaster Uni. He also spent a year abroad at Richmond University in the States. Minh now lives in Saigon and work for SSI, Vietnam. He is also one of the founding members of Global CNNers and a regular admin/consultant for CNN Conference.",
+        MADMIN_UK_BACK_INFO: "Minh is a member of the 38th class I (06-09). Minh studied a 2-year A-Level course in England and then read Business and Management at Lancaster Uni. He also spent a year abroad at Richmond University in the States. Minh now lives in Saigon and work for SSI, Vietnam. He is also one of the founding members of Global CNNers and a senior admin/consultant for CNN Conference.",
+
+        // Finland
+        THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
+        THUYTRANG_FIN_BIO_1: "K43 CNNer, Saimaa Uni of Applied Sciences",
+        THUYTRANG_FIN_BIO_2: "Student, Finland",
+        THUYTRANG_FIN_BACK_INFO: "Trang is a member of the 43rd class M (11-13). She was the chief secretary of her class in 2012. Trang took part in many extracurricular activities, notably in the CNN Dance Club and as an OGL of Ten Plus 2012. She was also a representative at the Asian Young Leader Convention 2012 held in Singapore.",
 
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
@@ -136,7 +142,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
         SONPHAM_UK_BIO_1: "K37 CNNer, cựu sinh viên ĐH Oxford",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Vương Quốc Anh",
-        SONPHAM_UK_BACK_INFO: "Sơn là thành viên lớp A khóa 37 (05-08). Như nhiều du học sinh Việt Nam tại Anh, Sơn học khóa A-Level 2 năm và sau đó dành 3 năm đại học tại Oxford ngành khoa học máy tính. Hiện tại anh đang ở lại Anh Quốc và làm kỹ sư phần mềm tại Ocado Technology. Sơn là trưởng ban tổ chức Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay",
+        SONPHAM_UK_BACK_INFO: "Sơn là thành viên lớp A khóa 37 (05-08). . Hiện tại anh đang ở lại Anh Quốc và làm kỹ sư phần mềm tại Ocado Technology. Sơn là trưởng ban tổ chức Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay",
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "K38 CNNer, cựu sinh viên ĐH Lancaster",
         MADMIN_UK_BIO_2: "SSI, Việt Nam",

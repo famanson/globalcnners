@@ -43,13 +43,13 @@ var staff = [
     },
     {
         name: "Le Thuy Trang",
-        title: "ADMIN_TITLE",
-        rank: "high",
-        firstBioLine: "MOCK_BIO_1",
-        secondBioLine: "MOCK_BIO_2",
-        back: "MOCK_BACK_INFO",
-        country: "us",
-        picsize: "1024x1024",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "THUYTRANG_FIN_BIO_1",
+        secondBioLine: "THUYTRANG_FIN_BIO_2",
+        back: "THUYTRANG_FIN_BACK_INFO",
+        country: "fi",
+        picsize: "1024x512",
     }
 ];
 
