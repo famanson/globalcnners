@@ -120,7 +120,7 @@ app.config(function ($translateProvider, $locationProvider) {
         EMAIL: "Gửi e-mail",
         EMAIL_TEXT: "Bạn có thể hỏi chúng tôi bất kỳ điều gì - về Global CNNers (hội du học sinh Chuyên Ngữ) hay về hội thảo qua e-mail. (Lưu ý: Global CNNers không nhận tư vấn tình cảm tuổi mới lớn :P)",
         EMAIL_CLICK: "Gửi e-mail",
-        FACEBOOK: “Ghé qua Facebook của Global CNNers",
+        FACEBOOK: "Ghé qua Facebook của Global CNNers",
         FACEBOOK_TEXT: "Các bản tin du học, thông tin học bổng và cập nhật mới nhất của Global CNNers cũng như CNN Conference sẽ được đăng tại Facebook Page này!",
         FACEBOOK_CLICK: "Global CNNers",
 
