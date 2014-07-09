@@ -161,7 +161,7 @@ app.config(function ($translateProvider, $locationProvider) {
         MADMIN_UK_BACK_INFO: "Thành viên lớp I khóa 38 (06-09). Minh học 2 năm A-Level và sau đó là đại học ngành quản trị kinh doanh tại Lancaster và dành 1 năm học tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference.",
 
         MPHUONG_US_BIO_NAME: "Nguyễn Mai Phương",
-        MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College '18, Pennsylvania, US.",
+        MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College '18, US",
         MPHUONG_US_BIO_2: "Sinh viên, US",
         MPHUONG_US_BACK_INFO: "Thành viên lớp M khóa 43 (11-14). Chủ tịch CNN English Club 2012-2013 và trưởng BTC Prom The Mayverlous. CNN Idol 2013. Đại diện tham dự Asian Young Leadership Convention 2012, Singapore. Giải Ba Học sinh giỏi Quốc gia Tiếng Anh 2013-2014",
         MPHUONG_US_BACK_EXTRA: "Message to CNNers: \"Not knowing you can't do something, is sometimes all it takes to do it.\" ― Ally Carter. Hãy luôn có lòng tin ở bản thân, dám ước mơ, đặt ra những thử thách cho chính mình! Chỉ cần tin là bạn sẽ làm được thôi, là bạn đã đi được nửa đường rồi. Mình mong là cũng như mình 4 năm về trước, các bạn đến đây sẽ có được những thông tin bổ ích cho định hướng du học của bản thân và hơn cả là được truyền ngọn lửa,  cảm nhận được spirit, bản lĩnh của các thế hệ CNNers thành công đi trước truyền lại!",
