@@ -64,8 +64,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "A member of the 37th class A (05-08). Topped his class and won the 3rd prize at the National English contest in 2007. He took part in many early \"CNN-trademarked\" activities including the first 10+ (2008), founding Global CNNers in 2007 and organising the first Conference in 2009.",
-        SONPHAM_UK_BACK_EXTRA: "He left for England in 2007 and went on to study A-Level at Padworth College, Reading, then read Computer Science at Worcester College, Oxford University. He now lives in the UK, working as a software engineer for Ocado Technology. He was the Conference Admin in 2009 and 2010, and has been a senior consultant ever since.",
+        SONPHAM_UK_BACK_INFO: "A member of the 37th class A (05-08). Topped his class and won the 3rd prize at the National English contest in 2007. He founded Global CNNers in 2007 and was the Conference Admin in 2009 and 2010. He left for England in 2007 and went on to study A-Level at Padworth College, Reading, then read Computer Science at Worcester College, Oxford University. He is working as a software engineer for Ocado Technology UK.",
+        SONPHAM_UK_BACK_EXTRA: "",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
@@ -152,8 +152,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
         SONPHAM_UK_BIO_1: "A37 CNNer, ĐH Oxford, Anh Quốc",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Vương Quốc Anh",
-        SONPHAM_UK_BACK_INFO: "Thành viên lớp A khóa 37 (05-08). Học sinh xuất sắc và đạt giải Ba trong kỳ thi HSG quốc gia tiếng Anh 2006-2007. Tham gia rất nhiều các hoạt động đặc trưng của Chuyên Ngữ sau này: 10+ đầu tiên (2008), sáng lập Global CNNers vào năm 2007 và tổ chức hội thảo du học Chuyên Ngữ lần thứ nhất năm 2009",
-        SONPHAM_UK_BACK_EXTRA: "Đến Anh năm 2007 để học A-Level tại Padworth College, Reading và sau đó là 3 năm đại học tại Worcester College, ĐH Oxford chuyên ngành khoa học máy tính. Hiện tại đang ở lại Anh Quốc, làm kỹ sư phần mềm tại Ocado Technology. Sơn là trưởng ban tổ chức Conference 2009 và 2010, và làm cố vấn cho các hội thảo sau từ đó đến nay.",
+        SONPHAM_UK_BACK_INFO: "Thành viên lớp A khóa 37 (05-08). Học sinh xuất sắc (2006-07) và giải Ba kỳ thi HSG quốc gia tiếng Anh (2006-07). Sáng lập Global CNNers (2007), trưởng ban tổ chức Conference 2009 và 2010. Đến Anh năm 2007 để học A-Level tại Padworth College, Reading và sau đó là 3 năm đại học tại Worcester College, ĐH Oxford chuyên ngành khoa học máy tính. Hiện tại đang làm kỹ sư phần mềm tại công ty Ocado Technology, Anh Quốc.",
+        SONPHAM_UK_BACK_EXTRA: "",
 
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
