@@ -23,15 +23,26 @@ var staff = [
         country: "gb",
         picsize: "1024x512"
     },
+    {
+        name: "MINHNGOC_UK_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "high",
+        firstBioline: "MINHNGOC_UK_BIO_1",
+        secondBioLine: "MINHNGOC_UK_BIO_2",
+        back: "MINHNGOC_UK_BACK_INFO",
+        backExtra: "MINHNGOC_UK_BACK_EXTRA",
+        country: "uk",
+        picsize: "1024x512"
+    }
     // US
     {
-        name: "BAOTRAN_US_BIO_NAME",
-        title: "CONSULT_TITLE",
+        name: "LY BAO TRAN",
+        title: "DESIGN_TITLE", "CONSULT_TITLE",
         rank: "high",
-        firstBioLine: "BAOTRAN_US_BIO_1",
-        secondBioLine: "BAOTRAN_US_BIO_2",
-        back: "BAOTRAN_US_BACK_INFO",
-        backExtra: "BAOTRAN_US_BACK_EXTRA",
+        firstBioLine: "A42 CNNERS",
+        secondBioLine: "Sewanee - University of the South '18",
+        back: "blah blah blah",
+        backExtra: "blah blah blah",
         country: "us",
         picsize: "1024x512",
     },
