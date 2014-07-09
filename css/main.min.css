@@ -227,13 +227,14 @@ body {
     display: inline-block;
 }
 #flag-picker-tip p {
+    font-size: 14px;
     margin: 0;
 }
 
 #flag-picker {
     margin: 0 0 10px 30px;
-    width: 15%;
-    background-color: #fff;
+    width: 40%;
+    background-color: #ddd;
     box-shadow: 0 0 7px #555;
     color: #666;
     padding: 5px;
@@ -250,7 +251,8 @@ body {
 }
 
 #flag-picker .flag-icon {
-    margin: 0 10px 0 0
+    margin: 0 10px 0 0;
+    box-shadow: 0 0 1px #000;
 }
 
 #flag-picker .flag-icon:hover {

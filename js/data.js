@@ -1,6 +1,7 @@
-var countries = [ 'us', 'gb' ];
+var countries = [ 'us', 'gb', 'fi', 'sg', 'de', 'jp' ];
 
 var staff = [
+    // UK
     {
         name: "SONPHAM_UK_BIO_NAME",
         title: "CONSULT_TITLE",
@@ -8,8 +9,9 @@ var staff = [
         firstBioLine: "SONPHAM_UK_BIO_1",
         secondBioLine: "SONPHAM_UK_BIO_2",
         back: "SONPHAM_UK_BACK_INFO",
+        backExtra: "SONPHAM_UK_BACK_EXTRA",
         country: "gb",
-        picsize: "1024x512"
+        picsize: "1024x1024"
     },
     {
         name: "MADMIN_UK_BIO_NAME",
@@ -21,6 +23,7 @@ var staff = [
         country: "gb",
         picsize: "1024x512"
     },
+    // US
     {
         name: "Ly Bao Tran",
         title: "CONSULT_TITLE",
@@ -32,17 +35,40 @@ var staff = [
         picsize: "1024x512"
     },
     {
-        name: "Nguyen Mai Phuong",
-        title: "ADMIN_TITLE",
-        rank: "high",
-        firstBioLine: "MOCK_BIO_1",
-        secondBioLine: "MOCK_BIO_2",
-        back: "MOCK_BACK_INFO",
+        name: "DUCANH_US_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "DUCANH_US_BIO_1",
+        secondBioLine: "DUCANH_US_BIO_2",
+        back: "DUCANH_US_BACK_INFO",
         country: "us",
         picsize: "1024x1024",
     },
     {
-        name: "Le Thuy Trang",
+        name: "MPHUONG_US_BIO_NAME",
+        title: "ADMIN_TITLE",
+        rank: "high",
+        firstBioLine: "MPHUONG_US_BIO_1",
+        secondBioLine: "MPHUONG_US_BIO_2",
+        back: "MPHUONG_US_BACK_INFO",
+        backExtra: "MPHUONG_US_BACK_EXTRA",
+        country: "us",
+        picsize: "1024x1024",
+    },
+    {
+        name: "HIEUANH_US_BIO_NAME",
+        title: "ADMIN_TITLE",
+        rank: "high",
+        firstBioLine: "HIEUANH_US_BIO_1",
+        secondBioLine: "HIEUANH_US_BIO_2",
+        back: "HIEUANH_US_BACK_INFO",
+        backExtra: "HIEUANH_US_BACK_EXTRA",
+        country: "us",
+        picsize: "1024x1024",
+    },
+    // FIN
+    {
+        name: "THUYTRANG_FIN_BIO_NAME",
         title: "BOOTH_TITLE",
         rank: "low",
         firstBioLine: "THUYTRANG_FIN_BIO_1",
@@ -50,6 +76,41 @@ var staff = [
         back: "THUYTRANG_FIN_BACK_INFO",
         country: "fi",
         picsize: "1024x512",
+    },
+    // SG
+    {
+        name: "MYHANH_SG_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "MYHANH_SG_BIO_1",
+        secondBioLine: "MYHANH_SG_BIO_2",
+        back: "MYHANH_SG_BACK_INFO",
+        country: "sg",
+        picsize: "1024x512",
+    },
+    // GER
+    {
+        name: "KLINH_GER_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "KLINH_GER_BIO_1",
+        secondBioLine: "KLINH_GER_BIO_2",
+        back: "KLINH_GER_BACK_INFO",
+        backExtra: "KLINH_GER_BACK_EXTRA",
+        country: "de",
+        picsize: "1024x1024",
+    },
+    // JAP
+    {
+        name: "KANH_JAP_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "KANH_JAP_BIO_1",
+        secondBioLine: "KANH_JAP_BIO_2",
+        back: "KANH_JAP_BACK_INFO",
+        backExtra: "KANH_JAP_BACK_EXTRA",
+        country: "jp",
+        picsize: "1024x1024",
     }
 ];
 
