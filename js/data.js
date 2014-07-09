@@ -33,7 +33,20 @@ var staff = [
         backExtra: "MINHNGOC_UK_BACK_EXTRA",
         country: "uk",
         picsize: "1024x512"
+    },
+    
+    {
+        name: "HONGCHAU_UK_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "high",
+        firstBioline: "HONGCHAU_UK_BIO_1",
+        secondBioLine: "HONGCHAU_UK_BIO_2",
+        back: "HONGCHAU_UK_BACK_INFO",
+        backExtra: "HONGCHAU_UK_BACK_EXTRA",
+        country: "uk",
+        picsize: "1024x512",
     }
+
     // US
     {
         name: "LY BAO TRAN",
@@ -45,7 +58,8 @@ var staff = [
         backExtra: "blah blah blah",
         country: "us",
         picsize: "1024x512",
-    },
+    }
+
     {
         name: "MPHUONG_US_BIO_NAME",
         title: "ADMIN_TITLE",

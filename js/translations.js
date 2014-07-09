@@ -92,15 +92,16 @@ app.config(function ($translateProvider, $locationProvider) {
         
         DUCANH_US_BIO_NAME:"Nguyen Duc Anh",
         DUCANH_US_BIO_1: "A43 CNNer, The Key School, US - ASSIST Scholarship",
-        DUCANH_US_BIO_2: "Continuing my family legacy, I am the fourth generation at FLSS. There was a time when I participated 6 organizations at the same time, and now own a complete set of FLSS’s clubs’ uniforms!",
+        DUCANH_US_BIO_2: "Student, US",
         DUCANH_US_BACK_INFO: "ASSIST Scholar 2013
                               Organizing Board, Water Wise Project hosted by the U.S. Embassy 
                               Founder & President, Blue Exit Organization (Promote youth awareness of environmental issues)
                               Potential Award, “Tat den bat y tuong” Contest, 2011",
+        DUCANH_US_BACK_EXTRA:"Continuing my family legacy, I am the fourth generation at FLSS. There was a time when I participated 6 organizations at the same time, and now own a complete set of FLSS’s clubs’ uniforms!",
 
         HIEUANH_US_BIO_NAME: "Trinh Ngoc Hieu Anh",
-        HIEUANH_US_BIO_1: "B43 CNNer, UWC Scholarship, Costa Rica, 2013",
-        HIEUANH_US_BIO_2: "Duke University '18, US",
+        HIEUANH_US_BIO_1: "B43 CNNer, Costa Rica - UWC Scholarship, Duke University '18, US",
+        HIEUANH_US_BIO_2: "Student, US",
         HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013
                                Davis International Award
                                President, Guitar Club at UWCCR
@@ -114,8 +115,10 @@ app.config(function ($translateProvider, $locationProvider) {
         THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer, Saimaa Uni of Applied Sciences, Finland",
         THUYTRANG_FIN_BIO_2: "Student, Finland",
-        THUYTRANG_FIN_BACK_INFO: "Trang was the chief secretary of her class in 2012. She was a member of the CNN Dance Club and as an OGL of Ten Plus 2012. She was also a representative at the Asian Young Leader Convention 2012 held in Singapore. Trang now studies Hotel, Restaurant and Tourism Management at Saimaa Uni of Applied Sciences in Finland",
-
+        THUYTRANG_FIN_BACK_INFO: "FLSS Representative, Asian Young Leader Convention, 2012
+                                  Chief secretary, M43 
+                                  Member, CNN Dance Club
+                                  Orientation Group Leader, Ten Plus 2012",
 
         MYHANH_SG_BIO_NAME: "Ngo My Hanh",
         MYHANH_SG_BIO_1: "A41 CNNer, Nayang Technological University, Singapore",
@@ -182,13 +185,13 @@ app.config(function ($translateProvider, $locationProvider) {
         FLAG_PICKER_TIP_2_2: "hoặc vào một cờ còn lại để đổi sang nước khác",
 
         // Documents section
-        DOCS_CONVENIENT: "Tiện lợi",
-        DOCS_CONVENIENT_TEXT: "We often e-mailed out our slides and docs in previous years. This time, we host all our resources on Google Drive for better availability and convenience.",
-        DOCS_ORG: "Organisation",
-        DOCS_ORG_TEXT: "For each country there is one folder, and each file is annotated with the author's/presenter's name, saved in the friendly ppt/doc format that can be viewed by common office tools.",
-        DOCS_THOUGHT: "Thoughtful",
-        DOCS_THOUGHT_TEXT: "We cannot host external resources without proper permission, so there will be a dedicated list of recommended readings in each country's folder.",
-        DOCS_CLICK: "Click for Awesomeness",
+        DOCS_CONVENIENT: "Thuận tiện",
+        DOCS_CONVENIENT_TEXT: "Những năm trước, BTC thường gửi email tài liệu chương trình cho các bạn tham dự hội thảo. Năm nay, BTC CNN Conference 2014 chia sẻ toàn bộ tài liệu chương trình trên Google Drive cho việc cập nhật dữ liệu nhanh chóng và hiệu quả hơn. ",
+        DOCS_ORG: "Tổ Chức",
+        DOCS_ORG_TEXT: "Mỗi nước sẽ có một thư mục riêng, và mỗi tệp tin đều được ghi chú tên tác giả, và lưu theo dạng ppt/doc để có thể cập nhật dễ dàng với các công cụ Microsoft Office thông thường.",
+        DOCS_THOUGHT: "Bản Quyền",
+        DOCS_THOUGHT_TEXT: "BTC CNN Conference không được phép đăng tải những tài liệu không thuộc sự quản lý của Global CNNers. Do vậy, trong mỗi thư mục của các nước sẽ có danh sách tên những tài liệu tham khảo mà các bạn nên tìm đọc.",
+        DOCS_CLICK: "Thích thì Click!",
 
         // Contact section
         SIGNUP: "Đăng ký tham dự",
@@ -209,6 +212,7 @@ app.config(function ($translateProvider, $locationProvider) {
         QA_TITLE: "Nhóm chuyên mục hỏi đáp",
         BOOTH_TITLE: "Nhóm làm quầy thông tin",
         ADMIN_TITLE: "Trưởng ban tổ chức",
+        DESIGN_TITLE: "Thiết kế",
 
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
@@ -220,24 +224,24 @@ app.config(function ($translateProvider, $locationProvider) {
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
         MADMIN_UK_BIO_2: "SSI, Việt Nam",
-        MADMIN_UK_BACK_INFO: "Thành viên lớp I khóa 38 (06-09). Minh học 2 năm A-Level và sau đó là đại học ngành quản trị kinh doanh tại Lancaster và dành 1 năm học tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference.",
+        MADMIN_UK_BACK_INFO: "Minh học 2 năm A-Level và sau đó là đại học ngành quản trị kinh doanh tại Lancaster và dành 1 năm học tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference.",
 
         MPHUONG_US_BIO_NAME: "Nguyễn Mai Phương",
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College '18, US",
-        MPHUONG_US_BIO_2: "Sinh viên, US",
+        MPHUONG_US_BIO_2: "Sinh viên, Hoa Kỳ",
         MPHUONG_US_BACK_INFO: "Cựu Chủ tịch CNN English Club 2012-2013 và trưởng BTC Prom The Mayverlous. CNN Idol 2013. Đại diện tham dự Asian Young Leadership Convention 2012, Singapore. Giải Ba Học sinh giỏi Quốc gia Tiếng Anh 2013-2014",
         MPHUONG_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: \"Not knowing you can't do something, is sometimes all it takes to do it.\" ― Ally Carter. Hãy luôn có lòng tin ở bản thân, dám ước mơ, đặt ra những thử thách cho chính mình! Chỉ cần tin là bạn sẽ làm được thôi, là bạn đã đi được nửa đường rồi. Mình mong là cũng như mình 4 năm về trước, các bạn đến đây sẽ có được những thông tin bổ ích cho định hướng du học của bản thân và hơn cả là được truyền ngọn lửa,  cảm nhận được spirit, bản lĩnh của các thế hệ CNNers thành công đi trước truyền lại!",
 
         BAOTRAN_US_BIO_NAME: "Lý Bảo Trân",
         BAOTRAN_US_BIO_1: "A42 CNNer, Sewanee - University of the South '18, US",
-        BAOTRAN_US_BIO_2: "Sinh viên, US",
-        BAOTRAN_US_BACK_INFO: "Cựu Trưởng BTC CNN Conference 2013. Mùa hè này, mình đang công tác tại thành phố New York và không có cơ hội về thăm Việt Nam. Do đó, mình quyết định tham gia chương trình ở một vị trí mới là nhà thiết kế và cố vấn. Nói nôm na là vẽ thỏ và khinh khí cầu hàng ngày :)!"
+        BAOTRAN_US_BIO_2: "Sinh viên, Hoa Kỳ",
+        BAOTRAN_US_BACK_INFO: "Cựu Trưởng BTC CNN Conference 2013. Mùa hè này, Bảo Trân đang công tác tại thành phố New York và không có cơ hội về thăm Việt Nam. Do đó, Trân quyết định tham gia chương trình ở một vị trí mới là nhà thiết kế và cố vấn. Nói nôm na là vẽ thỏ và khinh khí cầu hàng ngày :)!"
         
         DUCANH_US_BIO_NAME: "Nguyễn Đức Anh",
         DUCANH_US_BIO_1: "A43 CNNer, The Key School, Annapolis, MD",
-        DUCANH_US_BIO_2: "Học sinh, US",
-        DUCANH_US_BACK_INFO: "Học 
-        DUCANH_US_BACK_EXTRA: "Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc. Mình nằm trong ban tổ chức chương trình Water Wise được tài trợ bởi Đại sứ quán Mỹ, và từ đó sáng lập và làm chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường. Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011. Được nhận học bổng của ASSIST program, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
+        DUCANH_US_BIO_2: "Học sinh, Hoa Kỳ",
+        DUCANH_US_BACK_INFO: "Trong một gia đình đã 4 lần gắn bó với Chuyên Ngữ, CNN không còn lạ lùng với mình nữa. Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc, mình đã có một bố sưu tập áo đồng phục CNN khá đầy đủ.",
+        DUCANH_US_BACK_EXTRA:"Thành viên BTC Chương Trình Water Wise được tài trợ bởi ĐSQ Mỹ. Sáng lập viên và Chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường. Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011. Được nhận học bổng của ASSIST program, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
 
         HIEUANH_US_BIO_NAME: "Trịnh Ngọc Hiếu Anh",
         HIEUANH_US_BIO_1: "B42 CNNer, Duke University '18",
@@ -248,28 +252,29 @@ app.config(function ($translateProvider, $locationProvider) {
         THUYTRANG_FIN_BIO_NAME: "Lê Thùy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer, Saimaa Uni of Applied Sciences",
         THUYTRANG_FIN_BIO_2: "Sinh viên, Phần Lan",
+        THUYTRANG_FIN_BACK_INFO: "Thành viên CLB CNN Dance Club. Đại diện tham gia CT Hội Nghị Thủ lĩnh Châu Á tại Singapore năm 2012. Định Hướng Viên Chương trình 10+ 2012",
+        THUYTRANG_FIN_BACK_EXTRA: "Học ngành Hotel, Restaurant and Tourism Management, Saimaa University of Applied Sciences",
 
         MYHANH_SG_BIO_NAME: "Ngô Mỹ Hạnh",
         MYHANH_SG_BIO_1: "A41 CNNer, Nayang Technological University, Singapore",
         MYHANH_SG_BIO_2: "Sinh viên, Singapore",
-        MYHANH_SG_BACK_INFO: "Thành viên lớp A khóa 41 (09-12).",
-        MYHANH_SG_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Các em ơi đi du học làm gì, ở nhà với bố mẹ đi!",
-
+        MYHANH_SG_BACK_INFO: "Lời nhắn nhủ tới CNNers: Các em ơi đi du học làm gì, ở nhà với bố mẹ đi!",
+        
         KLINH_GER_BIO_NAME: "Nguyễn Khánh Linh",
         KLINH_GER_BIO_1: "G42 CNNer, Học sinh trao đổi tại CHLB Đức 2012-2013",
-        KLINH_GER_BIO_2: "Sinh viên",
-        KLINH_GER_BACK_INFO: "Thành viên lớp G khóa 42 (10-13).",
+        KLINH_GER_BIO_2: "Sinh viên, Đức",
+        KLINH_GER_BACK_INFO: "Học bổng AFS, Chương trình Trao đổi Học sinh tại CHLB Đức", 
         KLINH_GER_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Đức có môi trường học tập tốt, hệ thống giáo dục tiên tiến và được sự hỗ trợ nhiều mặt từ chính phủ, đặc biệt là học phí! Tiếng Đức cũng rất hay và logic, cùng với sự phong phú của nền văn hóa Đức khiến nơi đây trở thành điểm đến ưa thích của nhiều học sinh, sinh viên quốc tế trong đó có Việt Nam. Chúc các bạn may mắn và thành công trên con đường đã chọn.",
 
         KANH_JAP_BIO_NAME: "Nguyễn Kiều Anh",
         KANH_JAP_BIO_1: "A43 CNNer, Đại học APU, Nhật Bản",
         KANH_JAP_BIO_2: "Sinh viên, Nhật Bản",
-        KANH_JAP_BACK_INFO: "Thành viên lớp A khóa 43 (11-14). Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018, thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
+        KANH_JAP_BACK_INFO: "Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018, thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
         KANH_JAP_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: du học không chỉ để học mà còn để sống, để trải nghiệm nữa. Do vậy theo mình, việc quan trọng nhất là chọn được một môi trường phù hợp với mình cả về cách học lẫn văn hóa, lối sống. Chỉ khi đó, bạn mới có thể phát huy hoàn toàn tiềm năng và đạt được những kết quả tốt nhất trong quá trình học tập của mình!",
 
         MINHNGOC_UK_BIO_NAME: "Ngô Minh Ngọc",
         MINHNGOC_UK_BIO_1: "A43 CNNer, A-level 2 năm tại Trường Dự Bị Đại Học Cambridge, Vương Quốc Anh",
-        MINHNGOC_UK_BIO_2: " Sinh viên, Hoa Kỳ"
+        MINHNGOC_UK_BIO_2: " Sinh viên, Vương Quốc Anh",
         MINHNGOC_UK_BACK_INFO: "Học bổng 100% Khóa học A-level 2 năm tại Trường Dự Bị Đại Học Cambridge, Vương Quốc Anh
                                 Huy Chương Đồng UK Math Challenge, 2013
                                 Định hướng viên, Chương trình 10+ 2012",
