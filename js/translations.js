@@ -64,8 +64,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "A member of the 37th class A (05-08). Topped his class and won the 3rd prize at the National English contest in 2007. He founded Global CNNers in 2007 and was the Conference Admin in 2009 and 2010. He left for England in 2007 and went on to study A-Level at Padworth College, Reading, then read Computer Science at Worcester College, Oxford University. He is working as a software engineer for Ocado Technology UK.",
-        SONPHAM_UK_BACK_EXTRA: "",
+        SONPHAM_UK_BACK_INFO: "A member of the 37th class A (05-08). Topped his class and won the 3rd prize at the National English contest in 2007. He founded Global CNNers in 2007 and was the Conference Admin in 2009 and 2010.",
+        SONPHAM_UK_BACK_EXTRA: "He left for England in 2007 and went on to study A-Level at Padworth College, Reading, then read Computer Science at Worcester College, Oxford University. He is working as a software engineer for Ocado Technology UK.",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
@@ -152,8 +152,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
         SONPHAM_UK_BIO_1: "A37 CNNer, ĐH Oxford, Anh Quốc",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Vương Quốc Anh",
-        SONPHAM_UK_BACK_INFO: "Thành viên lớp A khóa 37 (05-08). Học sinh xuất sắc (2006-07) và giải Ba kỳ thi HSG quốc gia tiếng Anh (2006-07). Sáng lập Global CNNers (2007), trưởng ban tổ chức Conference 2009 và 2010. Đến Anh năm 2007 để học A-Level tại Padworth College, Reading và sau đó là 3 năm đại học tại Worcester College, ĐH Oxford chuyên ngành khoa học máy tính. Hiện tại đang làm kỹ sư phần mềm tại công ty Ocado Technology, Anh Quốc.",
-        SONPHAM_UK_BACK_EXTRA: "",
+        SONPHAM_UK_BACK_INFO: "Thành viên lớp A khóa 37 (05-08). Học sinh xuất sắc (2006-07) và giải Ba kỳ thi HSG quốc gia tiếng Anh (2006-07). Sáng lập Global CNNers (2007), trưởng ban tổ chức Conference 2009 và 2010.",
+        SONPHAM_UK_BACK_EXTRA: "Đến Anh năm 2007 để học A-Level tại Padworth College, Reading và sau đó là 3 năm đại học tại Worcester College, ĐH Oxford chuyên ngành khoa học máy tính. Hiện tại đang làm kỹ sư phần mềm tại công ty Ocado Technology, Anh Quốc.",
 
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
@@ -166,10 +166,17 @@ app.config(function ($translateProvider, $locationProvider) {
         MPHUONG_US_BACK_INFO: "Thành viên lớp M khóa 43 (11-14). Chủ tịch CNN English Club 2012-2013 và trưởng BTC Prom The Mayverlous. CNN Idol 2013. Đại diện tham dự Asian Young Leadership Convention 2012, Singapore. Giải Ba Học sinh giỏi Quốc gia Tiếng Anh 2013-2014",
         MPHUONG_US_BACK_EXTRA: "Message to CNNers: \"Not knowing you can't do something, is sometimes all it takes to do it.\" ― Ally Carter. Hãy luôn có lòng tin ở bản thân, dám ước mơ, đặt ra những thử thách cho chính mình! Chỉ cần tin là bạn sẽ làm được thôi, là bạn đã đi được nửa đường rồi. Mình mong là cũng như mình 4 năm về trước, các bạn đến đây sẽ có được những thông tin bổ ích cho định hướng du học của bản thân và hơn cả là được truyền ngọn lửa,  cảm nhận được spirit, bản lĩnh của các thế hệ CNNers thành công đi trước truyền lại!",
 
+        BAOTRAN_US_BIO_NAME: "Lý Bảo Trân",
+        BAOTRAN_US_BIO_1: "",
+        BAOTRAN_US_BIO_2: "Sinh viên, US",
+        BAOTRAN_US_BACK_INFO: "",
+        BAOTRAN_US_BACK_EXTRA: "",
+
         DUCANH_US_BIO_NAME: "Nguyễn Đức Anh",
         DUCANH_US_BIO_1: "A43 CNNer, The Key School, Annapolis, MD",
         DUCANH_US_BIO_2: "Sinh viên",
-        DUCANH_US_BACK_INFO: "Thành viên lớp A khóa 43 (11-14). Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc. Mình nằm trong ban tổ chức chương trình Water Wise được tài trợ bởi Đại sứ quán Mỹ, và từ đó sáng lập và làm chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường. Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011. Được nhận học bổng của ASSIST program, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
+        DUCANH_US_BACK_INFO: "Thành viên lớp A khóa 43 (11-14).",
+        DUCANH_US_BACK_EXTRA: "Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc. Mình nằm trong ban tổ chức chương trình Water Wise được tài trợ bởi Đại sứ quán Mỹ, và từ đó sáng lập và làm chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường. Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011. Được nhận học bổng của ASSIST program, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
 
         HIEUANH_US_BIO_NAME: "Trịnh Ngọc Hiếu Anh",
         HIEUANH_US_BIO_1: "B42 CNNer, Duke University '18",
@@ -184,13 +191,14 @@ app.config(function ($translateProvider, $locationProvider) {
         MYHANH_SG_BIO_NAME: "Ngô Mỹ Hạnh",
         MYHANH_SG_BIO_1: "A41 CNNer, Nayang Technological University, Singapore",
         MYHANH_SG_BIO_2: "Sinh viên, Singapore",
-        MYHANH_SG_BACK_INFO: "Message to CNNers: Các em ơi đi du học làm gì, ở nhà với bố mẹ đi!",
+        MYHANH_SG_BACK_INFO: "Thành viên lớp A khóa 41 (09-12).",
+        MYHANH_SG_BACK_EXTRA: "Message to CNNers: Các em ơi đi du học làm gì, ở nhà với bố mẹ đi!",
 
         KLINH_GER_BIO_NAME: "Nguyễn Khánh Linh",
         KLINH_GER_BIO_1: "G42 CNNer, Học sinh trao đổi tại CHLB Đức 2012-2013",
         KLINH_GER_BIO_2: "Sinh viên",
         KLINH_GER_BACK_INFO: "Thành viên lớp G khóa 42 (10-13).",
-        KLINH_GER_BACK_EXTRA: "Lời nhắn nhỉ tới CNNers: Đức có môi trường học tập tốt, hệ thống giáo dục tiên tiến và được sự hỗ trợ nhiều mặt từ chính phủ, đặc biệt là học phí! Tiếng Đức cũng rất hay và logic, cùng với sự phong phú của nền văn hóa Đức khiến nơi đây trở thành điểm đến ưa thích của nhiều học sinh, sinh viên quốc tế trong đó có Việt Nam. Chúc các bạn may mắn và thành công trên con đường đã chọn.",
+        KLINH_GER_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Đức có môi trường học tập tốt, hệ thống giáo dục tiên tiến và được sự hỗ trợ nhiều mặt từ chính phủ, đặc biệt là học phí! Tiếng Đức cũng rất hay và logic, cùng với sự phong phú của nền văn hóa Đức khiến nơi đây trở thành điểm đến ưa thích của nhiều học sinh, sinh viên quốc tế trong đó có Việt Nam. Chúc các bạn may mắn và thành công trên con đường đã chọn.",
 
         KANH_JAP_BIO_NAME: "Nguyễn Kiều Anh",
         KANH_JAP_BIO_1: "A43 CNNer, Đại học APU, Nhật Bản",
