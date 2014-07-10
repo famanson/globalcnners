@@ -14,9 +14,9 @@
 var app = angular.module('GlobalCNNers', ['ngSanitize', 'pascalprecht.translate']);
 
 app.controller("ParentCtrl", function ($scope, $translate, $location) {
-	$scope.staffCellW = ($("#staff-view").width() - 40)/3;
+    $scope.staffCellW = ($("#staff-view").width() - 40)/3;
     $scope.correctFlippableHeight = function() {
-		$("#staff-view .pin img").height($scope.staffCellW);
+        $("#staff-view .pin img").height($scope.staffCellW);
         // Loop through element's children to find & set the biggest height
         $(".flipper").each(function(){
             var biggestHeight = "0";
@@ -65,7 +65,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         var member = staff[key];
         member['flippable'] = (member.back && member.back !== null && member.back !== '');
         var imagePresent = (member.image && member.image !== null && member.image !== '');
-		member['imagePresent'] = imagePresent;
+        member['imagePresent'] = imagePresent;
     }
     $scope.staff = staff;
     $scope.countries = countries;

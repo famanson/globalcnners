@@ -60,7 +60,7 @@ app.config(function ($translateProvider, $locationProvider) {
         BOOTH_TITLE: "Booth Staff",
         ADMIN_TITLE: "Conference Adminstrator",
         DESIGN_TITLE:"Designer",
-		DESIGN_CONSULT_TITLE: "Designer & Project Consultant",
+        DESIGN_CONSULT_TITLE: "Designer & Project Consultant",
 
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
@@ -191,7 +191,7 @@ app.config(function ($translateProvider, $locationProvider) {
         BOOTH_TITLE: "Nhóm làm quầy thông tin",
         ADMIN_TITLE: "Trưởng ban tổ chức",
         DESIGN_TITLE: "Thiết kế",
-		DESIGN_CONSULT_TITLE: "Thiết kế & Cố vấn dự án",
+        DESIGN_CONSULT_TITLE: "Thiết kế & Cố vấn dự án",
 
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",

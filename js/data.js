@@ -12,7 +12,7 @@ var staff = [
         backExtra: "SONPHAM_UK_BACK_EXTRA",
         country: "gb",
         picsize: "1024x1024",
-		image: "SONPHAM_UK.jpg"
+        image: "SONPHAM_UK.jpg"
     },
     {
         name: "MADMIN_UK_BIO_NAME",
@@ -44,9 +44,9 @@ var staff = [
         backExtra: "MPHUONG_US_BACK_EXTRA",
         country: "us",
         picsize: "1024x1024",
-		image: "MPHUONG_US.jpg"
+        image: "MPHUONG_US.jpg"
     },
-	    {
+        {
         name: "MINHNGOC_UK_BIO_NAME",
         title: "BOOTH_TITLE",
         rank: "low",
@@ -56,7 +56,7 @@ var staff = [
         backExtra: "MINHNGOC_UK_BACK_EXTRA",
         country: "gb",
         picsize: "1024x1024",
-		image: "MINHNGOC_UK.jpg"
+        image: "MINHNGOC_UK.jpg"
     },
     {
         name: "HONGCHAU_UK_BIO_NAME",
@@ -68,7 +68,7 @@ var staff = [
         backExtra: "HONGCHAU_UK_BACK_EXTRA",
         country: "gb",
         picsize: "1024x1024",
-		image: "HONGCHAU_UK.jpg"
+        image: "HONGCHAU_UK.jpg"
     },
     {
         name: "DUCANH_US_BIO_NAME",
@@ -92,7 +92,7 @@ var staff = [
         backExtra: "HIEUANH_US_BACK_EXTRA",
         country: "us",
         picsize: "1024x1024",
-		image: "HIEUANH_US.jpg"
+        image: "HIEUANH_US.jpg"
     },
     // FIN
     {
@@ -104,7 +104,7 @@ var staff = [
         back: "THUYTRANG_FIN_BACK_INFO",
         country: "fi",
         picsize: "1024x1024",
-		image: "THUYTRANG_FINLAND.jpg"
+        image: "THUYTRANG_FINLAND.jpg"
     },
     // SG
     {
@@ -116,7 +116,7 @@ var staff = [
         back: "MYHANH_SG_BACK_INFO",
         country: "sg",
         picsize: "1024x1024",
-		image: "MYHANH_SG.jpg"
+        image: "MYHANH_SG.jpg"
     },
     // GER
     {
@@ -129,7 +129,7 @@ var staff = [
         backExtra: "KLINH_GER_BACK_EXTRA",
         country: "de",
         picsize: "1024x1024",
-		image: "KLINH_GER.jpg"
+        image: "KLINH_GER.jpg"
     },
     // JAP
     {
@@ -142,7 +142,7 @@ var staff = [
         backExtra: "KANH_JAP_BACK_EXTRA",
         country: "jp",
         picsize: "1024x1024",
-		image: "KANH_JAP.jpg"
+        image: "KANH_JAP.jpg"
     }
 ];
 
@@ -181,7 +181,7 @@ var schedule = [
     {
         logo: "fa-users",
         title: "Meetup",
-        description: "Conference is open to the public",
+        description: "SCHEDULE_0745",
         time: "07:45"
     },
     {
