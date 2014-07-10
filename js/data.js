@@ -11,7 +11,8 @@ var staff = [
         back: "SONPHAM_UK_BACK_INFO",
         backExtra: "SONPHAM_UK_BACK_EXTRA",
         country: "gb",
-        picsize: "1024x1024"
+        picsize: "1024x1024",
+		image: "SONPHAM_UK.jpg"
     },
     {
         name: "MADMIN_UK_BIO_NAME",
