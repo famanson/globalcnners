@@ -197,7 +197,10 @@ body {
 .pin img {
     margin: 0;
     width: 100%;
-    height: auto !important;
+}
+
+.guest .pin img {
+	height: auto !important;
 }
 
 .pin .text {

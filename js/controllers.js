@@ -14,9 +14,11 @@
 var app = angular.module('GlobalCNNers', ['ngSanitize', 'pascalprecht.translate']);
 
 app.controller("ParentCtrl", function ($scope, $translate, $location) {
+	$scope.staffCellW = ($("#staff-view").width() - 40)/3;
     $scope.correctFlippableHeight = function() {
+		$("#staff-view .pin img").height($scope.staffCellW);
         // Loop through element's children to find & set the biggest height
-        $(" .flip-container .flipper").each(function(){
+        $(".flipper").each(function(){
             var biggestHeight = "0";
             $(this).find(".front").each(function(){
                 // If this elements height is bigger than the biggestHeight
@@ -87,11 +89,10 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
 
     $scope.buildStaffWall = function() {
         var staffWall = new freewall("#staff-view");
-        var staffCellW = ($("#staff-view").width() - 40)/3;
         staffWall.reset({
             selector: '.member',
             animate: true,
-            cellW: staffCellW,
+            cellW: $scope.staffCellW,
             cellH: 'auto',
             gutterX: 20,
             gutterY: 20,

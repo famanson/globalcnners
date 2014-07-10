@@ -24,30 +24,6 @@ var staff = [
         picsize: "1024x1024"
     },
     {
-        name: "MINHNGOC_UK_BIO_NAME",
-        title: "BOOTH_TITLE",
-        rank: "low",
-        firstBioline: "MINHNGOC_UK_BIO_1",
-        secondBioLine: "MINHNGOC_UK_BIO_2",
-        back: "MINHNGOC_UK_BACK_INFO",
-        backExtra: "MINHNGOC_UK_BACK_EXTRA",
-        country: "gb",
-        picsize: "1024x1024"
-    },
-    {
-        name: "HONGCHAU_UK_BIO_NAME",
-        title: "BOOTH_TITLE",
-        rank: "low",
-        firstBioline: "HONGCHAU_UK_BIO_1",
-        secondBioLine: "HONGCHAU_UK_BIO_2",
-        back: "HONGCHAU_UK_BACK_INFO",
-        backExtra: "HONGCHAU_UK_BACK_EXTRA",
-        country: "gb",
-        picsize: "1024x1024",
-		image: "HONGCHAU_UK.jpg"
-    },
-    // US
-    {
         name: "LY BAO TRAN",
         title: "DESIGN_TITLE",
         rank: "high",
@@ -69,6 +45,30 @@ var staff = [
         country: "us",
         picsize: "1024x1024",
 		image: "MPHUONG_US.jpg"
+    },
+	    {
+        name: "MINHNGOC_UK_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "MINHNGOC_UK_BIO_1",
+        secondBioLine: "MINHNGOC_UK_BIO_2",
+        back: "MINHNGOC_UK_BACK_INFO",
+        backExtra: "MINHNGOC_UK_BACK_EXTRA",
+        country: "gb",
+        picsize: "1024x1024",
+		image: "MINHNGOC_UK.jpg"
+    },
+    {
+        name: "HONGCHAU_UK_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "HONGCHAU_UK_BIO_1",
+        secondBioLine: "HONGCHAU_UK_BIO_2",
+        back: "HONGCHAU_UK_BACK_INFO",
+        backExtra: "HONGCHAU_UK_BACK_EXTRA",
+        country: "gb",
+        picsize: "1024x1024",
+		image: "HONGCHAU_UK.jpg"
     },
     {
         name: "DUCANH_US_BIO_NAME",
