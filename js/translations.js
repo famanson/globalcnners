@@ -94,7 +94,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HIEUANH_US_BIO_1: "B43 CNNer",
         HIEUANH_US_BIO_2: "Costa Rica - UWC Scholarship, Duke University '18, US",
         HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013 | Davis International Award | President, Guitar Club at UWCCR | Third Prize, National English Contest, 2012 | Distinctive Award, Vietnam National University, 2012 | Vice President, CNN Shine",
-        HIEUANH_US_BACK_EXTRA: "Message to CNNers: In order to archive your goal, besides individual effort, precise orientation is also very essential. Take advantage of varied chances and sources to assist your decision-making process. In other words, COME VISIT US AT CNN CONFERENCE 2014!",
+        HIEUANH_US_BACK_EXTRA: "Message to CNNers: In order to achieve your goal, besides individual effort, precise orientation is also very essential. Take advantage of varied chances and sources to assist your decision-making process. In other words, COME VISIT US AT CNN CONFERENCE 2014!",
 
         THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer",
@@ -115,7 +115,7 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BIO_1: "A43 CNNer",
         KANH_JAP_BIO_2: "Asia Pacific University ‘18, Japan",
         KANH_JAP_BACK_INFO: "80% Scholarship at Ritsumeikan Asia Pacific University (APU) Class of 2018  CNN Shine Member | CozyVil Project 2013",
-        KANH_JAP_BACK_EXTRA: "Message to CNNers: Someone used to tell me: “Studying abroad is not just to study, but to live, and to experience.” Besides learning in a better environment, experiencing a brand new life is really worth the effort. Therefore, when you are looking for a location, look deeply into its local environment and life, because it is where you will be living for a decent period of time. The most important thing is to find the most suitable environment in which you can fully develop your mindset and skill set in order to archive the best results. Make the best effort to do research and explore a variety of options to make the best decision!",
+        KANH_JAP_BACK_EXTRA: "Message to CNNers: studying abroad is not just to study, but to live, and to experience. Therefore, when you are looking for a location, look deeply into its local environment and life. The most important thing is to find the most suitable environment in which you can fully develop your mindset and skill set in order to achieve the best results. Make the best effort to do research and explore a variety of options to make the best decision!",
 
 
         MINHNGOC_UK_BIO_NAME: "Ngo Minh Ngoc",
