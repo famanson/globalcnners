@@ -189,6 +189,10 @@ body {
     box-shadow: 0 0 3px #888;
 }
 
+.pin ul {
+    padding-left: 20px;
+}
+
 .pin img {
     margin: 0;
     width: 100%;
