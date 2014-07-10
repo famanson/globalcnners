@@ -65,60 +65,42 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Founder, Global CNNers
-                               Administrator, CNN Conference 2009 and 2010
-                               Third Prize, National English Contest, 2007",
+        SONPHAM_UK_BACK_INFO: "Founder, Global CNNers | Administrator, CNN Conference 2009 and 2010 | Third Prize, National English Contest, 2007",
         SONPHAM_UK_BACK_EXTRA: "He left for England in 2007 and went on to study A-Level at Padworth College, Reading, then read Computer Science at Worcester College, Oxford University. He is working as a software engineer for Ocado Technology UK.",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
         MADMIN_UK_BIO_2: "SSI, Vietnam",
         MADMIN_UK_BACK_INFO: "Minh studied a 2-year A-Level course in England and then read Business and Management at Lancaster Uni. He also spent a year abroad at Richmond University in the States. Minh now lives in Saigon and work for SSI, Vietnam. He is also one of the founding members of Global CNNers and a senior admin/consultant for CNN Conference.",
-        
+
         MPHUONG_US_BIO_NAME: "Nguyen Mai Phuong",
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College ‘18, US",
         MPHUONG_US_BIO_2: "Administrator, CNN Conference 2014",
-        MPHUONG_US_BACK_INFO: "Former President, CNN English CLub 2012 - 2013
-                               Lead Organizer, Prom The Mayverlous - CNN Idol 2013
-                               FLSS Representative at Asian Young Leadership Convention 2012, Singapore
-                               Third Prize, National English Contest 2013 - 2014
-                               Top 10 Front The Most 2013",
+        MPHUONG_US_BACK_INFO: "Former President, CNN English CLub 2012 - 2013 | Lead Organizer, Prom The Mayverlous - CNN Idol 2013 | FLSS Representative at Asian Young Leadership Convention 2012, Singapore | Third Prize, National English Contest 2013 - 2014 | Top 10 Front The Most 2013",
         MPHUONG_US_BACK_EXTRA: "Message to CNNers: My favorite quotation is “Not knowing you can't do something, is sometimes all it takes to do it.” ― Ally Carter. Always believe in yourself, dream big, and set big goal! If you believe in yourself, you’re already halfway on making  your dream come true. This famous saying has accompanied me throughout 3 years of high school. Whenever facing up challenges or failures, I always remind myself to be patient and make better effort for even greater successes ^_^. This is my fourth year at CNN Conference. I hope that, just like me 4 years ago, you guys will acquire useful information about studying abroad, and more importantly, feel and understand the amazing skill and spirit of former successful CNNers. Register to attend CNN Conference 2014 and make it an FLSS  traditional net-working event every summer! See you all at the conference this coming 26th of July !!!" ,
-        
+
         BAOTRAN_US_BIO_NAME: "Ly Bao Tran",
         BAOTRAN_US_BIO_1: "A42 CNNer, Sewanee - Unversity of the South '18, US",
-        BAOTRAN_US_BIO_2: "Designer & Consultant, CNN Conference 2014", 
-        BAOTRAN_US_BACK_INFO: "CNN Conference 2013 Administator. Not coming back to Vietnam this summer, she decided to take on a new position as CNN Conference 2014 Designer and Project Consultant. Tran now works in New York City while supporting our conference by drawing bunny and air balloons everyday!"
-        
+        BAOTRAN_US_BIO_2: "Designer & Consultant, CNN Conference 2014",
+        BAOTRAN_US_BACK_INFO: "CNN Conference 2013 Administator. Not coming back to Vietnam this summer, she decided to take on a new position as CNN Conference 2014 Designer and Project Consultant. Tran now works in New York City while supporting our conference by drawing bunny and air balloons everyday!",
+
         DUCANH_US_BIO_NAME:"Nguyen Duc Anh",
         DUCANH_US_BIO_1: "A43 CNNer, The Key School, US - ASSIST Scholarship",
         DUCANH_US_BIO_2: "Student, US",
-        DUCANH_US_BACK_INFO: "ASSIST Scholar 2013
-                              Organizing Board, Water Wise Project hosted by the U.S. Embassy 
-                              Founder & President, Blue Exit Organization (Promote youth awareness of environmental issues)
-                              Potential Award, “Tat den bat y tuong” Contest, 2011",
+        DUCANH_US_BACK_INFO: "ASSIST Scholar 2013 | Organizing Board, Water Wise Project hosted by the U.S. Embassy | Founder & President, Blue Exit Organization (Promote youth awareness of environmental issues) | Potential Award, “Tat den bat y tuong” Contest, 2011",
         DUCANH_US_BACK_EXTRA:"Continuing my family legacy, I am the fourth generation at FLSS. There was a time when I participated 6 organizations at the same time, and now own a complete set of FLSS’s clubs’ uniforms!",
 
         HIEUANH_US_BIO_NAME: "Trinh Ngoc Hieu Anh",
         HIEUANH_US_BIO_1: "B43 CNNer, Costa Rica - UWC Scholarship, Duke University '18, US",
         HIEUANH_US_BIO_2: "Student, US",
-        HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013
-                               Davis International Award
-                               President, Guitar Club at UWCCR
-                               Third Prize, National English Contest, 2012
-                               Distinctive Award, Vietnam National University, 2012
-                               Vice President, CNN Shine",
+        HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013 | Davis International Award | President, Guitar Club at UWCCR | Third Prize, National English Contest, 2012 | Distinctive Award, Vietnam National University, 2012 | Vice President, CNN Shine",
         HIEUANH_US_BACK_EXTRA: "Message to CNNers: In order to archive your goal, besides individual effort, precise orientation is also very essential. Take advantage of varied chances and sources to assist your decision-making process. In other words, COME VISIT US AT CNN CONFERENCE 2014!",
-
 
         // Finland
         THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer, Saimaa Uni of Applied Sciences, Finland",
         THUYTRANG_FIN_BIO_2: "Student, Finland",
-        THUYTRANG_FIN_BACK_INFO: "FLSS Representative, Asian Young Leader Convention, 2012
-                                  Chief secretary, M43 
-                                  Member, CNN Dance Club
-                                  Orientation Group Leader, Ten Plus 2012",
+        THUYTRANG_FIN_BACK_INFO: "FLSS Representative, Asian Young Leader Convention, 2012 | Chief secretary, M43 Member, CNN Dance Club | Orientation Group Leader, Ten Plus 2012",
 
         MYHANH_SG_BIO_NAME: "Ngo My Hanh",
         MYHANH_SG_BIO_1: "A41 CNNer, Nayang Technological University, Singapore",
@@ -133,31 +115,21 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BIO_NAME: "Nguyen Kieu Anh",
         KANH_JAP_BIO_1: "A43 CNNer, Asia Pacific University ‘18",
         KANH_JAP_BIO_2: "Student, Japan",
-        KANH_JAP_BACK_INFO: "80% Scholarship at Ritsumeikan Asia Pacific University (APU) Class of 2018
-                            CNN Shine Member
-                            CozyVil Project 2013",
+        KANH_JAP_BACK_INFO: "80% Scholarship at Ritsumeikan Asia Pacific University (APU) Class of 2018  CNN Shine Member | CozyVil Project 2013",
         KANH_JAP_BACK_EXTRA: "Message to CNNers: Someone used to tell me: “Studying abroad is not just to study, but to live, and to experience.” Besides learning in a better environment, experiencing a brand new life is really worth the effort. Therefore, when you are looking for a location, look deeply into its local environment and life, because it is where you will be living for a decent period of time. The most important thing is to find the most suitable environment in which you can fully develop your mindset and skill set in order to archive the best results. Make the best effort to do research and explore a variety of options to make the best decision!",
 
-    
+
         MINHNGOC_UK_BIO_NAME: "Ngo Minh Ngoc",
         MINHNGOC_UK_BIO_1: "A43 CNNer, Cambridge Tutor College 2012 - 2014",
         MINHNGOC_UK_BIO_2: "Student, UK",
-        MINHNGOC_UK_BACK_INFO: "Full scholarship A-level at Cambridge Tutor College, MINHNGOC_UK_BIO_2
-                                Bronze Award UK Math Challenge, 2013
-                                Orientation Group Leader, Ten Plus 2012",
+        MINHNGOC_UK_BACK_INFO: "Full scholarship A-level at Cambridge Tutor College | Bronze Award UK Math Challenge, 2013 | Orientation Group Leader, Ten Plus 2012",
         MINHNGOC_UK_BACK_EXTRA: "Message to CNNers: COME TO THE UK!!! IT'S SO COOOOOOOL :)",
 
         HONGCHAU_UK_BIO_NAME: "Dinh Hong Chau",
         HONGCHAU_UK_BIO_1:"P44 CNNer, Ruthin School ’16, UK",
         HONGCHAU_UK_BIO_2: "Student, UK",
-        HONGCHAU_UK_BACK_INFO: "CNN Shine Member
-                                PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club)
-                                Head Admin, CNN Zoom Magazine, 2013 – 2014
-                                Organizing Team, “Finger Print K43 – Memory Station (the fuck!?) 2014” Yearbook
-                                Content Developing Team, Hanoi Food Rescue Project
-                                Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
-        HONGCHAU_UK_BACK_EXTRA: "Message to CNNers: Dream big. Work hard. Your dream will come true, just like mine!",        
-               
+        HONGCHAU_UK_BACK_INFO: "CNN Shine Member | PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club) | Head Admin, CNN Zoom Magazine, 2013 – 2014 | Organizing Team, “Finger Print K43 – Memory Station (the fuck!?) 2014” Yearbook | Content Developing Team, Hanoi Food Rescue Project Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
+        HONGCHAU_UK_BACK_EXTRA: "Message to CNNers: Dream big. Work hard. Your dream will come true, just like mine!",
 
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
@@ -235,80 +207,61 @@ app.config(function ($translateProvider, $locationProvider) {
         MPHUONG_US_BIO_NAME: "Nguyễn Mai Phương",
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College '18, US",
         MPHUONG_US_BIO_2: "Sinh viên, Hoa Kỳ",
-        MPHUONG_US_BACK_INFO: "Trưởng BTC CNN Conference 2014
-                               Cựu Chủ tịch CNN English Club 2012-2013
-                               Trưởng BTC Prom The Mayverlous - CNN Idol 2013. 
-                               Đại diện tham Dự Asian Young Leadership Convention 2012, Singapore. 
-                               Giải Ba Học sinh giỏi Quốc gia Tiếng Anh 2013-2014",
+        MPHUONG_US_BACK_INFO: "Trưởng BTC CNN Conference 2014 | Cựu Chủ tịch CNN English Club 2012-2013 | Trưởng BTC Prom The Mayverlous - CNN Idol 2013 | Đại diện tham Dự Asian Young Leadership Convention 2012, Singapore | Giải Ba Học sinh giỏi Quốc gia Tiếng Anh 2013-2014",
         MPHUONG_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: \"Not knowing you can't do something, is sometimes all it takes to do it.\" ― Ally Carter. Hãy luôn có lòng tin ở bản thân, dám ước mơ, đặt ra những thử thách cho chính mình! Chỉ cần tin là bạn sẽ làm được thôi, là bạn đã đi được nửa đường rồi. Mình mong là cũng như mình 4 năm về trước, các bạn đến đây sẽ có được những thông tin bổ ích cho định hướng du học của bản thân và hơn cả là được truyền ngọn lửa,  cảm nhận được spirit, bản lĩnh của các thế hệ CNNers thành công đi trước truyền lại!",
 
         BAOTRAN_US_BIO_NAME: "Lý Bảo Trân",
         BAOTRAN_US_BIO_1: "A42 CNNer, Sewanee - University of the South '18, US",
         BAOTRAN_US_BIO_2: "Sinh viên, Hoa Kỳ",
-        BAOTRAN_US_BACK_INFO: "Cựu Trưởng BTC CNN Conference 2013. Mùa hè này, Bảo Trân đang công tác tại thành phố New York và không có cơ hội về thăm Việt Nam. Do đó, Trân quyết định tham gia chương trình ở một vị trí mới là nhà thiết kế và cố vấn. Nói nôm na là vẽ thỏ và khinh khí cầu hàng ngày :)!"
-        
+        BAOTRAN_US_BACK_INFO: "Cựu Trưởng BTC CNN Conference 2013. Mùa hè này, Bảo Trân đang công tác tại thành phố New York và không có cơ hội về thăm Việt Nam. Do đó, Trân quyết định tham gia chương trình ở một vị trí mới là nhà thiết kế và cố vấn. Nói nôm na là vẽ thỏ và khinh khí cầu hàng ngày :)!",
+
         DUCANH_US_BIO_NAME: "Nguyễn Đức Anh",
         DUCANH_US_BIO_1: "A43 CNNer, The Key School, Annapolis, MD",
         DUCANH_US_BIO_2: "Học sinh, Hoa Kỳ",
         DUCANH_US_BACK_INFO: "Trong một gia đình đã 4 lần gắn bó với Chuyên Ngữ, CNN không còn lạ lùng với mình nữa. Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc, mình đã có một bố sưu tập áo đồng phục CNN khá đầy đủ. Thành viên BTC Chương Trình Water Wise được tài trợ bởi ĐSQ MỹNhận học bổng ASSIST, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
-        DUCANH_US_BACK_EXTRA:"Sáng lập viên và Chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường
-                              Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011",
+        DUCANH_US_BACK_EXTRA:"Sáng lập viên và Chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường | Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011",
 
 
         HIEUANH_US_BIO_NAME: "Trịnh Ngọc Hiếu Anh",
         HIEUANH_US_BIO_1: "B42 CNNer, Duke University '18",
         HIEUANH_US_BIO_2: "Sinh viên, Hoa Kỳ",
-        HIEUANH_US_BACK_INFO: "Học bổng các trường Thế giới Liên kết UWC tại Costa Rica
-                               Chủ tịch CLB Guitar UWCCR và giải thưởng Davis International Award
-                               Giải 3 tiếng anh quốc gia (2012)
-                               Danh hiệu gương mặt trẻ tiêu biểu cấp ĐHQGHN (2012)
-                               Phó chủ tịch CNN Shine",
+        HIEUANH_US_BACK_INFO: "Học bổng các trường Thế giới Liên kết UWC tại Costa Rica | Chủ tịch CLB Guitar UWCCR và giải thưởng Davis International Award | Giải 3 tiếng anh quốc gia (2012) | Danh hiệu gương mặt trẻ tiêu biểu cấp ĐHQGHN (2012) | Phó chủ tịch CNN Shine",
         HIEUANH_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: \"Happiness is not ready-made; it comes from your actions\"- Dalai Lama. Để đạt được điều mong muốn, bên cạnh nỗ lực cá nhân thì định hướng đúng là rất quan trọng. Vì vậy, hãy tận dụng cơ hội để đi tìm định hướng cho bản thân từ nhiều nơi, và một trong số đó là CNN Conference!",
 
         THUYTRANG_FIN_BIO_NAME: "Lê Thùy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer, Saimaa Uni of Applied Sciences",
         THUYTRANG_FIN_BIO_2: "Sinh viên, Phần Lan",
-        THUYTRANG_FIN_BACK_INFO: "Thành viên CLB CNN Dance Club.
-                                  Đại diện tham gia CT Hội Nghị Thủ lĩnh Châu Á tại Singapore năm 2012. 
-                                  Định Hướng Viên Chương trình 10+ 2012",
+        THUYTRANG_FIN_BACK_INFO: "Thành viên CLB CNN Dance Club | Đại diện tham gia CT Hội Nghị Thủ lĩnh Châu Á tại Singapore năm 2012 | Định Hướng Viên Chương trình 10+ 2012",
         THUYTRANG_FIN_BACK_EXTRA: "Học ngành Hotel, Restaurant and Tourism Management, Saimaa University of Applied Sciences",
 
         MYHANH_SG_BIO_NAME: "Ngô Mỹ Hạnh",
         MYHANH_SG_BIO_1: "A41 CNNer, Nayang Technological University, Singapore",
         MYHANH_SG_BIO_2: "Sinh viên, Singapore",
         MYHANH_SG_BACK_INFO: "Lời nhắn nhủ tới CNNers: Các em ơi đi du học làm gì, ở nhà với bố mẹ đi!",
-        
+
         KLINH_GER_BIO_NAME: "Nguyễn Khánh Linh",
         KLINH_GER_BIO_1: "G42 CNNer, Học sinh trao đổi tại CHLB Đức 2012-2013",
         KLINH_GER_BIO_2: "Sinh viên, Đức",
-        KLINH_GER_BACK_INFO: "Học bổng AFS, Chương trình Trao đổi Học sinh tại CHLB Đức", 
+        KLINH_GER_BACK_INFO: "Học bổng AFS, Chương trình Trao đổi Học sinh tại CHLB Đức",
         KLINH_GER_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Đức có môi trường học tập tốt, hệ thống giáo dục tiên tiến và được sự hỗ trợ nhiều mặt từ chính phủ, đặc biệt là học phí! Tiếng Đức cũng rất hay và logic, cùng với sự phong phú của nền văn hóa Đức khiến nơi đây trở thành điểm đến ưa thích của nhiều học sinh, sinh viên quốc tế trong đó có Việt Nam. Chúc các bạn may mắn và thành công trên con đường đã chọn.",
 
         KANH_JAP_BIO_NAME: "Nguyễn Kiều Anh",
         KANH_JAP_BIO_1: "A43 CNNer, Đại học APU, Nhật Bản",
         KANH_JAP_BIO_2: "Sinh viên, Nhật Bản",
-        KANH_JAP_BACK_INFO: "Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018.
-                             Thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
+        KANH_JAP_BACK_INFO: "Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018 | Thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
         KANH_JAP_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: du học không chỉ để học mà còn để sống, để trải nghiệm nữa. Do vậy theo mình, việc quan trọng nhất là chọn được một môi trường phù hợp với mình cả về cách học lẫn văn hóa, lối sống. Chỉ khi đó, bạn mới có thể phát huy hoàn toàn tiềm năng và đạt được những kết quả tốt nhất trong quá trình học tập của mình!",
 
         MINHNGOC_UK_BIO_NAME: "Ngô Minh Ngọc",
-        MINHNGOC_UK_BIO_1: "A43 CNNer, A-level 2 năm tại Trường Dự Bị Đại Học Cambridge, Vương Quốc Anh",
+        MINHNGOC_UK_BIO_1: "A43 CNNer, A-level 2 năm tại Cambridge Tutors College, Vương Quốc Anh",
         MINHNGOC_UK_BIO_2: " Sinh viên, Vương Quốc Anh",
-        MINHNGOC_UK_BACK_INFO: "Học bổng 100% Khóa học A-level 2 năm tại Trường Dự Bị Đại Học Cambridge, Vương Quốc Anh
-                                Huy Chương Đồng UK Math Challenge, 2013
-                                Định hướng viên, Chương trình 10+ 2012",
+        MINHNGOC_UK_BACK_INFO: "Học bổng 100% Khóa học A-level 2 năm tại Cambridge Tutors College, Vương Quốc Anh | Huy Chương Đồng UK Math Challenge, 2013 | Định hướng viên, Chương trình 10+ 2012",
         MINHNGOC_UK_BACK_EXTRA: "Hãy đến với Vương Quốc Anh!!! Thích lắm các em ơiiiiii :) !",
 
         HONGCHAU_UK_BIO_NAME: "Đinh Hồng Châu",
         HONGCHAU_UK_BIO_1: "P44 CNNer, Ruthin School '16, Vương Quốc Anh",
         HONGCHAU_UK_BIO_2: "Học sinh, Vương Quốc Anh",
-        HONGCHAU_UK_BACK_INFO: "Tình nguyện viên câu lạc bộ CNN Shine 
-                                Ban PR Chương trình triển lãm từ thiện The point 2012 (do CNN Pencil Club tổ chức) 
-                                Head Admin nội san CNN Zoom (2013 – 2014)
-                                Thành viên ban Kỷ yếu “Vân tay K43 – Trạm ký ức” (2014)
-                                Thành viên ban Nội dung dự án Hanoi Food Rescue
-                                Cộng tác viên tạp chí “Thế giới tuổi thơ” (NXB Kim Đồng)",
-        HONGCHAU_UK_BACK_EXTRA: "Dream big. Work hard. Your dream will come true, just like mine!",  
+        HONGCHAU_UK_BACK_INFO: "Tình nguyện viên câu lạc bộ CNN Shine | Ban PR Chương trình triển lãm từ thiện The point 2012 (do CNN Pencil Club tổ chức) | Head Admin nội san CNN Zoom (2013 – 2014) | Thành viên ban Kỷ yếu “Vân tay K43 – Trạm ký ức” (2014) | Thành viên ban Nội dung dự án Hanoi Food Rescue | Cộng tác viên tạp chí “Thế giới tuổi thơ” (NXB Kim Đồng)",
+        HONGCHAU_UK_BACK_EXTRA: "Dream big. Work hard. Your dream will come true, just like mine!",
 
                // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",

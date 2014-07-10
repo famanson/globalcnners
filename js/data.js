@@ -31,10 +31,9 @@ var staff = [
         secondBioLine: "MINHNGOC_UK_BIO_2",
         back: "MINHNGOC_UK_BACK_INFO",
         backExtra: "MINHNGOC_UK_BACK_EXTRA",
-        country: "uk",
+        country: "gb",
         picsize: "1024x512"
     },
-    
     {
         name: "HONGCHAU_UK_BIO_NAME",
         title: "BOOTH_TITLE",
@@ -45,12 +44,11 @@ var staff = [
         backExtra: "HONGCHAU_UK_BACK_EXTRA",
         country: "uk",
         picsize: "1024x512",
-    }
-
+    },
     // US
     {
         name: "LY BAO TRAN",
-        title: "DESIGN_TITLE", "CONSULT_TITLE",
+        title: "DESIGN_TITLE",
         rank: "high",
         firstBioLine: "A42 CNNERS",
         secondBioLine: "Sewanee - University of the South '18",
@@ -58,8 +56,7 @@ var staff = [
         backExtra: "blah blah blah",
         country: "us",
         picsize: "1024x512",
-    }
-
+    },
     {
         name: "MPHUONG_US_BIO_NAME",
         title: "ADMIN_TITLE",

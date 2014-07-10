@@ -35,17 +35,18 @@
     <script src="./js/data.js"></script>
     <script src="./js/controllers.js"></script>
     <script src="./js/directives.js"></script>
+    <script src="./js/filters.js"></script>
     <script src="./js/translations.js"></script>
     <script src="./js/main.js"></script>
   </head>
   <body ng-controller="ParentCtrl" class="init">
     <div id="prologue">
         <div class="center" id="prologue-header">
-            <h2><b>CNN CONFERENCE 2014</b></h2>
-            <span>by Global CNNers</span>
+            <h2><b>Global CNNers</b></h2>
+            <span>proudly introduce:</span>
         </div>
         <div id="balloon-wrapper">
-            <img id="balloon" class="bobble" src="./img/balloon-light.png"></img>
+            <img id="balloon" class="bobble" src="./img/balloon-text.png"></img>
             <div id="cloud1">
                 <div class="cloud-main"></div>
                 <div class="cloud-center"></div>
@@ -91,7 +92,6 @@
             <div class="row featurette">
                 <a class="anchor" id="hello"></a>
                 <div class="col-md-12">
-                    <img id="balloon-text" class="bobble" src="./img/balloon-text.png"></img>
                     <h2 class="featurette-heading center"><b>{{ 'HELLO_HEADING' | translate }}</b></h2>
                     <h2 class="center">{{ 'HELLO_TEXT_1' | translate }}</h2>
                 </div>
@@ -187,10 +187,10 @@
                                     <div class="pin {{ member.rank }}">
                                         <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                                         <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name | translate }}</b></h4>
-                                            <h5><b>{{ member.title | translate }}</b></h5>
-                                            <div>{{ member.firstBioLine | translate }}</div>
-                                            <div>{{ member.secondBioLine | translate }}</div>
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b></h4>
+                                            <h5><b ng-bind-html="member.title | translate"></b></h5>
+                                            <div ng-bind-html="member.firstBioLine | translate"></div>
+                                            <div ng-bind-html="member.secondBioLine | translate"></div>
                                         </div>
                                         <div style='clear: both'></div>
                                     </div>
@@ -198,10 +198,10 @@
                                 <div class="back">
                                     <div class="pin {{ member.rank }}">
                                         <div class="text">
-                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name | translate }}</b></h4>
-                                            <h5><b>{{ member.title | translate }}</b></h5>
-                                            <p class="lead">{{ member.back | translate }}</p>
-                                            <p class="lead">{{ member.backExtra | translate }}</p>
+                                            <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b></h4>
+                                            <h5><b ng-bind-html="member.title | translate"></b></h5>
+                                            <p class="lead" ng-bind-html="member.back | translate | listgen"></p>
+                                            <p class="lead" ng-bind-html="member.backExtra | translate"></p>
                                         </div>
                                         <div style='clear: both'></div>
                                     </div>
@@ -213,10 +213,10 @@
                         <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
                             <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                             <div class="text">
-                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name | translate }}</b></h4>
-                                <h5><b>{{ member.title | translate }}</b></h5>
-                                <div>{{ member.firstBioLine | translate }}</div>
-                                <div>{{ member.secondBioLine | translate }}</div>
+                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b></h4>
+                                <h5><b ng-bind-html="member.title | translate"></b></h5>
+                                <div ng-bind-html="member.firstBioLine | translate"></div>
+                                <div ng-bind-html="member.secondBioLine | translate"></div>
                             </div>
                             <div style='clear: both'></div>
                         </div>
@@ -230,10 +230,10 @@
                                         <div class="pin {{ member.rank }}">
                                             <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                                             <div class="text">
-                                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name | translate }}</b></h4>
-                                                <h5><b>{{ member.title | translate }}</b></h5>
-                                                <div>{{ member.firstBioLine | translate }}</div>
-                                                <div>{{ member.secondBioLine | translate }}</div>
+                                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b></h4>
+                                                <h5><b ng-bind-html="member.title | translate"></b></h5>
+                                                <div ng-bind-html="member.firstBioLine | translate"></div>
+                                                <div ng-bind-html="member.secondBioLine | translate"></div>
                                             </div>
                                             <div style='clear: both'></div>
                                         </div>
@@ -241,10 +241,10 @@
                                     <div class="back">
                                         <div class="pin {{ member.rank }}">
                                             <div class="text">
-                                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name | translate }}</b></h4>
-                                                <h5><b>{{ member.title | translate }}</b></h5>
-                                                <p class="lead">{{ member.back | translate }}</p>
-                                                <p class="lead">{{ member.backExtra | translate }}</p>
+                                                <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b></h4>
+                                                <h5><b ng-bind-html="member.title | translate"></b></h5>
+                                                <p class="lead" ng-bind-html="member.back | translate | listgen"></p>
+                                                <p class="lead" ng-bind-html="member.backExtra | translate"></p>
                                             </div>
                                             <div style='clear: both'></div>
                                         </div>
@@ -256,9 +256,9 @@
                             <div ng-if="!member.flippable" class="pin {{ member.rank }} {{ member.country }} member">
                                 <img class="img-responsive" data-src="holder.js/{{ member.picsize }}">
                                 <div class="text">
-                                    <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b>{{ member.name | translate }}, {{ member.title | translate }}.</b></h4>
-                                    <div>{{ member.firstBioLine | translate }}</div>
-                                    <div>{{ member.secondBioLine | translate }}</div>
+                                    <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b>, <b ng-bind-html="member.title | translate"></b></h4>
+                                    <div ng-bind-html="member.firstBioLine | translate"></div>
+                                    <div ng-bind-html="member.secondBioLine | translate"></div>
                                 </div>
                                 <div style='clear: both'></div>
                             </div>
