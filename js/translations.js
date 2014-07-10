@@ -66,8 +66,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Founder, Global CNNers | Administrator, CNN Conference 2009 and 2010 | Third Prize, National English Contest, 2007",
-        SONPHAM_UK_BACK_EXTRA: "He left for England in 2007 and went on to study A-Level at Padworth College, Reading, then read Computer Science at Worcester College, Oxford University. He is working as a software engineer for Ocado Technology UK.",
+        SONPHAM_UK_BACK_INFO: "Award for academic distinction 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate from Oxford Uni, UK (2012) | Currently software engineer at Ocado Technology, UK",
+        SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. I myself am not a really smart guy, but I would never give up because of that because I strongly believe there is an answer to every question: if you have not found it yet, look harder!",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
@@ -233,8 +233,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
         SONPHAM_UK_BIO_1: "A37 CNNer, ĐH Oxford, Anh Quốc",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Anh Quốc",
-        SONPHAM_UK_BACK_INFO: "Học sinh xuất sắc (2006-07) và giải Ba kỳ thi HSG quốc gia tiếng Anh (2006-07). Sáng lập Global CNNers (2007), trưởng ban tổ chức Conference 2009 và 2010.",
-        SONPHAM_UK_BACK_EXTRA: "Đến Anh năm 2007 để học A-Level tại Padworth College, Reading và sau đó là 3 năm đại học tại Worcester College, ĐH Oxford chuyên ngành khoa học máy tính. Hiện tại đang làm kỹ sư phần mềm tại công ty Ocado Technology, Anh Quốc.",
+        SONPHAM_UK_BACK_INFO: "Học sinh xuất sắc 2006-07 | Giải Ba HSG quốc gia tiếng Anh 2006-07 | Thành viên Media Team 10+ đầu tiên (2008) | Sáng lập Global CNNers (2007) | Trưởng ban tổ chức Conference 2009 & 2010 | Học bổng A-Level 50%, Padworth College, Reading, Anh Quốc (2007) | Giải Vàng ('08) & Bạc ('09) UK Maths Challenge | Tốt nghiệp Đại Học Oxford, Anh Quốc chuyên ngành Khoa Học Máy Tính (2012) | Hiện đang là kỹ sư phần mềm tại Ocado Technology, Anh Quốc",
+        SONPHAM_UK_BACK_EXTRA: "Lời nhắn cho các em CNNers: để làm nên bất cứ chuyện gì, trước hết mình cần thật sự ham muốn và theo đuổi nó đến cùng. Anh vốn không thật sự thông minh, nhưng không vì thế mà dễ dàng chùn bước vì anh luôn tin mọi vấn đề đều có lời giải: nếu chưa tìm thấy, phải tìm kỹ hơn!",
 
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
