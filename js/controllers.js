@@ -62,6 +62,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     for (key in staff) {
         var member = staff[key];
         member['flippable'] = (member.back && member.back !== null && member.back !== '');
+        member['imagePresent'] = (member.image && member.image !== null && member.image !== '');
     }
     $scope.staff = staff;
     $scope.countries = countries;
@@ -77,6 +78,11 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         var partition = key % staffPartitionSize;
         staffGroup[partition].push(member);
     }
+
+    $scope.hasImage = function(member) {
+        return
+    }
+
     $scope.staffGroup = staffGroup;
     $scope.staffWallEnabled = (window.innerWidth > 1365);
     $scope.staffPartitionSize = staffPartitionSize;
