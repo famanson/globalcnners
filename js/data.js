@@ -109,7 +109,6 @@ var staff = [
         firstBioLine: "MYHANH_SG_BIO_1",
         secondBioLine: "MYHANH_SG_BIO_2",
         back: "MYHANH_SG_BACK_INFO",
-        backExtra: "MYHANH_SG_BACK_EXTRA",
         country: "sg",
         picsize: "1024x512",
     },
