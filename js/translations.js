@@ -66,8 +66,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Award for academic distinction 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate from Oxford Uni, UK (2012) | Currently software engineer at Ocado Technology, UK",
-        SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. I myself am not a really smart guy, but I would never give up because of that because I strongly believe there is an answer to every question: if you have not found it yet, look harder!",
+        SONPHAM_UK_BACK_INFO: "Award for academic distinction 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate, Oxford Uni, UK (2012) | Software engineer at Ocado Technology, UK",
+        SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. I myself am not a really smart guy, but I would never give up because I strongly believe there's an answer to every question: if not found it yet, look harder!",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
