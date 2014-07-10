@@ -21,7 +21,7 @@ var staff = [
         secondBioLine: "MADMIN_UK_BIO_2",
         back: "MADMIN_UK_BACK_INFO",
         country: "gb",
-        picsize: "1024x512"
+        picsize: "1024x1024"
     },
     {
         name: "MINHNGOC_UK_BIO_NAME",
@@ -32,7 +32,7 @@ var staff = [
         back: "MINHNGOC_UK_BACK_INFO",
         backExtra: "MINHNGOC_UK_BACK_EXTRA",
         country: "gb",
-        picsize: "1024x512"
+        picsize: "1024x1024"
     },
     {
         name: "HONGCHAU_UK_BIO_NAME",
@@ -44,6 +44,7 @@ var staff = [
         backExtra: "HONGCHAU_UK_BACK_EXTRA",
         country: "gb",
         picsize: "1024x1024",
+		image: "HONGCHAU_UK.jpg"
     },
     // US
     {
@@ -55,7 +56,7 @@ var staff = [
         back: "blah blah blah",
         backExtra: "blah blah blah",
         country: "us",
-        picsize: "1024x512",
+        picsize: "1024x1024",
     },
     {
         name: "MPHUONG_US_BIO_NAME",
@@ -67,6 +68,7 @@ var staff = [
         backExtra: "MPHUONG_US_BACK_EXTRA",
         country: "us",
         picsize: "1024x1024",
+		image: "MPHUONG_US.jpg"
     },
     {
         name: "DUCANH_US_BIO_NAME",
@@ -78,6 +80,7 @@ var staff = [
         backExtra: "DUCANH_US_BACK_EXTRA",
         country: "us",
         picsize: "1024x1024",
+        image: "DUCANH_US.jpg"
     },
     {
         name: "HIEUANH_US_BIO_NAME",
@@ -89,6 +92,7 @@ var staff = [
         backExtra: "HIEUANH_US_BACK_EXTRA",
         country: "us",
         picsize: "1024x1024",
+		image: "HIEUANH_US.jpg"
     },
     // FIN
     {
@@ -99,7 +103,8 @@ var staff = [
         secondBioLine: "THUYTRANG_FIN_BIO_2",
         back: "THUYTRANG_FIN_BACK_INFO",
         country: "fi",
-        picsize: "1024x512",
+        picsize: "1024x1024",
+		image: "THUYTRANG_FINLAND.jpg"
     },
     // SG
     {
@@ -110,7 +115,8 @@ var staff = [
         secondBioLine: "MYHANH_SG_BIO_2",
         back: "MYHANH_SG_BACK_INFO",
         country: "sg",
-        picsize: "1024x512",
+        picsize: "1024x1024",
+		image: "MYHANH_SG.jpg"
     },
     // GER
     {
@@ -123,6 +129,7 @@ var staff = [
         backExtra: "KLINH_GER_BACK_EXTRA",
         country: "de",
         picsize: "1024x1024",
+		image: "KLINH_GER.jpg"
     },
     // JAP
     {
@@ -135,6 +142,7 @@ var staff = [
         backExtra: "KANH_JAP_BACK_EXTRA",
         country: "jp",
         picsize: "1024x1024",
+		image: "KANH_JAP.jpg"
     }
 ];
 

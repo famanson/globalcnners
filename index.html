@@ -186,7 +186,7 @@
                                 <div class="front">
                                     <div class="pin {{ member.rank }}">
                                         <img ng-if="!member.imagePresent" class="img-responsive" data-src="holder.js/{{ member.picsize }}">
-                                        <img ng-if="member.imagePresent" class="img-responsive" ng-src="member.image">
+                                        <img ng-if="member.imagePresent" class="img-responsive" ng-src="./img/portraits/{{member.image}}">
                                         <div class="text">
                                             <h4><span class="flag-icon flag-icon-{{ member.country }}"></span>  <b ng-bind-html="member.name | translate"></b></h4>
                                             <h5><b ng-bind-html="member.title | translate"></b></h5>
