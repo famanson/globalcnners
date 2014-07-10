@@ -93,7 +93,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
         HIEUANH_US_BIO_NAME: "Trinh Ngoc Hieu Anh",
         HIEUANH_US_BIO_1: "B43 CNNer",
-        HIEUANH_US_BIO_2: "Costa Rica - UWC Scholarship, Duke University '18, US",
+        HIEUANH_US_BIO_2: "Costa Rica UWC & Duke University '18, US",
         HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013 | Davis International Award | President, Guitar Club at UWCCR | Third Prize, National English Contest, 2012 | Distinctive Award, Vietnam National University, 2012 | Vice President, CNN Shine",
         HIEUANH_US_BACK_EXTRA: "Message to CNNers: In order to achieve your goal, besides individual effort, precise orientation is also very essential. Take advantage of varied chances and sources to assist your decision-making process. In other words, COME VISIT US AT CNN CONFERENCE 2014!",
 
@@ -109,7 +109,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
         KLINH_GER_BIO_NAME: "Nguyen Khanh Linh",
         KLINH_GER_BIO_1: "G42 CNNer",
-        KLINH_GER_BIO_2: "AFS Scholarship, Exchange Student in Germany 2012-2013",
+        KLINH_GER_BIO_2: "AFS Germany Scholarship 2012-13",
         KLINH_GER_BACK_INFO: "Message to CNNers: With a very forward education system and amazing financial support from the government, Germany has become a top destination for studying abroad. It’s really easy to fall in love with such a fun and logical language, and a very diverse culture. Good luck and have fun on your study abroad journey!",
 
         KANH_JAP_BIO_NAME: "Nguyen Kieu Anh",
