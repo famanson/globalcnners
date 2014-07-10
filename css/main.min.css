@@ -199,7 +199,7 @@ body {
     width: 100%;
 }
 
-.guest .pin img {
+.pin img.holder {
 	height: auto !important;
 }
 
