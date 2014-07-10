@@ -60,6 +60,7 @@ app.config(function ($translateProvider, $locationProvider) {
         BOOTH_TITLE: "Booth Staff",
         ADMIN_TITLE: "Conference Adminstrator",
         DESIGN_TITLE:"Designer",
+		DESIGN_CONSULT_TITLE: "Designer & Project Consultant",
 
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
@@ -80,7 +81,7 @@ app.config(function ($translateProvider, $locationProvider) {
         MPHUONG_US_BACK_EXTRA: "Message to CNNers: My favorite quotation is “Not knowing you can't do something, is sometimes all it takes to do it.” ― Ally Carter. Always believe in yourself, and you’re already halfway on making your dream come true. I hope that, just like me 4 years ago, you guys will acquire useful information about studying abroad, and more importantly, feel and understand the amazing skill and spirit of former successful CNNers! See you all at the Conference this coming 26th of July !!!" ,
 
         BAOTRAN_US_BIO_NAME: "Ly Bao Tran",
-        BAOTRAN_US_BIO_1: "A42 CNNer, Sewanee - Unversity of the South '18, US",
+        BAOTRAN_US_BIO_1: "A42 CNNer, Sewanee - Uni of the South '18, US",
         BAOTRAN_US_BIO_2: "Designer & Consultant, CNN Conference 2014",
         BAOTRAN_US_BACK_INFO: "CNN Conference 2013 Administator. Not coming back to Vietnam this summer, she decided to take on a new position as CNN Conference 2014 Designer and Project Consultant. Tran now works in New York City while supporting our conference by drawing bunny and air balloons everyday!",
 
@@ -190,6 +191,7 @@ app.config(function ($translateProvider, $locationProvider) {
         BOOTH_TITLE: "Nhóm làm quầy thông tin",
         ADMIN_TITLE: "Trưởng ban tổ chức",
         DESIGN_TITLE: "Thiết kế",
+		DESIGN_CONSULT_TITLE: "Thiết kế & Cố vấn dự án",
 
         // INDIVIDUAL STAFF
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",

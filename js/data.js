@@ -25,13 +25,12 @@ var staff = [
         picsize: "1024x1024"
     },
     {
-        name: "LY BAO TRAN",
-        title: "DESIGN_TITLE",
+        name: "BAOTRAN_US_BIO_NAME",
+        title: "DESIGN_CONSULT_TITLE",
         rank: "high",
-        firstBioLine: "A42 CNNERS",
-        secondBioLine: "Sewanee - University of the South '18",
-        back: "blah blah blah",
-        backExtra: "blah blah blah",
+        firstBioLine: "BAOTRAN_US_BIO_1",
+        secondBioLine: "BAOTRAN_US_BIO_2",
+        back: "BAOTRAN_US_BACK_INFO",
         country: "us",
         picsize: "1024x1024",
     },
