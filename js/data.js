@@ -179,51 +179,82 @@ var guests = [
 var schedule = [
     {
         logo: "fa-users",
-        title: "Meetup",
+        title: "SCHEDULE_TITLE_0745",
         description: "SCHEDULE_0745",
         time: "07:45"
     },
     {
         logo: "fa-paper-plane-o",
-        title: "Guest Speaker #1: High School Application",
-        description: "Conference is open to the public",
-        time: "08:30"
+        title: "SCHEDULE_TITLE_0800",
+        description: "SCHEDULE_0800",
+        time: "08:00"
     },
     {
         logo: "fa-university",
-        title: "Guest Speaker #2: University Application",
-        description: "University application, scholarships, papers and exams etc",
-        time: "09:00"
+        flag: "us",
+        title: "SCHEDULE_TITLE_0815",
+        description: "SCHEDULE_0815",
+        time: "08:15"
     },
     {
-        logo: "fa-comments-o",
-        title: "Q&A #1",
-        description: "Question and Answer session #1",
-        time: "09:30"
+        logo: "fa-university",
+        title: "SCHEDULE_TITLE_0920",
+        description: "SCHEDULE_0920",
+        time: "09:20"
     },
     {
         logo: "fa-coffee",
-        title: "Tea break: Casual hangout",
-        description: "Tea, coffee, soft drinks, biscuits",
+        title: "SCHEDULE_TITLE_1000",
+        description: "SCHEDULE_1000",
         time: "10:00"
     },
     {
-        logo: "fa-mortar-board",
-        title: "Guest Speaker #3: School, Uni life",
-        description: "Daily life",
+        logo: "fa-university",
+        title: "SCHEDULE_TITLE_1015",
+        description: "SCHEDULE_1015",
+        time: "10:15"
+    },
+    {
+        logo: "fa-university",
+        title: "SCHEDULE_TITLE_1030",
+        description: "SCHEDULE_1030",
         time: "10:30"
     },
     {
-        logo: "fa-mortar-board",
-        title: "Guest Speaker #4: Whatever other stuff",
-        description: "Have fun?",
+        logo: "fa-university",
+        title: "SCHEDULE_TITLE_1045",
+        description: "SCHEDULE_1045",
+        time: "10:45"
+    },
+    {
+        logo: "fa-university",
+        title: "SCHEDULE_TITLE_1100",
+        description: "SCHEDULE_1100",
         time: "11:00"
     },
     {
+        logo: "fa-flag-checkered",
+        title: "SCHEDULE_TITLE_1115",
+        description: "SCHEDULE_TITLE_1115",
+        time: "11:15"
+    },
+    {
+        logo: "fa-paper-plane",
+        title: "SCHEDULE_TITLE_1330",
+        description: "SCHEDULE_1330",
+        time: "13:30"
+    },
+    {
         logo: "fa-comments-o",
-        title: "Q&A #2",
-        description: "Question and Answer session #2",
-        time: "11:00"
+        title: "SCHEDULE_TITLE_1345",
+        description: "SCHEDULE_1345",
+        time: "13:45"
+    },
+    {
+        logo: "fa-clock-o",
+        title: "SCHEDULE_TITLE_1600",
+        description: "SCHEDULE_TITLE_1600",
+        time: "16:00"
     }
 ];
 

@@ -103,15 +103,15 @@
                 <a class="anchor" id="schedule"></a>
                 <div class="col-md-12">
                     <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_HEADING' | translate }}</b></h2>
-                    <h3 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_TEXT_1' | translate }}</b></h3>
+                    <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_TEXT_1' | translate }}</b></h2>
                     <h4 class="featurette-heading center text-schedule">{{ 'SCHEDULE_TEXT_2' | translate }}</h4>
                     <ul class="cbp_tmtimeline">
                         <li ng-repeat="entry in schedule">
                             <time class="cbp_tmtime" datetime="2014-01-01 {{ entry.time }}"><span>01/01/14</span> <span>{{ entry.time }}</span></time>
                             <div class="cbp_tmicon fa {{ entry.logo }} fa-lg"></div>
                             <div class="cbp_tmlabel">
-                                <h2 ng-bind-html="entry.title"></h2>
-                                <p ng-bind-html="entry.description"></p>
+                                <h2 ng-bind-html="entry.title | translate"></h2>
+                                <p ng-bind-html="entry.description | translate | listgen"></p>
                             </div>
                         </li>
                     </ul>

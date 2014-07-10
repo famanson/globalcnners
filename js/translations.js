@@ -16,7 +16,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_HEADING: "Hello!",
 
         // Hello section
-        HELLO_TEXT_1: "We are Global CNNers, and we've come around to say hi.",
+        HELLO_TEXT_1: "We are Global CNNers, we've all come together to bring CNN Conference back for the 6th time this summer!",
 
         // Schedule section
         SCHEDULE_TEXT_1: "Date: 26/07/2014",
@@ -128,7 +128,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HONGCHAU_UK_BIO_NAME: "Dinh Hong Chau",
         HONGCHAU_UK_BIO_1:"P44 CNNer",
         HONGCHAU_UK_BIO_2: "Ruthin School '16, UK",
-        HONGCHAU_UK_BACK_INFO: "CNN Shine Member | PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club) | Head Admin, CNN Zoom Magazine, 2013 – 2014 | Organizing Team, “Finger Print K43 – Memory Station (the fuck!?) 2014” Yearbook | Content Developing Team, Hanoi Food Rescue Project Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
+        HONGCHAU_UK_BACK_INFO: "CNN Shine Member | PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club) | Head Admin, CNN Zoom Magazine, 2013 – 2014 | Organizing Team, “Finger Print K43 – Memory Station 2014” Yearbook | Content Developing Team, Hanoi Food Rescue Project Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
         HONGCHAU_UK_BACK_EXTRA: "Message to CNNers: Dream big. Work hard. Your dream will come true, just like mine!",
 
         // Mock staff
@@ -147,11 +147,47 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_HEADING: "Xin chào!",
 
         // Hello section
-        HELLO_TEXT_1: "We are Global CNNers, and we've come around to say hi.",
+        HELLO_TEXT_1: "Chúng tôi là các du học sinh Chuyên Ngữ, tụ hội mùa hè này và đưa hội thảo du học CNN trở lại lần thứ 6!",
 
         // Schedule section
         SCHEDULE_TEXT_1: "Ngày diễn ra hội thảo: 26/07/2014",
         SCHEDULE_TEXT_2: "Lưu ý: Để tham dự hội thảo, xin vui lòng đăng ký tại đường dẫn ở cuối trang",
+        SCHEDULE_TITLE_0745: "Hội thảo mở cửa",
+        SCHEDULE_0745: "­Tiếp đón học sinh và phụ huynh",
+
+        SCHEDULE_TITLE_0800: "Lời mở đầu",
+        SCHEDULE_0800: "­Giới thiệu chương trình và nhà tài trợ | Giới thiệu các khách mời chương trình",
+
+        SCHEDULE_TITLE_0815: "<span class='flag-icon flag-icon-us'></span> Thuyết trình - Du học Hoa Kỳ",
+        SCHEDULE_0815: "­Du học Mỹ hệ trung học (ASSIST, UWC, Exchange) | Tổng quan về du học US hệ đại học | Đời sống du học sinh | Hỏi đáp với khách mời",
+
+        SCHEDULE_TITLE_0920: "<span class='flag-icon flag-icon-gb'></span> Thuyết trình - Du học Anh Quốc",
+        SCHEDULE_0920: "­Du học Anh hệ A-Level | Du học Anh hệ đại học | Cơ hội việc làm",
+
+        SCHEDULE_TITLE_1000: "Giải lao",
+        SCHEDULE_1000: "­Trò chơi | Đồ uống nhẹ",
+
+        SCHEDULE_TITLE_1015: "<span class='flag-icon flag-icon-fi'></span> Thuyết trình - Du học Phần Lan",
+        SCHEDULE_1015: "Du học Phần Lan, Thùy Trang",
+
+        SCHEDULE_TITLE_1030: "<span class='flag-icon flag-icon-jp'></span> Thuyết trình - Du học Nhật Bản",
+        SCHEDULE_1030: "Du học Nhật Bản, Kiều Anh",
+
+        SCHEDULE_TITLE_1045: "<span class='flag-icon flag-icon-sg'></span> Thuyết trình - Du học Singapore",
+        SCHEDULE_1045: "Du học Singapore, Mỹ Hạnh",
+
+        SCHEDULE_TITLE_1100: "<span class='flag-icon flag-icon-kr'></span> Thuyết trình - Du học Hàn Quốc",
+        SCHEDULE_1100: "Du học Hàn Quốc, Hiền Trang",
+
+        SCHEDULE_TITLE_1115: "Kết thúc chương trình buổi sáng",
+
+        SCHEDULE_TITLE_1330: "Quầy tư vấn du học mở cửa",
+        SCHEDULE_1330: "Giới thiệu chương trình và nhà tài trợ | Giới thiệu cách thức hoạt động của booth",
+
+        SCHEDULE_TITLE_1345: "Quầy tư vấn du học dạng Fair & Tea Break:",
+        SCHEDULE_1345: "Quầy Nhà tài trợ Summit Quầy Du học Mỹ (Assist, UWC, Exchange, Boarding, College) |  Quầy Du học Anh Quốc (School, College and University) | Quầy Du học Pháp | Quầy Du học Đức | Quầy Du học Nhật | Quầy Du học Hàn Quốc | Quầy Du học Hàn Quốc | Quầy Du học Phần Lan | Quầy Du học Canada | Quầy các chương trình liên kết & du học tại chỗ (RMIT + BUV)",
+
+        SCHEDULE_TITLE_1600: "Kết thúc chương trình buổi chiều",
 
         // Guest Speakers section
         SPEAKERS_TEXT_1: "Các bạn và anh chị du học sinh Chuyên Ngữ là khách mời đến chia sẻ kinh nghiệm và bí quyết thành công tại hội thảo du học CNN 2014.",

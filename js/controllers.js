@@ -130,6 +130,10 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     $scope.guestGroup = guestGroup;
     $scope.guestPartitionSize = guestPartitionSize;
 }).controller("ScheduleCtrl", function($scope) {
+    for (key in schedule) {
+        var entry = schedule[key];
+        entry['flagPresent'] = (entry.flag && entry.flag !== null && entry.flag !== '');
+    }
     $scope.schedule = schedule;
 }).controller("TestimonialsCtrl", function($scope) {
     var testimonialPartitionSize = 3;
