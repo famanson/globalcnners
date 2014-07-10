@@ -1,7 +1,18 @@
 var countries = [ 'us', 'gb', 'fi', 'sg', 'de', 'jp' ];
 
 var staff = [
-    // UK
+    {
+        name: "MPHUONG_US_BIO_NAME",
+        title: "ADMIN_TITLE",
+        rank: "high",
+        firstBioLine: "MPHUONG_US_BIO_1",
+        secondBioLine: "MPHUONG_US_BIO_2",
+        back: "MPHUONG_US_BACK_INFO",
+        backExtra: "MPHUONG_US_BACK_EXTRA",
+        country: "us",
+        picsize: "1024x1024",
+        image: "MPHUONG_US.jpg"
+    },
     {
         name: "SONPHAM_UK_BIO_NAME",
         title: "CONSULT_TITLE",
@@ -35,18 +46,6 @@ var staff = [
         picsize: "1024x1024",
     },
     {
-        name: "MPHUONG_US_BIO_NAME",
-        title: "ADMIN_TITLE",
-        rank: "high",
-        firstBioLine: "MPHUONG_US_BIO_1",
-        secondBioLine: "MPHUONG_US_BIO_2",
-        back: "MPHUONG_US_BACK_INFO",
-        backExtra: "MPHUONG_US_BACK_EXTRA",
-        country: "us",
-        picsize: "1024x1024",
-        image: "MPHUONG_US.jpg"
-    },
-        {
         name: "MINHNGOC_UK_BIO_NAME",
         title: "BOOTH_TITLE",
         rank: "low",
