@@ -116,7 +116,7 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BIO_1: "A43 CNNer",
         KANH_JAP_BIO_2: "Asia Pacific University ‘18, Japan",
         KANH_JAP_BACK_INFO: "80% Scholarship at Ritsumeikan Asia Pacific University (APU) Class of 2018  CNN Shine Member | CozyVil Project 2013",
-        KANH_JAP_BACK_EXTRA: "Message to CNNers: studying abroad is not just to study, but to live, and to experience. Therefore, when you are looking for a location, look deeply into its local environment and life. The most important thing is to find the most suitable environment in which you can fully develop your mindset and skill set in order to achieve the best results. Make the best effort to do research and explore a variety of options to make the best decision!",
+        KANH_JAP_BACK_EXTRA: "Message to CNNers: Someone used to tell me that studying abroad is not just to study, but to live, and to experience. Therefore, when you are looking for a location, look deeply into its local environment and life. The most important thing is to find the most suitable environment in which you can fully develop your mindset and skill set in order to achieve the best results. Make the best effort to do research and explore a variety of options to make the best decision!",
 
 
         MINHNGOC_UK_BIO_NAME: "Ngo Minh Ngoc",
@@ -286,7 +286,7 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BIO_1: "A43 CNNer",
         KANH_JAP_BIO_2: "Đại học APU, Nhật Bản",
         KANH_JAP_BACK_INFO: "Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018 | Thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
-        KANH_JAP_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: du học không chỉ để học mà còn để sống, để trải nghiệm nữa. Do vậy theo mình, việc quan trọng nhất là chọn được một môi trường phù hợp với mình cả về cách học lẫn văn hóa, lối sống. Chỉ khi đó, bạn mới có thể phát huy hoàn toàn tiềm năng và đạt được những kết quả tốt nhất trong quá trình học tập của mình!",
+        KANH_JAP_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Có một người từng nói với mình rằng đi du học không chỉ để học mà còn để sống, để trải nghiệm nữa. Do vậy theo mình, việc quan trọng nhất là chọn được một môi trường phù hợp với mình cả về cách học lẫn văn hóa, lối sống. Chỉ khi đó, bạn mới có thể phát huy hoàn toàn tiềm năng và đạt được những kết quả tốt nhất trong quá trình học tập của mình!",
 
         MINHNGOC_UK_BIO_NAME: "Ngô Minh Ngọc",
         MINHNGOC_UK_BIO_1: "A43 CNNer",
