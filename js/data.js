@@ -26,7 +26,7 @@ var staff = [
     {
         name: "MINHNGOC_UK_BIO_NAME",
         title: "BOOTH_TITLE",
-        rank: "high",
+        rank: "low",
         firstBioline: "MINHNGOC_UK_BIO_1",
         secondBioLine: "MINHNGOC_UK_BIO_2",
         back: "MINHNGOC_UK_BACK_INFO",
@@ -37,13 +37,13 @@ var staff = [
     {
         name: "HONGCHAU_UK_BIO_NAME",
         title: "BOOTH_TITLE",
-        rank: "high",
+        rank: "low",
         firstBioline: "HONGCHAU_UK_BIO_1",
         secondBioLine: "HONGCHAU_UK_BIO_2",
         back: "HONGCHAU_UK_BACK_INFO",
         backExtra: "HONGCHAU_UK_BACK_EXTRA",
-        country: "uk",
-        picsize: "1024x512",
+        country: "gb",
+        picsize: "1024x1024",
     },
     // US
     {
