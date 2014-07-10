@@ -147,7 +147,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_HEADING: "Xin chào!",
 
         // Hello section
-        HELLO_TEXT_1: "Chúng tôi là các du học sinh Chuyên Ngữ, tụ hội mùa hè này và đưa hội thảo du học CNN trở lại lần thứ 6!",
+        HELLO_TEXT_1: "Chúng tôi là Hội du học sinh Chuyên Ngữ, tụ hội mùa hè này để đưa hội thảo du học CNN trở lại lần thứ 6!",
 
         // Schedule section
         SCHEDULE_TEXT_1: "Ngày diễn ra hội thảo: 26/07/2014",
