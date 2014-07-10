@@ -13,7 +13,7 @@ app.config(function ($translateProvider, $locationProvider) {
         STAFF_HEADING: "Rest of the Crew",
         SPEAKERS_HEADING: "Guest Speakers",
         SCHEDULE_HEADING: "Conference Schedule",
-        HELLO_HEADING: "Hello CNNers!",
+        HELLO_HEADING: "Hello!",
 
         // Hello section
         HELLO_TEXT_1: "We are Global CNNers, and we've come around to say hi.",
@@ -96,7 +96,6 @@ app.config(function ($translateProvider, $locationProvider) {
         HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013 | Davis International Award | President, Guitar Club at UWCCR | Third Prize, National English Contest, 2012 | Distinctive Award, Vietnam National University, 2012 | Vice President, CNN Shine",
         HIEUANH_US_BACK_EXTRA: "Message to CNNers: In order to archive your goal, besides individual effort, precise orientation is also very essential. Take advantage of varied chances and sources to assist your decision-making process. In other words, COME VISIT US AT CNN CONFERENCE 2014!",
 
-        // Finland
         THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer",
         THUYTRANG_FIN_BIO_2: "Saimaa Uni of Applied Sciences, Finland",
@@ -127,7 +126,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
         HONGCHAU_UK_BIO_NAME: "Dinh Hong Chau",
         HONGCHAU_UK_BIO_1:"P44 CNNer",
-        HONGCHAU_UK_BIO_2: "Ruthin School ’16, UK",
+        HONGCHAU_UK_BIO_2: "Ruthin School '16, UK",
         HONGCHAU_UK_BACK_INFO: "CNN Shine Member | PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club) | Head Admin, CNN Zoom Magazine, 2013 – 2014 | Organizing Team, “Finger Print K43 – Memory Station (the fuck!?) 2014” Yearbook | Content Developing Team, Hanoi Food Rescue Project Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
         HONGCHAU_UK_BACK_EXTRA: "Message to CNNers: Dream big. Work hard. Your dream will come true, just like mine!",
 
