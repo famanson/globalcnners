@@ -5,7 +5,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
     $translateProvider.translations("en", {
         // Headings
-        LANGUAGE_HEADING: "Language",
+        LANGUAGE_HEADING: "Ngôn ngữ",
         TITLE_HEADING: "CNN Conference 2014",
         CONTACT_HEADING: "Register/Contact Us",
         TESTIMONIALS_HEADING: "Testimonials",
@@ -174,7 +174,7 @@ app.config(function ($translateProvider, $locationProvider) {
         MOCK_BACK_INFO: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }).translations("vn", {
         // Headings
-        LANGUAGE_HEADING: "Ngôn ngữ",
+        LANGUAGE_HEADING: "Language",
         CONTACT_HEADING: "Đăng ký/Liên hệ",
         TESTIMONIALS_HEADING: "Testimonials",
         DOCS_HEADING: "Tài liệu",
