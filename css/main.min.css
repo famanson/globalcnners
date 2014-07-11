@@ -537,22 +537,16 @@ body {
     }
 }
 
-@media handheld and (max-width: 400px) {
-    .flipper .back .text p {
+@media (max-width: 400px) {
+    .back {
         font-size: 14px;
     }
     .flip-container:hover .front .text, .flip-container .front .text {
         border-left: none;
     }
-    .back .pin .text {
-        padding: 5px;
-    }
-    .back h4, .back h5 {
-        margin: 2px 0;
-    }
 }
 
-@media handheld and (max-width: 350px) {
+@media (max-width: 370px) {
     .back .pin p {
         margin-bottom: 5px;
     }
@@ -560,6 +554,12 @@ body {
         padding-left: 20px;
         font-size: 11px;
         margin-bottom: 5px;
+    }
+    .back .pin .text {
+        padding: 5px;
+    }
+    .back h4, .back h5 {
+        margin: 2px 0;
     }
     .flipper .back .text p {
         font-size: 12.5px;
