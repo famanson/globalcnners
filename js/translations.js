@@ -51,7 +51,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SCHEDULE_TITLE_1115: "The End of Morning Section",
 
         SCHEDULE_TITLE_1330: "Advisory Booths Open",
-        SCHEDULE_1330: "Introduction of CNN Conference & Conference 2014's Sponsor | Instruction of Advisory Booths' Activities",
+        SCHEDULE_1330: "Introduction of CNN Conference & Conference 2014's Sponsor | Instruction to Advisory Booths' Activities",
 
         SCHEDULE_TITLE_1345: "Activity Fair & Tea Break:",
         SCHEDULE_1345: "Summit Education Services' Booth | US Booths (Assist, UWC, Exchange, Boarding, College) |  UK Booths (School, College and University) | France Booth | Germany Booth | Japan Booth | Korea Booth| Finland Booth| Canada Booth | International Schools in Vietnam's Booth(RMIT + BUV)",
