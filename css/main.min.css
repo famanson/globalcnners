@@ -552,7 +552,7 @@ body {
     }
     .back .pin ul {
         padding-left: 20px;
-        font-size: 11px;
+        font-size: 12px;
         margin-bottom: 5px;
     }
     .back .pin .text {
@@ -562,7 +562,16 @@ body {
         margin: 2px 0;
     }
     .flipper .back .text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .flipper .back .text p {
         font-size: 12.5px;
+    }
+    .back .pin ul {
+        font-size: 11px;
     }
 }
 

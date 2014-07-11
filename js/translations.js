@@ -67,7 +67,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
         SONPHAM_UK_BACK_INFO: "Award for academic distinction 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate, Oxford Uni, UK (2012) | Software engineer at Ocado Technology, UK",
-        SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. You may not be as smart as other people, but never let it get to you! I strongly believe there's an answer to every question: if not found it yet, look harder!",
+        SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. My story can be summed up in a sentence: I believe there's an answer to every question, one just needs to look harder! Sheer determination can do lots of things.",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
@@ -87,7 +87,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
         DUCANH_US_BIO_NAME:"Nguyen Duc Anh",
         DUCANH_US_BIO_1: "A43 CNNer",
-        DUCANH_US_BIO_2: "The Key School, Annapolis, MD",
+        DUCANH_US_BIO_2: "The Key School, Annapolis, MD (ASSIST)",
         DUCANH_US_BACK_INFO: "ASSIST Scholar 2013 | Organizing Board, Water Wise Project hosted by the U.S. Embassy | Founder & President, Blue Exit Organization (Promote youth awareness of environmental issues) | Potential Award, “Tat den bat y tuong” Contest, 2011",
         DUCANH_US_BACK_EXTRA:"Continuing my family legacy, I am the fourth generation at FLSS. There was a time when I participated 6 organizations at the same time, and now own a complete set of FLSS’s clubs’ uniforms!",
 
@@ -234,7 +234,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_1: "A37 CNNer, ĐH Oxford, Anh Quốc",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Anh Quốc",
         SONPHAM_UK_BACK_INFO: "Học sinh xuất sắc 2006-07 | Giải Ba HSG quốc gia tiếng Anh 2006-07 | Thành viên Media Team 10+ đầu tiên (2008) | Sáng lập Global CNNers (2007) | Trưởng ban tổ chức Conference 2009 & 2010 | Học bổng A-Level 50%, Padworth College, Reading, Anh Quốc (2007) | Giải Vàng ('08) & Bạc ('09) UK Maths Challenge | Tốt nghiệp Đại Học Oxford, Anh Quốc chuyên ngành Khoa Học Máy Tính (2012) | Kỹ sư phần mềm tại Ocado Technology UK",
-        SONPHAM_UK_BACK_EXTRA: "Lời nhắn cho các em CNNers: để làm nên bất cứ chuyện gì, trước hết mình cần thật sự ham muốn và theo đuổi nó đến cùng. Có thể mình không giỏi như người khác, nhưng không vì thế mà chùn bước! Anh luôn tin rằng mọi vấn đề đều có lời giải: nếu chưa tìm thấy, phải tìm kỹ hơn!",
+        SONPHAM_UK_BACK_EXTRA: "Lời nhắn cho các CNNers: để làm nên bất cứ chuyện gì, các em cần thật sự ham muốn và theo đuổi nó đến cùng. Có thể tóm gọn câu chuyện của anh trong một câu: anh tin rằng mọi vấn đề đều có lời giải, mình chỉ cần tìm kỹ hơn! Sự quyết tâm có thể tạo rất nhiều khác biệt.",
 
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
@@ -254,8 +254,8 @@ app.config(function ($translateProvider, $locationProvider) {
 
         DUCANH_US_BIO_NAME: "Nguyễn Đức Anh",
         DUCANH_US_BIO_1: "A43 CNNer",
-        DUCANH_US_BIO_2: "The Key School, Annapolis, MD",
-        DUCANH_US_BACK_INFO: "Trong một gia đình đã 4 lần gắn bó với Chuyên Ngữ, CNN không còn lạ lùng với mình nữa. Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc, mình đã có một bố sưu tập áo đồng phục CNN khá đầy đủ. Thành viên BTC Chương Trình Water Wise được tài trợ bởi ĐSQ MỹNhận học bổng ASSIST, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
+        DUCANH_US_BIO_2: "The Key School, Annapolis, MD (ASSIST)",
+        DUCANH_US_BACK_INFO: "Trong một gia đình đã 4 lần gắn bó với Chuyên Ngữ, CNN không còn lạ lùng với mình nữa. Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc, mình đã có một bố sưu tập áo đồng phục CNN khá đầy đủ. Thành viên BTC Chương Trình Water Wise được tài trợ bởi ĐSQ Mỹ. Nhận học bổng ASSIST, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
         DUCANH_US_BACK_EXTRA:"Sáng lập viên và Chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường | Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011",
 
 
