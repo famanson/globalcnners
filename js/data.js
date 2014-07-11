@@ -26,16 +26,6 @@ var staff = [
         image: "SONPHAM_UK.jpg"
     },
     {
-        name: "MADMIN_UK_BIO_NAME",
-        title: "CONSULT_TITLE",
-        rank: "high",
-        firstBioLine: "MADMIN_UK_BIO_1",
-        secondBioLine: "MADMIN_UK_BIO_2",
-        back: "MADMIN_UK_BACK_INFO",
-        country: "gb",
-        picsize: "1024x1024"
-    },
-    {
         name: "BAOTRAN_US_BIO_NAME",
         title: "DESIGN_CONSULT_TITLE",
         rank: "high",
@@ -44,6 +34,16 @@ var staff = [
         back: "BAOTRAN_US_BACK_INFO",
         country: "us",
         picsize: "1024x1024",
+    },
+    {
+        name: "MADMIN_UK_BIO_NAME",
+        title: "CONSULT_TITLE",
+        rank: "high",
+        firstBioLine: "MADMIN_UK_BIO_1",
+        secondBioLine: "MADMIN_UK_BIO_2",
+        back: "MADMIN_UK_BACK_INFO",
+        country: "gb",
+        picsize: "1024x1024"
     },
     {
         name: "MINHNGOC_UK_BIO_NAME",
