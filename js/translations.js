@@ -26,7 +26,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SPEAKERS_TEXT_1: "Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.",
 
         //Staff section
-        STAFF_TEXT_1: "Those behind the scene helping make this all happen. All Q&A staff will be available on the day",
+        STAFF_TEXT_1: "All those helping make this Conference happen. The administrator, speakers, all Q&A and booth staff will be available on the day",
         FLAG_PICKER_TIP_1: "Click a flag to filter by country",
         FLAG_PICKER_TIP_2_1: "Click active flag to clear filter",
         FLAG_PICKER_TIP_2_2: "or an inactive flag to switch country",
@@ -193,7 +193,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SPEAKERS_TEXT_1: "Các bạn và anh chị du học sinh Chuyên Ngữ là khách mời đến chia sẻ kinh nghiệm và bí quyết thành công tại hội thảo du học CNN 2014.",
 
         //Staff section
-        STAFF_TEXT_1: "Tất cả các thành viên trong ban tổ chức. Thành viên các đội Q&A và booth sẽ có mặt trong ngày",
+        STAFF_TEXT_1: "Tất cả các thành viên trong ban tổ chức. Trưởng BTC, các bạn làm thuyết trình, trong đội hỏi-đáp, quầy thông tin sẽ có mặt trong ngày hội thảo",
         FLAG_PICKER_TIP_1: "Bấm vào cờ một nước để hiển thị các thành viên của nước đó",
         FLAG_PICKER_TIP_2_1: "Bấm vào cờ đang họat động để xóa bộ lọc",
         FLAG_PICKER_TIP_2_2: "hoặc vào một cờ còn lại để đổi sang nước khác",
@@ -240,6 +240,18 @@ app.config(function ($translateProvider, $locationProvider) {
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
         MADMIN_UK_BIO_2: "SSI, Việt Nam",
         MADMIN_UK_BACK_INFO: "Minh học 2 năm A-Level và sau đó là đại học ngành quản trị kinh doanh tại Lancaster và dành 1 năm học tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference.",
+
+        MINHNGOC_UK_BIO_NAME: "Ngô Minh Ngọc",
+        MINHNGOC_UK_BIO_1: "A43 CNNer",
+        MINHNGOC_UK_BIO_2: "Cambridge Tutors College 2012-14, Anh Quốc",
+        MINHNGOC_UK_BACK_INFO: "Học bổng 100% Khóa học A-level 2 năm tại Cambridge Tutors College, Anh Quốc | Huy Chương Đồng UK Math Challenge, 2013 | Định hướng viên, Chương trình 10+ 2012",
+        MINHNGOC_UK_BACK_EXTRA: "Hãy đến với Anh Quốc!!! Thích lắm các em ơiiiiii :) !",
+
+        HONGCHAU_UK_BIO_NAME: "Đinh Hồng Châu",
+        HONGCHAU_UK_BIO_1: "P44 CNNer",
+        HONGCHAU_UK_BIO_2: "Ruthin School '16, Anh Quốc",
+        HONGCHAU_UK_BACK_INFO: "Tình nguyện viên câu lạc bộ CNN Shine | Ban PR Chương trình triển lãm từ thiện The point 2012 (do CNN Pencil Club tổ chức) | Head Admin nội san CNN Zoom (2013 – 2014) | Thành viên ban Kỷ yếu “Vân tay K43 – Trạm ký ức” (2014) | Thành viên ban Nội dung dự án Hanoi Food Rescue | Cộng tác viên tạp chí “Thế giới tuổi thơ” (NXB Kim Đồng)",
+        HONGCHAU_UK_BACK_EXTRA: "Dream big. Work hard. Your dream will come true, just like mine!",
 
         MPHUONG_US_BIO_NAME: "Nguyễn Mai Phương",
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College '18, US",
@@ -288,19 +300,13 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BACK_INFO: "Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018 | Thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
         KANH_JAP_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Có một người từng nói với mình rằng đi du học không chỉ để học mà còn để sống, để trải nghiệm nữa. Do vậy theo mình, việc quan trọng nhất là chọn được một môi trường phù hợp với mình cả về cách học lẫn văn hóa, lối sống. Chỉ khi đó, bạn mới có thể phát huy hoàn toàn tiềm năng và đạt được những kết quả tốt nhất trong quá trình học tập của mình!",
 
-        MINHNGOC_UK_BIO_NAME: "Ngô Minh Ngọc",
-        MINHNGOC_UK_BIO_1: "A43 CNNer",
-        MINHNGOC_UK_BIO_2: "Cambridge Tutors College 2012-14, Anh Quốc",
-        MINHNGOC_UK_BACK_INFO: "Học bổng 100% Khóa học A-level 2 năm tại Cambridge Tutors College, Anh Quốc | Huy Chương Đồng UK Math Challenge, 2013 | Định hướng viên, Chương trình 10+ 2012",
-        MINHNGOC_UK_BACK_EXTRA: "Hãy đến với Anh Quốc!!! Thích lắm các em ơiiiiii :) !",
+        HTRANG_KR_BIO_NAME: "Nguyễn Hiền Trang",
+        HTRANG_KR_BIO_1: "G43 CNNer",
+        HTRANG_KR_BIO_2: "Underwood Intl. College - ĐH Yonsei, Hàn Quốc",
+        HTRANG_KR_BACK_INFO: "",
+        HTRANG_KR_BACK_EXTRA: "",
 
-        HONGCHAU_UK_BIO_NAME: "Đinh Hồng Châu",
-        HONGCHAU_UK_BIO_1: "P44 CNNer",
-        HONGCHAU_UK_BIO_2: "Ruthin School '16, Anh Quốc",
-        HONGCHAU_UK_BACK_INFO: "Tình nguyện viên câu lạc bộ CNN Shine | Ban PR Chương trình triển lãm từ thiện The point 2012 (do CNN Pencil Club tổ chức) | Head Admin nội san CNN Zoom (2013 – 2014) | Thành viên ban Kỷ yếu “Vân tay K43 – Trạm ký ức” (2014) | Thành viên ban Nội dung dự án Hanoi Food Rescue | Cộng tác viên tạp chí “Thế giới tuổi thơ” (NXB Kim Đồng)",
-        HONGCHAU_UK_BACK_EXTRA: "Dream big. Work hard. Your dream will come true, just like mine!",
-
-               // Mock staff
+        // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
         MOCK_BIO_2: "Ut enim ad minim veniam, quis",
         MOCK_BACK_INFO: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."

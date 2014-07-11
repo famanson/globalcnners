@@ -1,4 +1,4 @@
-var countries = [ 'us', 'gb', 'fi', 'sg', 'de', 'jp' ];
+var countries = [ 'us', 'gb', 'fi', 'sg', 'de', 'jp', 'kr' ];
 
 var staff = [
     {

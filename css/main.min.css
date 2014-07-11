@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    font-family: "Open Sans",Georgia,Times,"Times New Roman",serif;
+    font-family: Arial,serif;
     padding-bottom: 40px;
     color: #000;
 }
@@ -233,6 +233,10 @@ body {
 
 #staff-view .pin, h5 {
     font-size: 16px;
+}
+
+#flag-picker-wrapper {
+    margin: "20px 0 10px 0";
 }
 
 #flag-picker-tip {
