@@ -21,6 +21,43 @@ app.config(function ($translateProvider, $locationProvider) {
         // Schedule section
         SCHEDULE_TEXT_1: "Date: 26/07/2014",
         SCHEDULE_TEXT_2: "To attend, you will first need to Register using the link to a form at the bottom of the page",
+        SCHEDULE_TITLE_0745: "Opening",
+        SCHEDULE_0745: "­Welcome Students & Parents",
+
+        SCHEDULE_TITLE_0800: "Introduction",
+        SCHEDULE_0800: "­Introduction of CNN Conference & Conference 2014's Sponsor | Introduction of Guest Speakers",
+
+        SCHEDULE_TITLE_0815: "<span class='flag-icon flag-icon-us'></span> Discussion - US Team",
+        SCHEDULE_0815: "­US High School (ASSIST, UWC, Exchange) | US College | College Life | Q&A",
+
+        SCHEDULE_TITLE_0920: "<span class='flag-icon flag-icon-gb'></span> Discussion - UK Team",
+        SCHEDULE_0920: "­UK A-level | UK College | Job Opportunities",
+
+        SCHEDULE_TITLE_1000: "Break",
+        SCHEDULE_1000: "­Game | Tea Break",
+
+        SCHEDULE_TITLE_1015: "<span class='flag-icon flag-icon-fi'></span> Discussion - Finland Team",
+        SCHEDULE_1015: "Studying abroad in Finland, Thuy Trang",
+
+        SCHEDULE_TITLE_1030: "<span class='flag-icon flag-icon-jp'></span> Discussion - Japan Team",
+        SCHEDULE_1030: "Studying abroad in Japan, Kieu Anh",
+
+        SCHEDULE_TITLE_1045: "<span class='flag-icon flag-icon-sg'></span> Discussion - Singapore Team",
+        SCHEDULE_1045: "Studying abroad in Singapore, My Hanh",
+
+        SCHEDULE_TITLE_1100: "<span class='flag-icon flag-icon-kr'></span> Discussion - Korea Team",
+        SCHEDULE_1100: "Studying abroad in Korea, Hien Trang",
+
+        SCHEDULE_TITLE_1115: "The End of Morning Section",
+
+        SCHEDULE_TITLE_1330: "Advisory Booths Open",
+        SCHEDULE_1330: "Introduction of CNN Conference & Conference 2014's Sponsor | Instruction of Advisory Booths' Activities",
+
+        SCHEDULE_TITLE_1345: "Activity Fair & Tea Break:",
+        SCHEDULE_1345: "Summit Education Services' Booth | US Booths (Assist, UWC, Exchange, Boarding, College) |  UK Booths (School, College and University) | France Booth | Germany Booth | Japan Booth | Korea Booth| Finland Booth| Canada Booth | International Schools in Vietnam's Booth(RMIT + BUV)",
+
+        SCHEDULE_TITLE_1600: "The End of Afternoon Section",
+
 
         // Guest Speakers section
         SPEAKERS_TEXT_1: "Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.",
@@ -185,7 +222,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SCHEDULE_1330: "Giới thiệu chương trình và nhà tài trợ | Giới thiệu cách thức hoạt động của booth",
 
         SCHEDULE_TITLE_1345: "Quầy tư vấn du học dạng Fair & Tea Break:",
-        SCHEDULE_1345: "Quầy Nhà tài trợ Summit Quầy Du học Mỹ (Assist, UWC, Exchange, Boarding, College) |  Quầy Du học Anh Quốc (School, College and University) | Quầy Du học Pháp | Quầy Du học Đức | Quầy Du học Nhật | Quầy Du học Hàn Quốc | Quầy Du học Hàn Quốc | Quầy Du học Phần Lan | Quầy Du học Canada | Quầy các chương trình liên kết & du học tại chỗ (RMIT + BUV)",
+        SCHEDULE_1345: "Quầy Nhà tài trợ Summit Quầy Du học Mỹ (Assist, UWC, Exchange, Boarding, College) |  Quầy Du học Anh Quốc (School, College and University) | Quầy Du học Pháp | Quầy Du học Đức | Quầy Du học Nhật | Quầy Du học Hàn Quốc | Quầy Du học Phần Lan | Quầy Du học Canada | Quầy các chương trình liên kết & du học tại chỗ (RMIT + BUV)",
 
         SCHEDULE_TITLE_1600: "Kết thúc chương trình buổi chiều",
 
