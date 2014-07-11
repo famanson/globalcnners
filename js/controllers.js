@@ -19,6 +19,8 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     $scope.correctFlippableHeight = function() {
         if ($scope.staffWallEnabled) {
             $("#staff-view .pin img").height($scope.staffCellW);
+        } else {
+            $("#staff-view .pin img").height($("#staff-view .pin img").width());
         }
         // Loop through element's children to find & set the biggest height
         $(".flipper").each(function(){
