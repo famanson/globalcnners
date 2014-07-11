@@ -251,7 +251,7 @@ var schedule = [
         time: "13:45"
     },
     {
-        logo: "fa-clock-o",
+        logo: "fa-flag-checkered",
         title: "SCHEDULE_TITLE_1600",
         description: "SCHEDULE_TITLE_1600",
         time: "16:00"
