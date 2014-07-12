@@ -34,6 +34,7 @@ var staff = [
         back: "BAOTRAN_US_BACK_INFO",
         country: "us",
         picsize: "1024x1024",
+        image: "BAOTRAN_US.jpg"
     },
     {
         name: "MADMIN_UK_BIO_NAME",
