@@ -1,4 +1,4 @@
-var countries = [ 'us', 'gb', 'fi', 'sg', 'de', 'jp', 'kr' ];
+var countries = [ 'gb', 'us', 'fi', 'de','sg', 'jp', 'kr' ];
 
 var staff = [
     {
@@ -156,18 +156,6 @@ var staff = [
         picsize: "1024x1024",
         image: "THUYTRANG_FINLAND.jpg"
     },
-    // SG
-    {
-        name: "MYHANH_SG_BIO_NAME",
-        title: "BOOTH_TITLE",
-        rank: "low",
-        firstBioLine: "MYHANH_SG_BIO_1",
-        secondBioLine: "MYHANH_SG_BIO_2",
-        back: "MYHANH_SG_BACK_INFO",
-        country: "sg",
-        picsize: "1024x1024",
-        image: "MYHANH_SG.jpg"
-    },
     // GER
     {
         name: "KLINH_GER_BIO_NAME",
@@ -180,6 +168,18 @@ var staff = [
         country: "de",
         picsize: "1024x1024",
         image: "KLINH_GER.jpg"
+    },
+    // SG
+    {
+        name: "MYHANH_SG_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "MYHANH_SG_BIO_1",
+        secondBioLine: "MYHANH_SG_BIO_2",
+        back: "MYHANH_SG_BACK_INFO",
+        country: "sg",
+        picsize: "1024x1024",
+        image: "MYHANH_SG.jpg"
     },
     // JAP
     {
@@ -216,7 +216,8 @@ var staff = [
         back: "PANH_KR_BACK_INFO",
         backExtra: "PANH_KR_BACK_EXTRA",
         country: "kr",
-        picsize: "1024x1024"
+        picsize: "1024x1024",
+        image: "PANH_KR.jpg"
     }
 ];
 
