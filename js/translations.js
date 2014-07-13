@@ -103,7 +103,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Award for academic distinction 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate, Oxford Uni, UK (2012) | Software engineer at Ocado Technology, UK",
+        SONPHAM_UK_BACK_INFO: "Award for Academic Excellence 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate, Oxford Uni, UK (2012) | Software engineer at Ocado Technology, UK",
         SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. My story can be summed up in a sentence: I believe there's an answer to every question, one just needs to look harder! Sheer determination can do lots of things.",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
@@ -134,6 +134,13 @@ app.config(function ($translateProvider, $locationProvider) {
         HIEUANH_US_BIO_2: "Costa Rica UWC & Duke University '18, US",
         HIEUANH_US_BACK_INFO: "UWC Scholarship in Costa Rica, 2012 - 2013 | Davis International Award | President, Guitar Club at UWCCR | Third Prize, National English Contest, 2012 | Distinctive Award, Vietnam National University, 2012 | Vice President, CNN Shine",
         HIEUANH_US_BACK_EXTRA: "Message to CNNers: In order to achieve your goal, besides individual effort, precise orientation is also very essential. Take advantage of varied chances and sources to assist your decision-making process. In other words, COME VISIT US AT CNN CONFERENCE 2014!",
+
+        CHIHUYNH_US_BIO_NAME: "Huynh Ngoc Yen Chi",
+        CHIHUYNH_US_BIO_1: "A41 CNNer",
+        CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",
+        CHIHUYNH_US_BACK_INFO: "Academic Excellence Award (2009-10 & 2010-11) | Asian Young Leaders Convention 2010 | Second Prize, National English Contest 2011 | UWCSEA Scholarship Singapore 2011 | The Hague International Model UN Conference 2012 | Lizanne & Robert A. Milton Scholarship, Georgia Institute of Technology, Atlanta",
+        CHIHUYNH_US_BACK_EXTRA: "Message to CNNers: Study abroad is a dream that comes with many unforeseeable challenges. But it is determination and sensible risk-taking that complete one's growth and discovery. Grab every opportunity that comes your way because you will gain invaluable understanding of people and places.",
+
 
         THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer",
