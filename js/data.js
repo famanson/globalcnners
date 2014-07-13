@@ -43,6 +43,7 @@ var staff = [
         firstBioLine: "MADMIN_UK_BIO_1",
         secondBioLine: "MADMIN_UK_BIO_2",
         back: "MADMIN_UK_BACK_INFO",
+        backExtra: "MADMIN_UK_BACK_EXTRA",
         country: "gb",
         picsize: "1024x1024",
         image: "MINHDANG_UK.jpg"
