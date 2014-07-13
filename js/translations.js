@@ -345,6 +345,12 @@ app.config(function ($translateProvider, $locationProvider) {
         HTRANG_KR_BACK_INFO: "",
         HTRANG_KR_BACK_EXTRA: "",
 
+        PANH_KR_BIO_NAME: "Phạm Phương Anh",
+        PANH_KR_BIO_1: "H42 CNNer",
+        PANH_KR_BIO_2: "Underwood Intl. College, ĐH Yonsei, Hàn Quốc",
+        PANH_KR_BACK_INFO: "Hiện đang là học sinh năm 2 trường Underwood International College, Yonsei University, Hàn Quốc",
+        PANH_KR_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Hàn quốc đang là 1 nước rất phát triển trong nền kinh tế và giáo dục của Châu Á và thế giới. Đến với đất nước này các bạn không chỉ có thể học mà có thể tự trải nghiệm rất nhiều điều thú vị. Hãy cố gắng từ bây giờ nhé:) Chúc các bạn có định hướng tốt cho tương lai. Be brave, be decisive!",
+
         CHIHUYNH_US_BIO_NAME: "Huỳnh Ngọc Yến Chi",
         CHIHUYNH_US_BIO_1: "A41 CNNer",
         CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",

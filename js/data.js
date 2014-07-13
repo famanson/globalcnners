@@ -157,6 +157,18 @@ var staff = [
         country: "jp",
         picsize: "1024x1024",
         image: "KANH_JAP.jpg"
+    },
+    // KR
+    {
+        name: "PANH_KR_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "PANH_KR_BIO_1",
+        secondBioLine: "PANH_KR_BIO_2",
+        back: "PANH_KR_BACK_INFO",
+        backExtra: "PANH_KR_BACK_EXTRA",
+        country: "kr",
+        picsize: "1024x1024"
     }
 ];
 
