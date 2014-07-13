@@ -83,7 +83,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SIGNUP_CLICK: "Register!",
         SUPPORT: "Conference Admin contact",
         SUPPORT_TEXT: "Do you have an emergency inquiry or do you simply want to talk to somebody regarding your concerns about the conference? Our conference admin, Mai Phuong, is more than ready to help!",
-        SUPPORT_CLICK: "01662252225 , Mai Phuong",
+        SUPPORT_CLICK: "01662252225, Mai Phuong",
         EMAIL: "Drop us an e-mail",
         EMAIL_TEXT: "You can ask just about anything about Global CNNers and the Conference or simply say hi. (Sorry we don't do romance consultancy :P)",
         EMAIL_CLICK: "Send e-mail",
