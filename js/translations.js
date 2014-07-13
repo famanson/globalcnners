@@ -116,7 +116,7 @@ app.config(function ($translateProvider, $locationProvider) {
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College ‘18, US",
         MPHUONG_US_BIO_2: "Administrator, CNN Conference 2014",
         MPHUONG_US_BACK_INFO: "CNN English Club President 2012-13 | Lead Organizer, Prom The Mayverlous - CNN Idol 2013 | FLSS Representative at Asian Young Leadership Convention 2012, Singapore | 3rd Prize, National English Contest 2013-14 | Top 10 Front The Most 2013",
-        MPHUONG_US_BACK_EXTRA: "Message to CNNers: My favorite quotation is “Not knowing you can't do something, is sometimes all it takes to do it.” ― Ally Carter. Always believe in yourself, and you’re already halfway on making your dream come true. I hope that, just like me 4 years ago, you guys will acquire useful information about studying abroad, and more importantly, feel and understand the amazing skill and spirit of former successful CNNers! See you all at the Conference this coming 26th of July !!!" ,
+        MPHUONG_US_BACK_EXTRA: "Message to CNNers: \"Not knowing you can't do something, is sometimes all it takes to do it.\" ― Ally Carter. Always believe in yourself, and you’re already halfway on making your dream come true. I hope that, just like me 4 years ago, you guys will acquire useful information about studying abroad, and more importantly, feel and understand the amazing skill and spirit of former successful CNNers! See you all at the Conference this coming 26th of July !!!" ,
 
         BAOTRAN_US_BIO_NAME: "Ly Bao Tran",
         BAOTRAN_US_BIO_1: "A42 CNNer, Sewanee - Uni of the South '18, US",
@@ -274,7 +274,7 @@ app.config(function ($translateProvider, $locationProvider) {
         DESIGN_TITLE: "Thiết kế",
         DESIGN_CONSULT_TITLE: "Thiết kế & Cố vấn dự án",
 
-        // INDIVIDUAL STAFF
+        // UK STAFF
         SONPHAM_UK_BIO_NAME: "Phạm Anh Sơn",
         SONPHAM_UK_BIO_1: "A37 CNNer, ĐH Oxford, Anh Quốc",
         SONPHAM_UK_BIO_2: "Kỹ sư phần mềm, Anh Quốc",
@@ -299,9 +299,11 @@ app.config(function ($translateProvider, $locationProvider) {
         HONGCHAU_UK_BACK_INFO: "Tình nguyện viên câu lạc bộ CNN Shine | Ban PR Chương trình triển lãm từ thiện The point 2012 (do CNN Pencil Club tổ chức) | Head Admin nội san CNN Zoom (2013 – 2014) | Thành viên ban Kỷ yếu “Vân tay K43 – Trạm ký ức” (2014) | Thành viên ban Nội dung dự án Hanoi Food Rescue | Cộng tác viên tạp chí “Thế giới tuổi thơ” (NXB Kim Đồng)",
         HONGCHAU_UK_BACK_EXTRA: "Dream big. Work hard. Your dream will come true, just like mine!",
 
+        // US Staff
+
         MPHUONG_US_BIO_NAME: "Nguyễn Mai Phương",
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College '18, US",
-        MPHUONG_US_BIO_2: "Sinh viên, Hoa Kỳ",
+        MPHUONG_US_BIO_2: "Trưởng ban tổ chức CNN Conference 2014",
         MPHUONG_US_BACK_INFO: "Cựu Chủ tịch CNN English Club 2012-2013 | Trưởng BTC Prom The Mayverlous - CNN Idol 2013 | Đại diện tham Dự Asian Young Leadership Convention 2012, Singapore | Giải Ba HSG Quốc gia Tiếng Anh 2013-14",
         MPHUONG_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: \"Not knowing you can't do something, is sometimes all it takes to do it.\" ― Ally Carter. Hãy luôn có lòng tin ở bản thân, là bạn đã đi được nửa đường rồi. Mình mong là cũng như mình 4 năm về trước, các bạn đến đây sẽ có được những thông tin bổ ích cho định hướng du học của bản thân và hơn cả là được truyền ngọn lửa,  cảm nhận được spirit, bản lĩnh của các thế hệ CNNers thành công đi trước truyền lại!",
 
@@ -316,12 +318,37 @@ app.config(function ($translateProvider, $locationProvider) {
         DUCANH_US_BACK_INFO: "Trong một gia đình đã 4 lần gắn bó với Chuyên Ngữ, CNN không còn lạ lùng với mình nữa. Là một trong số ít học sinh \"lách luật\" nhà trường tham gia 6 câu lạc bộ cùng lúc, mình đã có một bố sưu tập áo đồng phục CNN khá đầy đủ. Thành viên BTC Chương Trình Water Wise được tài trợ bởi ĐSQ Mỹ. Nhận học bổng ASSIST, một chương trình tạo điều kiện đưa học sinh của trên 20 quốc gia đến với các trường tư tốt nhất của Hoa Kỳ, mình đã theo học tại The Key School tại Annapolis, MD.",
         DUCANH_US_BACK_EXTRA:"Sáng lập viên và Chủ tịch của tổ chức Blue Exit, một tổ chức hướng đến việc nâng cao ý thức trong giới trẻ về môi trường | Nhận giải Triển vọng trong cuộc thi thiết kế \"Tắt đèn bật ý tưởng\" 2011",
 
-
         HIEUANH_US_BIO_NAME: "Trịnh Ngọc Hiếu Anh",
         HIEUANH_US_BIO_1: "B42 CNNer",
         HIEUANH_US_BIO_2: "Costa Rica UWC & Duke University '18",
         HIEUANH_US_BACK_INFO: "Học bổng các trường Thế giới Liên kết UWC tại Costa Rica | Chủ tịch CLB Guitar UWCCR và giải thưởng Davis International Award | Giải 3 tiếng anh quốc gia (2012) | Danh hiệu gương mặt trẻ tiêu biểu cấp ĐHQGHN (2012) | Phó chủ tịch CNN Shine",
         HIEUANH_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: \"Happiness is not ready-made; it comes from your actions\"- Dalai Lama. Để đạt được điều mong muốn, bên cạnh nỗ lực cá nhân thì định hướng đúng là rất quan trọng. Vì vậy, hãy tận dụng cơ hội để đi tìm định hướng cho bản thân từ nhiều nơi, và một trong số đó là CNN Conference!",
+
+        CHIHUYNH_US_BIO_NAME: "Huỳnh Ngọc Yến Chi",
+        CHIHUYNH_US_BIO_1: "A41 CNNer",
+        CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",
+        CHIHUYNH_US_BACK_INFO: "Học sinh xuất sắc (2009-10 & 2010-11) | Tham dự chương trình Thủ lĩnh trẻ châu Á, Singapore 2010 | Giải Nhì HSG Quốc gia tiếng Anh 2011 | Học bổng toàn phần UWCSEA, Singapore 2011 | The Hague International Model UN Conference 2012 | Học bổng toàn phần Lizanne & Robert A. Milton, Georgia Institute of Technology",
+        CHIHUYNH_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Du học là niềm mơ ước của nhiều người nhưng cũng đầy những điều không thể lường trước. Tuy nhiên chính sự kiên trì và tự thử thách mới giúp cho mỗi con người trưởng thành và phát hiện ra những mặt mới của bản thân. Hãy biết nắm lấy mọi cơ hội, bởi bạn sẽ thực sự ngạc nhiên với những gì mình học được từ mỗi vùng đất và con người",
+
+        DUYKHANH_US_BIO_NAME: "Đoàn Duy Khánh",
+        DUYKHANH_US_BIO_1: "G44 CNNer",
+        DUYKHANH_US_BIO_2: "Học bổng UWC (Atlantic College, US)",
+        DUYKHANH_US_BACK_INFO: "Phó chủ tịch CNNShine 2013-14 | Thành viên trong đội bóng rổ Diao | Giải Ba Olympic tiếng Anh qua mạng (2012) | Học bổng United World of Atlantic College",
+        DUYKHANH_US_BACK_EXTRA: "\"Success is not final, failure is not fatal, it is the courage to continue that counts\" - Winston Churchill. Du học giờ đây đã trở nên vô cùng phổ biến. Nhưng không phải ai cũng biết rằng việc lựa chọn trường cũng như học bổng phù hợp lại rất quan trọng khi đi du học. Hãy đến với CNN Conference để có thể tim hiểu thêm về các học bổng du học và tìm ra cho mình một môi trường học tập phù hợp. Chúc các bạn luôn tự tin và thành công trên con đường mình đã chọn.",
+
+        DOMINHTRI_US_BIO_NAME: "Đỗ Minh Trí",
+        DOMINHTRI_US_BIO_1: "H42 CNNer",
+        DOMINHTRI_US_BIO_2: "Tabor Academy '14 & Georgetown University '18",
+        DOMINHTRI_US_BACK_INFO: "Sáng lập Global Service Project quyên góp từ thiện cho trẻ em châu Phi | Cây viết cho Travel + Leisure Online Magazine | Cộng tác viên tại Shorenstein Center, Harvard Kennedy School | National AP Scholar - College Board | Sở thích: Tennis, bóng đá + PES, ăn, karaoke + hát hò với bạn bè",
+        DOMINHTRI_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Không có gì to tát nhưng mình thường quan niệm làm việc gì cũng là một cuộc đua marathon và đoạn nước rút cuối cùng bao giờ cũng quan trọng nhất. Các bạn đã có được khởi đầu mỹ mãn với bàn đạp CNN rồi và mình nghĩ rất quan trọng để bạn định hướng được đường chạy tiếp theo, bắt đầu từ CNN Conference này.",
+
+        THUYNGAN_US_BIO_NAME: "Nguyễn Thúy Ngân",
+        THUYNGAN_US_BIO_1: "M42 CNNer",
+        THUYNGAN_US_BIO_2: "Macalester College '17",
+        THUYNGAN_US_BACK_INFO: "Giải Triển Vọng Teen Entrepreneur 2013 | Học bổng Kofi Annan, Macalester College | Sáng lập viên dự án Bồ Công Anh xây dựng trung tâm tin học, thư viện & dạy học cho trẻ mồ côi có hoàn cảnh khó khăn ở Lập Thạch, Vĩnh Phúc (2014) | Trợ lí quản lí Kí Túc Xá ở Macalester College (2014-15)",
+        THUYNGAN_US_BACK_EXTRA: "Đi du học Mỹ là một bước ngoặt lớn trong hành trình đi tìm \"Tôi là ai?\" của chị. Chị được trải nghiệm nhiều điều mới, hoàn thiện bản thân và lớn lên từng ngày trong môi trường giáo dục Mỹ. Chị muốn nhắn nhủ rằng con đường này không phải trải đầy hoa hồng, nhưng \"có công mài sắt có ngày nên kim\". Các em hãy luôn tự tin và kiên trì, và đừng quên các em còn có những Global CNNers ủng hộ và tin tưởng vào các em :)",
+
+        // Finland staff
 
         THUYTRANG_FIN_BIO_NAME: "Lê Thùy Trang",
         THUYTRANG_FIN_BIO_1: "M43 CNNer",
@@ -363,12 +390,6 @@ app.config(function ($translateProvider, $locationProvider) {
         PANH_KR_BIO_2: "Underwood Intl. College, ĐH Yonsei, Hàn Quốc",
         PANH_KR_BACK_INFO: "Hiện đang là học sinh năm 2 trường Underwood International College, Yonsei University, Hàn Quốc",
         PANH_KR_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Hàn quốc đang là 1 nước rất phát triển trong nền kinh tế và giáo dục của Châu Á và thế giới. Đến với đất nước này các bạn không chỉ có thể học mà có thể tự trải nghiệm rất nhiều điều thú vị. Hãy cố gắng từ bây giờ nhé:) Chúc các bạn có định hướng tốt cho tương lai. Be brave, be decisive!",
-
-        CHIHUYNH_US_BIO_NAME: "Huỳnh Ngọc Yến Chi",
-        CHIHUYNH_US_BIO_1: "A41 CNNer",
-        CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",
-        CHIHUYNH_US_BACK_INFO: "Học sinh xuất sắc (2009-10 & 2010-11) | Tham dự chương trình Thủ lĩnh trẻ châu Á, Singapore 2010 | Giải Nhì HSG Quốc gia tiếng Anh 2011 | Học bổng toàn phần UWCSEA, Singapore 2011 | The Hague International Model UN Conference 2012 | Học bổng toàn phần Lizanne & Robert A. Milton, Georgia Institute of Technology",
-        CHIHUYNH_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Du học là niềm mơ ước của nhiều người nhưng cũng đầy những điều không thể lường trước. Tuy nhiên chính sự kiên trì và tự thử thách mới giúp cho mỗi con người trưởng thành và phát hiện ra những mặt mới của bản thân. Hãy biết nắm lấy mọi cơ hội, bởi bạn sẽ thực sự ngạc nhiên với những gì mình học được từ mỗi vùng đất và con người",
 
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
