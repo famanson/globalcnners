@@ -345,6 +345,12 @@ app.config(function ($translateProvider, $locationProvider) {
         HTRANG_KR_BACK_INFO: "",
         HTRANG_KR_BACK_EXTRA: "",
 
+        CHIHUYNH_US_BIO_NAME: "Huỳnh Ngọc Yến Chi",
+        CHIHUYNH_US_BIO_1: "A41 CNNer",
+        CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",
+        CHIHUYNH_US_BACK_INFO: "Học sinh xuất sắc (2009-10 & 2010-11) | Tham dự chương trình Thủ lĩnh trẻ châu Á, Singapore 2010 | Giải Nhì HSG Quốc gia tiếng Anh 2011 | Học bổng toàn phần UWCSEA, Singapore 2011 | The Hague International Model UN Conference 2012 | Học bổng toàn phần Lizanne & Robert A. Milton, Georgia Institute of Technology",
+        CHIHUYNH_US_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Du học là niềm mơ ước của nhiều người nhưng cũng đầy những điều không thể lường trước. Tuy nhiên chính sự kiên trì và tự thử thách mới giúp cho mỗi con người trưởng thành và phát hiện ra những mặt mới của bản thân. Hãy biết nắm lấy mọi cơ hội, bởi bạn sẽ thực sự ngạc nhiên với những gì mình học được từ mỗi vùng đất và con người",
+
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
         MOCK_BIO_2: "Ut enim ad minim veniam, quis",

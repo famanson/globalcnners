@@ -73,18 +73,6 @@ var staff = [
         image: "HONGCHAU_UK.jpg"
     },
     {
-        name: "DUCANH_US_BIO_NAME",
-        title: "BOOTH_TITLE",
-        rank: "low",
-        firstBioLine: "DUCANH_US_BIO_1",
-        secondBioLine: "DUCANH_US_BIO_2",
-        back: "DUCANH_US_BACK_INFO",
-        backExtra: "DUCANH_US_BACK_EXTRA",
-        country: "us",
-        picsize: "1024x1024",
-        image: "DUCANH_US.jpg"
-    },
-    {
         name: "HIEUANH_US_BIO_NAME",
         title: "BOOTH_TITLE",
         rank: "low",
@@ -95,6 +83,30 @@ var staff = [
         country: "us",
         picsize: "1024x1024",
         image: "HIEUANH_US.jpg"
+    },
+    {
+        name: "CHIHUYNH_US_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "CHIHUYNH_US_BIO_1",
+        secondBioLine: "CHIHUYNH_US_BIO_2",
+        back: "CHIHUYNH_US_BACK_INFO",
+        backExtra: "CHIHUYNH_US_BACK_EXTRA",
+        country: "us",
+        picsize: "1024x1024",
+        image: "CHIHUYNH_US.jpg"
+    },
+    {
+        name: "DUCANH_US_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "DUCANH_US_BIO_1",
+        secondBioLine: "DUCANH_US_BIO_2",
+        back: "DUCANH_US_BACK_INFO",
+        backExtra: "DUCANH_US_BACK_EXTRA",
+        country: "us",
+        picsize: "1024x1024",
+        image: "DUCANH_US.jpg"
     },
     // FIN
     {
