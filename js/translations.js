@@ -109,7 +109,8 @@ app.config(function ($translateProvider, $locationProvider) {
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",
         MADMIN_UK_BIO_1: "I38 CNNer, Lancaster Uni Alumni, UK",
         MADMIN_UK_BIO_2: "SSI, Vietnam",
-        MADMIN_UK_BACK_INFO: "Minh studied a 2-year A-Level course in England and then read Business and Management at Lancaster Uni. He also spent a year abroad at Richmond University in the States. Minh now lives in Saigon and work for SSI, Vietnam. He is also one of the founding members of Global CNNers and a senior admin/consultant for CNN Conference.",
+        MADMIN_UK_BACK_INFO: "2-year A-Level course at Abacus College, Oxford | Business and Management at Lancaster University | One year abroad at Richmond University in the US | Currently lives in Saigon and work for SSI, Vietnam | One of the founding members of Global CNNers | Senior admin/consultant for CNN Conference",
+        MADMIN_UK_BACK_EXTRA: "Message to CNNers: When you are young, do not pass up on any opportunity. If succeed, win. If fail, win experience. That's how we founded Global CNNers."
 
         MPHUONG_US_BIO_NAME: "Nguyen Mai Phuong",
         MPHUONG_US_BIO_1: "M43 CNNer, Bryn Mawr College ‘18, US",
@@ -276,7 +277,8 @@ app.config(function ($translateProvider, $locationProvider) {
         MADMIN_UK_BIO_NAME: "Đặng Trần Minh",
         MADMIN_UK_BIO_1: "I38 CNNer, ĐH Lancaster, Anh Quốc",
         MADMIN_UK_BIO_2: "SSI, Việt Nam",
-        MADMIN_UK_BACK_INFO: "Minh học 2 năm A-Level và sau đó là đại học ngành quản trị kinh doanh tại Lancaster và dành 1 năm học tại ĐH Richmond, Mỹ. Minh hiện tại đang sống tại Sài Gòn và làm việc cho SSI. Anh là một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ, và là thành viên ban tổ chức/cố vấn lâu năm của CNN Conference.",
+        MADMIN_UK_BACK_INFO: "A-Level tại Abacus College, Oxford | Theo học quản trị kinh doanh tại ĐH Lancaster | 1 năm theo chương trình liên kết tại ĐH Richmond, Mỹ | Hiện tại đang sống tại Sài Gòn và làm việc cho SSI | Một trong các thành viên sáng lập của hội du học sinh Chuyên Ngữ | Thành viên ban tổ chức/cố vấn lâu năm của CNN Conference",
+        MADMIN_UK_BACK_EXTRA: "Lời nhắn cho các CNNers: Khi còn trẻ, hãy xách ba lô lên và đi :)"
 
         MINHNGOC_UK_BIO_NAME: "Ngô Minh Ngọc",
         MINHNGOC_UK_BIO_1: "A43 CNNer",
