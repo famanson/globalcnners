@@ -339,6 +339,12 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BACK_INFO: "Học bổng 80% Ritsumeikan Asia Pacific University (APU) Nhật Bản niên khóa 2014-2018 | Thành viên CLB CNN Shine, tham gia dự án CozyVil (2013), dự án dạy học cho trẻ em có hoàn cảnh khó khăn ở Làng trẻ Hữu Nghị.",
         KANH_JAP_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Có một người từng nói với mình rằng đi du học không chỉ để học mà còn để sống, để trải nghiệm nữa. Do vậy theo mình, việc quan trọng nhất là chọn được một môi trường phù hợp với mình cả về cách học lẫn văn hóa, lối sống. Chỉ khi đó, bạn mới có thể phát huy hoàn toàn tiềm năng và đạt được những kết quả tốt nhất trong quá trình học tập của mình!",
 
+        THUCANH_JAP_BIO_NAME: "Hà Thục Anh",
+        THUCANH_JAP_BIO_1: "A43 CNNer",
+        THUCANH_JAP_BIO_2: "Nagoya University, Japan",
+        THUCANH_JAP_BACK_INFO: "Học bổng 100% Nagoya University, 2014-18 | Thành viên CNN English Club 2011 | Tham gia CLB Water Wise và dự án Water & Home 2012 | Trợ giảng tiếng Anh, trung tâm UNESCO Foreign Language & Training",
+        THUCANH_JAP_BACK_EXTRA: "Message to CNNers: Lý do mình chọn Nhật Bản mà không phải các nước khác như Mỹ, Anh,... không chỉ vì môi trường giáo dục tốt và các trường đại học danh tiếng, mà còn vì mình rất khâm phục và muốn học hỏi nhân cách, tính kỉ luật, đoàn kết, vì cộng đồng của con người Nhật Bản. Theo mình, đại học không chỉ là nơi học kiến thức ở trên lớp, mà còn là nơi để hoàn thiện nhân cách của bản thân, và Nhật Bản là một nơi tuyệt vời để làm điều đó.",
+
         HTRANG_KR_BIO_NAME: "Nguyễn Hiền Trang",
         HTRANG_KR_BIO_1: "G43 CNNer",
         HTRANG_KR_BIO_2: "Underwood Intl. College - ĐH Yonsei, Hàn Quốc",

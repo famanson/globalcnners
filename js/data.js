@@ -158,6 +158,18 @@ var staff = [
         picsize: "1024x1024",
         image: "KANH_JAP.jpg"
     },
+    {
+        name: "THUCANH_JAP_BIO_NAME",
+        title: "BOOTH_TITLE",
+        rank: "low",
+        firstBioLine: "THUCANH_JAP_BIO_1",
+        secondBioLine: "THUCANH_JAP_BIO_2",
+        back: "THUCANH_JAP_BACK_INFO",
+        backExtra: "THUCANH_JAP_BACK_EXTRA",
+        country: "jp",
+        picsize: "1024x1024",
+        image: "THUCANH_JAP.jpg"
+    },
     // KR
     {
         name: "PANH_KR_BIO_NAME",
