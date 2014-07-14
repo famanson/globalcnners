@@ -10,7 +10,7 @@ app.config(function ($translateProvider, $locationProvider) {
         CONTACT_HEADING: "Register/Contact Us",
         TESTIMONIALS_HEADING: "Testimonials",
         DOCS_HEADING: "Resources",
-        STAFF_HEADING: "Rest of the Crew",
+        STAFF_HEADING: "Our Crew",
         SPEAKERS_HEADING: "Guest Speakers",
         SCHEDULE_HEADING: "Conference Schedule",
         HELLO_HEADING: "Hello!",
@@ -54,16 +54,16 @@ app.config(function ($translateProvider, $locationProvider) {
         SCHEDULE_1330: "Introduction of CNN Conference & Conference 2014's Sponsor | Instruction to Advisory Booths' Activities",
 
         SCHEDULE_TITLE_1345: "Activity Fair & Tea Break:",
-        SCHEDULE_1345: "Summit Education Services' Booth | US Booths (Assist, UWC, Exchange, Boarding, College) |  UK Booths (School, College and University) | France Booth | Germany Booth | Japan Booth | Korea Booth| Finland Booth| Canada Booth | International Schools in Vietnam's Booth(RMIT + BUV)",
+        SCHEDULE_1345: "Summit Education Services' Booth | US Booths (Assist, UWC, Exchange, Boarding, College) |  UK Booths (School, College and University) | France Booth | Germany Booth | Japan Booth | Korea Booth| Finland Booth| Canada Booth | International Schools in Vietnam's Booth (RMIT + BUV)",
 
         SCHEDULE_TITLE_1600: "The End of Afternoon Section",
-
 
         // Guest Speakers section
         SPEAKERS_TEXT_1: "Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.",
 
         //Staff section
-        STAFF_TEXT_1: "All those helping make this Conference happen. The administrator, speakers, all Q&A and booth staff will be available on the day",
+        STAFF_TEXT_1: "CNN Conference would not even exist in the first place without all these passionate globe trotters. Let's learn more about them!",
+        STAFF_TEXT_2: "The administrator, speakers, all QA and booth staff will be available on the Conference day.",
         FLAG_PICKER_TIP_1: "Click a flag to filter by country",
         FLAG_PICKER_TIP_2_1: "Click active flag to clear filter",
         FLAG_PICKER_TIP_2_2: "or an inactive flag to switch country",
@@ -97,6 +97,8 @@ app.config(function ($translateProvider, $locationProvider) {
         BOOTH_TITLE: "Booth Staff",
         ADMIN_TITLE: "Conference Adminstrator",
         DESIGN_TITLE:"Designer",
+        CONTRIBUTOR_TITLE:"Contributor",
+        SPEAKER_TITLE: "Speaker <i class='fa fa-microphone'></i>",
         DESIGN_CONSULT_TITLE: "Designer & Project Consultant",
 
         // INDIVIDUAL STAFF
@@ -140,13 +142,13 @@ app.config(function ($translateProvider, $locationProvider) {
         CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",
         CHIHUYNH_US_BACK_INFO: "Academic Excellence Award (2009-10 & 2010-11) | Asian Young Leaders Convention 2010 | Second Prize, National English Contest 2011 | UWCSEA Scholarship Singapore 2011 | The Hague International Model UN Conference 2012 | Lizanne & Robert A. Milton Scholarship, Georgia Institute of Technology, Atlanta",
         CHIHUYNH_US_BACK_EXTRA: "Message to CNNers: Study abroad is a dream that comes with many unforeseeable challenges. However, it is determination and sensible risk-taking that complete one's growth and discovery. Grab every opportunity that comes your way because you will gain invaluable understanding of people and places.",
-        
+
         DUYKHANH_US_BIO_NAME: "Doan Duy Khanh",
         DUYKHANH_US_BIO_1: "G44 CNNer",
         DUYKHANH_US_BIO_2: "UWC Scholar (Atlantic College, US)",
         DUYKHANH_US_BACK_INFO: "Vice President, CNNShine 2013 - 2014 | Member, Diao Basketball Club| Third Prize, English Olympic Online Contest, 2012 | United World of Atlantic College Scholarship",
         DUYKHANH_US_BACK_EXTRA: "Message to CNNers: \"Success is not final, failure is not fatal, it is the courage to continue that counts\" - Winston Churchill. Studying abroad has become very popular recently. The process of choosing the right location and programs is of course very important. Come to CNN Conference to discover many studying abroad options and opportunities, and make the right decision. Believe  in yourself and success shall come to you.",
-        
+
         DOMINHTRI_US_BIO_NAME: "Do Minh Tri",
         DOMINHTRI_US_BIO_1: "H42 CNNer",
         DOMINHTRI_US_BIO_2: "Tabor Academy '14 & Georgetown University '18",
@@ -307,6 +309,8 @@ app.config(function ($translateProvider, $locationProvider) {
         QA_TITLE: "Nhóm chuyên mục hỏi đáp",
         BOOTH_TITLE: "Nhóm làm quầy thông tin",
         ADMIN_TITLE: "Trưởng ban tổ chức",
+        CONTRIBUTOR_TITLE:"Cộng tác viên nội dung",
+        SPEAKER_TITLE: "Speaker <i class='fa fa-microphone'></i>",
         DESIGN_TITLE: "Thiết kế",
         DESIGN_CONSULT_TITLE: "Thiết kế & Cố vấn dự án",
 

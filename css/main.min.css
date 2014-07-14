@@ -239,16 +239,13 @@ body {
     margin: 20px 0 10px 0;
 }
 
-#flag-picker-tip {
-    display: inline-block;
-}
 #flag-picker-tip p {
     font-size: 14px;
     margin: 0;
 }
 
 #flag-picker {
-    margin: 0 0 10px 30px;
+    margin: 0 0 10px 30%;
     width: 40%;
     background-color: #ddd;
     box-shadow: 0 0 7px #555;

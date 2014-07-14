@@ -75,10 +75,8 @@
                 <li class="brand"><span><b>{{ 'TITLE_HEADING' | translate }}</b></span></li>
                 <li class="brand" ng-controller="LanguageCtrl" id="language">{{ 'LANGUAGE_HEADING' | translate }}: <span ng-class="{'grayscale':!isLangActive('en')}" langPicker="en" class="flag-icon flag-icon-gb"></span> <span ng-class="{'grayscale':!isLangActive('vn')}" langPicker="vn" class="flag-icon flag-icon-vn"></span></li>
                 <li><a href="#contact-us" class="last">{{ 'CONTACT_HEADING' | translate }}</a></li>
-                <li><a href="#testimonials">{{ 'TESTIMONIALS_HEADING' | translate }}</a></li>
                 <li><a href="#docs">{{ 'DOCS_HEADING' | translate }}</a></li>
                 <li><a href="#staff">{{ 'STAFF_HEADING' | translate }}</a></li>
-                <li><a href="#speakers">{{ 'SPEAKERS_HEADING' | translate }}</a></li>
                 <li><a href="#schedule">{{ 'SCHEDULE_HEADING' | translate }}</a></li>
                 <li><a href="#hello">{{ 'HELLO_HEADING' | translate }}</a></li>
             </ul>
@@ -119,50 +117,20 @@
             </div>
         </div>
 
-        <div class="featurette-wrapper speakers-wrapper" ng-controller="GuestsCtrl">
+        <div class="featurette-wrapper staff-header">
+            <a class="anchor" id="staff"></a>
             <div class="row featurette">
-                <a class="anchor" id="speakers"></a>
-                <h2 class="featurette-heading center"><b>{{ 'SPEAKERS_HEADING' | translate }}</b></h2>
-                <h4 class="featurette-heading center"><b>{{ 'SPEAKERS_TEXT_1' | translate }}</b></h4>
-                <div class="col-md-12" id="guests-view">
-                    <div class="col-md-{{ 12/guestPartitionSize }}" ng-repeat="guests in guestGroup">
-                        <div ng-repeat="guest in guests">
-                            <div class="flip-container guest" flippable ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front">
-                                        <div class="pin">
-                                            <img class="img-responsive holder" data-src="holder.js/1024x1024">
-                                            <div class="text">
-                                                <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}</b></h4>
-                                                <div>{{ guest.firstBioLine | translate }}</div>
-                                                <div>{{ guest.secondBioLine | translate }}</div>
-                                            </div>
-                                            <div style='clear: both'></div>
-                                        </div>
-                                    </div>
-                                    <div class="back">
-                                        <div class="pin">
-                                            <div class="text">
-                                                <h4><span class="flag-icon flag-icon-{{ guest.country }}"></span>  <b>{{ guest.name }}.</b></h4>
-                                                <p class="lead">{{ guest.back | translate }}</p>
-                                                <p class="lead">{{ guest.backExtra | translate }}</p>
-                                            </div>
-                                            <div style='clear: both'></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style='clear: both'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h2 class="featurette-heading center"><b>{{ 'STAFF_HEADING' | translate }}</b></h2>
+                <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_1' | translate }}</b></h4>
+                <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_2' | translate }}</b></h4>
             </div>
         </div>
         <div class="featurette-wrapper staff-wrapper" ng-controller="StaffCtrl">
-            <div class="row featurette last">
-                <a class="anchor" id="staff"></a>
-                <h2 class="featurette-heading center"><b>{{ 'STAFF_HEADING' | translate }}</b></h2>
-                <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_1' | translate }}</b></h4>
+            <div class="row featurette">
+                <div id="flag-picker-tip" class="center">
+                    <h4 id="flag-tip-1"><i class="fa fa-flag"></i>  <b>{{ 'FLAG_PICKER_TIP_1' | translate }}<b></h4>
+                    <h4 id="flag-tip-2"><b>{{ 'FLAG_PICKER_TIP_2_1' | translate }}</b>  <i class="fa fa-times"></i>  <b>{{ 'FLAG_PICKER_TIP_2_2' | translate }}</b>  <i class="fa fa-refresh"></i></h4>
+                </div>
                 <div id="flag-picker-wrapper" ng-if="staffWallEnabled">
                     <div id="flag-picker">
                         <h1>
@@ -171,10 +139,6 @@
                                 &nbsp;
                             </span>
                         </h1>
-                    </div>
-                    <div id="flag-picker-tip" class="bubble">
-                        <p class="lead" id="flag-tip-1"><i class="fa fa-flag"></i>  {{ 'FLAG_PICKER_TIP_1' | translate }}</p>
-                        <p class="lead" id="flag-tip-2">{{ 'FLAG_PICKER_TIP_2_1' | translate }}  <i class="fa fa-times"></i>  {{ 'FLAG_PICKER_TIP_2_2' | translate }}  <i class="fa fa-refresh"></i></p>
                     </div>
                 </div>
 
@@ -290,30 +254,9 @@
                         <p class="lead">{{ 'DOCS_THOUGHT_TEXT' | translate }}</p>
                     </div>
                 </div>
-                <a class="center btn btn-default btn-lg" href="https://drive.google.com/folderview?id=0Bx-702viUgFnNDZaVk9FUTF5dlk&usp=sharing" target="_blank">
+                <a class="center btn btn-default btn-lg" href="https://drive.google.com/folderview?id=0Bx-702viUgFnNDZaVk9FUTF5dlk&amp;usp=sharing" target="_blank">
                     <i class="fa fa-folder-open"></i>  {{ 'DOCS_CLICK' | translate }}
                 </a>
-            </div>
-        </div>
-
-        <div class="featurette-wrapper testimonials-wrapper" ng-controller="TestimonialsCtrl">
-            <div class="row featurette">
-                <a class="anchor" id="testimonials"></a>
-                <h2 class="featurette-heading center"><b>{{ 'TESTIMONIALS_HEADING' | translate }}</b></h2>
-                <div class="col-md-12" id="testimonials-view">
-                    <div class="col-md-{{ 12/testimonialPartitionSize }}" ng-repeat="testimonials in testimonialGroup">
-                        <div ng-repeat="testimonial in testimonials">
-                            <div class="testimonial">
-                                <div class="center">
-                                    <img class="img-circle img-responsive" data-src="holder.js/120x120">
-                                    <p class="lead"><strong>— {{ testimonial.author }} —</strong></p>
-                                    <p class="lead"><i class="fa fa-quote-left"></i>  {{ testimonial.content }}  <i class="fa fa-quote-right"></i></p>
-                                </div>
-                                <div style='clear: both'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
