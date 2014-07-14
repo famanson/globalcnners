@@ -139,7 +139,25 @@ app.config(function ($translateProvider, $locationProvider) {
         CHIHUYNH_US_BIO_1: "A41 CNNer",
         CHIHUYNH_US_BIO_2: "UWCSEA & Georgia Institute of Technology '17",
         CHIHUYNH_US_BACK_INFO: "Academic Excellence Award (2009-10 & 2010-11) | Asian Young Leaders Convention 2010 | Second Prize, National English Contest 2011 | UWCSEA Scholarship Singapore 2011 | The Hague International Model UN Conference 2012 | Lizanne & Robert A. Milton Scholarship, Georgia Institute of Technology, Atlanta",
-        CHIHUYNH_US_BACK_EXTRA: "Message to CNNers: Study abroad is a dream that comes with many unforeseeable challenges. But it is determination and sensible risk-taking that complete one's growth and discovery. Grab every opportunity that comes your way because you will gain invaluable understanding of people and places.",
+        CHIHUYNH_US_BACK_EXTRA: "Message to CNNers: Study abroad is a dream that comes with many unforeseeable challenges. However, it is determination and sensible risk-taking that complete one's growth and discovery. Grab every opportunity that comes your way because you will gain invaluable understanding of people and places.",
+        
+        DUYKHANH_US_BIO_NAME: "Doan Duy Khanh",
+        DUYKHANH_US_BIO_1: "G44 CNNer",
+        DUYKHANH_US_BIO_2: "UWC Scholar (Atlantic College, US)",
+        DUYKHANH_US_BACK_INFO: "Vice President, CNNShine 2013 - 2014 | Member, Diao Basketball Club| Third Prize, English Olympic Online Contest, 2012 | United World of Atlantic College Scholarship",
+        DUYKHANH_US_BACK_EXTRA: "Message to CNNers: \"Success is not final, failure is not fatal, it is the courage to continue that counts\" - Winston Churchill. Studying abroad has become very popular recently. The process of choosing the right location and programs is of course very important. Come to CNN Conference to discover many studying abroad options and opportunities, and make the right decision. Believe  in yourself and success shall come to you.",
+        
+        DOMINHTRI_US_BIO_NAME: "Do Minh Tri",
+        DOMINHTRI_US_BIO_1: "H42 CNNer",
+        DOMINHTRI_US_BIO_2: "Tabor Academy '14 & Georgetown University '18",
+        DOMINHTRI_US_BACK_INFO: "Founder, Global Service Project| Writer, Travel + Leisure Online Magazine | Partner, Shorenstein Center, Harvard Kennedy School | National AP Scholar - College Board | Hobbies: Tennis, bóng Soccer + PES, eat, karaoke,…",
+        DOMINHTRI_US_BACK_EXTRA: " Message to CNNers: I often view life as a marathon and the last stage of the race is always the most important. You guys have a very ideal beginning as a CNNer. Now, let’s take advantage of CNN Conference 2014 to navigate the right way to keep moving forward.",
+
+        THUYNGAN_US_BIO_NAME: "Nguyen Thuy Ngan",
+        THUYNGAN_US_BIO_1: "M42 CNNer",
+        THUYNGAN_US_BIO_2: "Macalester College '17",
+        THUYNGAN_US_BACK_INFO: "Potential Award, Teen Entrepreneur 2013 | Kofi Annan Scholarship, Macalester College |Founder, Dandelion Project – Establish a technology center, library, and school for in-need children in Lap Thach, Vinh Phuc (2014) | Residence Assistant, Macalester College (2014-15)",
+        THUYNGAN_US_BACK_EXTRA: "Studying abroad is a big turning point on my journey to find \”Who am I?\”. I immersed myself in many new experiences, and day by day perfects myself and become more mature in a professional American education system. Studying abroad is not easy, but \”where there is a will there is a way\”. Be confident and patient, and don’t forget that you guys always have Global CNNers who gives the best support and belief in you.",
 
 
         THUYTRANG_FIN_BIO_NAME: "Le Thuy Trang",
@@ -163,6 +181,11 @@ app.config(function ($translateProvider, $locationProvider) {
         KANH_JAP_BACK_INFO: "80% Scholarship at Ritsumeikan Asia Pacific University (APU) Class of 2018  CNN Shine Member | CozyVil Project 2013",
         KANH_JAP_BACK_EXTRA: "Message to CNNers: Someone used to tell me that studying abroad is not just to study, but to live, and to experience. Therefore, when you are looking for a location, look deeply into its local environment and life. The most important thing is to find the most suitable environment in which you can fully develop your mindset and skill set in order to achieve the best results. Make the best effort to do research and explore a variety of options to make the best decision!",
 
+        THUCANH_JAP_BIO_NAME: "Ha Thuc Anh",
+        THUCANH_JAP_BIO_1: "A43 CNNer",
+        THUCANH_JAP_BIO_2: "Nagoya University, Japan",
+        THUCANH_JAP_BACK_INFO: "Full Scholarship, Nagoya University ‘18 | Member, CNN English Club 2011 | Member, Water Wise and Water & Home Project, 2012 | Teaching Assistant, UNESCO Foreign Language & Training",
+        THUCANH_JAP_BACK_EXTRA: "Message to CNNers: The reason that I picked Japan instead of US or UK is because of very ideal education system and studying environment at prestigious universities, as well as great characteristics from Japanese citizens. I believe that college is not about plain lecture on class, but also about learning to become a better person. And Japan is a perfect destination to achieve that goal.",
 
         MINHNGOC_UK_BIO_NAME: "Ngo Minh Ngoc",
         MINHNGOC_UK_BIO_1: "A43 CNNer",
@@ -175,6 +198,19 @@ app.config(function ($translateProvider, $locationProvider) {
         HONGCHAU_UK_BIO_2: "Ruthin School '16, UK",
         HONGCHAU_UK_BACK_INFO: "CNN Shine Member | PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club) | Head Admin, CNN Zoom Magazine, 2013 – 2014 | Organizing Team, “Finger Print K43 – Memory Station 2014” Yearbook | Content Developing Team, Hanoi Food Rescue Project Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
         HONGCHAU_UK_BACK_EXTRA: "Message to CNNers: Dream big. Work hard. Your dream will come true, just like mine!",
+
+        HTRANG_KR_BIO_NAME: "Nguyen Hien Trang",
+        HTRANG_KR_BIO_1: "G43 CNNer",
+        HTRANG_KR_BIO_2: "Underwood Intl. College – Yonsei University, South Korea",
+        HTRANG_KR_BACK_INFO: "",
+        HTRANG_KR_BACK_EXTRA: "",
+
+        PANH_KR_BIO_NAME: "Pham Phuong Anh",
+        PANH_KR_BIO_1: "H42 CNNer",
+        PANH_KR_BIO_2: "Underwood Intl. College – Yonsei University, South Korea",
+        PANH_KR_BACK_INFO: "A current sophomore at Underwood International College, Yonsei University, South Korea ",
+        PANH_KR_BACK_EXTRA: "Message to CNNers: South Korea has one of the most developed economy and education in the world. Come to this beautiful country and you guys won’t just learn, but also will experience many interesting adventures. Make your best effort today and have a promising future await! Be brave, be decisive!",
+
 
         // Mock staff
         MOCK_BIO_1: "Lorem ipsum dolor sit amet",
