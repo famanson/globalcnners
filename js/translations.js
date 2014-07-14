@@ -58,12 +58,9 @@ app.config(function ($translateProvider, $locationProvider) {
 
         SCHEDULE_TITLE_1600: "The End of Afternoon Section",
 
-        // Guest Speakers section
-        SPEAKERS_TEXT_1: "Globe trotters who will give speeches to share their success story and precious experience at CNN Conference 2014.",
-
         //Staff section
         STAFF_TEXT_1: "CNN Conference would not even exist in the first place without all these passionate globe trotters. Let's learn more about them!",
-        STAFF_TEXT_2: "The administrator, speakers, all QA and booth staff will be available on the Conference day.",
+        STAFF_TEXT_2: "The administrator, speakers, all Q&A and booth staff will be available on the Conference day.",
         FLAG_PICKER_TIP_1: "Click a flag to filter by country",
         FLAG_PICKER_TIP_2_1: "Click active flag to clear filter",
         FLAG_PICKER_TIP_2_2: "or an inactive flag to switch country",
@@ -276,7 +273,8 @@ app.config(function ($translateProvider, $locationProvider) {
         SPEAKERS_TEXT_1: "Các bạn và anh chị du học sinh Chuyên Ngữ là khách mời đến chia sẻ kinh nghiệm và bí quyết thành công tại hội thảo du học CNN 2014.",
 
         //Staff section
-        STAFF_TEXT_1: "Tất cả các thành viên trong ban tổ chức. Trưởng BTC, các bạn làm thuyết trình, trong đội hỏi-đáp, quầy thông tin sẽ có mặt trong ngày hội thảo",
+        STAFF_TEXT_1: "Hội thảo du học Chuyên Ngoại Ngữ không thể thiếu các bạn và anh chị du học sinh vô cùng nhiệt huyết. Hãy cùng tìm hiểu về họ nhé!",
+        STAFF_TEXT_2: "Trưởng BTC, các bạn làm thuyết trình, trong đội hỏi-đáp, quầy thông tin sẽ có mặt trong ngày hội thảo",
         FLAG_PICKER_TIP_1: "Bấm vào cờ một nước để hiển thị các thành viên của nước đó",
         FLAG_PICKER_TIP_2_1: "Bấm vào cờ đang họat động để xóa bộ lọc",
         FLAG_PICKER_TIP_2_2: "hoặc vào một cờ còn lại để đổi sang nước khác",
