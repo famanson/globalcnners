@@ -109,6 +109,18 @@ var staff = [
         image: "DUCANH_US.jpg"
     },
     {
+        name: "THUYNGAN_US_BIO_NAME",
+        title: "SPEAKER_TITLE",
+        rank: "low",
+        firstBioLine: "THUYNGAN_US_BIO_1",
+        secondBioLine: "THUYNGAN_US_BIO_2",
+        back: "THUYNGAN_US_BACK_INFO",
+        backExtra: "THUYNGAN_US_BACK_EXTRA",
+        country: "us",
+        picsize: "1024x1024",
+        image: "THUYNGAN_US.jpg"
+    },
+    {
         name: "DUYKHANH_US_BIO_NAME",
         title: "BOOTH_TITLE",
         rank: "low",
@@ -131,18 +143,6 @@ var staff = [
         country: "us",
         picsize: "1024x1024",
         image: "DOMINHTRI_US.jpg"
-    },
-    {
-        name: "THUYNGAN_US_BIO_NAME",
-        title: "SPEAKER_TITLE",
-        rank: "low",
-        firstBioLine: "THUYNGAN_US_BIO_1",
-        secondBioLine: "THUYNGAN_US_BIO_2",
-        back: "THUYNGAN_US_BACK_INFO",
-        backExtra: "THUYNGAN_US_BACK_EXTRA",
-        country: "us",
-        picsize: "1024x1024",
-        image: "THUYNGAN_US.jpg"
     },
     // FIN
     {
