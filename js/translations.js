@@ -95,7 +95,7 @@ app.config(function ($translateProvider, $locationProvider) {
         ADMIN_TITLE: "Conference Adminstrator",
         DESIGN_TITLE:"Designer",
         CONTRIBUTOR_TITLE:"Contributor",
-        SPEAKER_TITLE: "Speaker <i class='fa fa-microphone'></i>",
+        SPEAKER_TITLE: "<i class='fa fa-microphone'></i> Speaker",
         DESIGN_CONSULT_TITLE: "Designer & Project Consultant",
 
         // INDIVIDUAL STAFF
@@ -222,7 +222,6 @@ app.config(function ($translateProvider, $locationProvider) {
         TESTIMONIALS_HEADING: "Testimonials",
         DOCS_HEADING: "Tài liệu",
         STAFF_HEADING: "Thành viên BTC",
-        SPEAKERS_HEADING: "Khách mời",
         SCHEDULE_HEADING: "Lịch trình hội thảo",
         HELLO_HEADING: "Xin chào!",
 
@@ -238,25 +237,25 @@ app.config(function ($translateProvider, $locationProvider) {
         SCHEDULE_TITLE_0800: "Lời mở đầu",
         SCHEDULE_0800: "­Giới thiệu chương trình và nhà tài trợ | Giới thiệu các khách mời chương trình",
 
-        SCHEDULE_TITLE_0815: "<span class='flag-icon flag-icon-us'></span> Thuyết trình - Du học Hoa Kỳ",
+        SCHEDULE_TITLE_0815: "<span class='flag-icon flag-icon-us'></span> Thuyết trình/Đối thoại - Du học Hoa Kỳ",
         SCHEDULE_0815: "­Du học Mỹ hệ trung học (ASSIST, UWC, Exchange) | Tổng quan về du học US hệ đại học | Đời sống du học sinh | Hỏi đáp với khách mời",
 
-        SCHEDULE_TITLE_0920: "<span class='flag-icon flag-icon-gb'></span> Thuyết trình - Du học Anh Quốc",
+        SCHEDULE_TITLE_0920: "<span class='flag-icon flag-icon-gb'></span> Thuyết trình/Đối thoại - Du học Anh Quốc",
         SCHEDULE_0920: "­Du học Anh hệ A-Level | Du học Anh hệ đại học | Cơ hội việc làm",
 
         SCHEDULE_TITLE_1000: "Giải lao",
         SCHEDULE_1000: "­Trò chơi | Đồ uống nhẹ",
 
-        SCHEDULE_TITLE_1015: "<span class='flag-icon flag-icon-fi'></span> Thuyết trình - Du học Phần Lan",
+        SCHEDULE_TITLE_1015: "<span class='flag-icon flag-icon-fi'></span> Thuyết trình/Đối thoại - Du học Phần Lan",
         SCHEDULE_1015: "Du học Phần Lan, Thùy Trang",
 
-        SCHEDULE_TITLE_1030: "<span class='flag-icon flag-icon-jp'></span> Thuyết trình - Du học Nhật Bản",
+        SCHEDULE_TITLE_1030: "<span class='flag-icon flag-icon-jp'></span> Thuyết trình/Đối thoại - Du học Nhật Bản",
         SCHEDULE_1030: "Du học Nhật Bản, Kiều Anh",
 
-        SCHEDULE_TITLE_1045: "<span class='flag-icon flag-icon-sg'></span> Thuyết trình - Du học Singapore",
+        SCHEDULE_TITLE_1045: "<span class='flag-icon flag-icon-sg'></span> Thuyết trình/Đối thoại - Du học Singapore",
         SCHEDULE_1045: "Du học Singapore, Mỹ Hạnh",
 
-        SCHEDULE_TITLE_1100: "<span class='flag-icon flag-icon-kr'></span> Thuyết trình - Du học Hàn Quốc",
+        SCHEDULE_TITLE_1100: "<span class='flag-icon flag-icon-kr'></span> Thuyết trình/Đối thoại - Du học Hàn Quốc",
         SCHEDULE_1100: "Du học Hàn Quốc, Hiền Trang",
 
         SCHEDULE_TITLE_1115: "Kết thúc chương trình buổi sáng",
@@ -269,12 +268,9 @@ app.config(function ($translateProvider, $locationProvider) {
 
         SCHEDULE_TITLE_1600: "Kết thúc chương trình buổi chiều",
 
-        // Guest Speakers section
-        SPEAKERS_TEXT_1: "Các bạn và anh chị du học sinh Chuyên Ngữ là khách mời đến chia sẻ kinh nghiệm và bí quyết thành công tại hội thảo du học CNN 2014.",
-
         //Staff section
         STAFF_TEXT_1: "Hội thảo du học Chuyên Ngoại Ngữ không thể thiếu các bạn và anh chị du học sinh vô cùng nhiệt huyết. Hãy cùng tìm hiểu về họ nhé!",
-        STAFF_TEXT_2: "Trưởng BTC, các bạn làm thuyết trình, trong đội hỏi-đáp, quầy thông tin sẽ có mặt trong ngày hội thảo",
+        STAFF_TEXT_2: "Trưởng BTC, các bạn làm thuyết trình, đối thoại, quầy thông tin sẽ có mặt trong ngày hội thảo",
         FLAG_PICKER_TIP_1: "Bấm vào cờ một nước để hiển thị các thành viên của nước đó",
         FLAG_PICKER_TIP_2_1: "Bấm vào cờ đang họat động để xóa bộ lọc",
         FLAG_PICKER_TIP_2_2: "hoặc vào một cờ còn lại để đổi sang nước khác",
@@ -308,7 +304,7 @@ app.config(function ($translateProvider, $locationProvider) {
         BOOTH_TITLE: "Nhóm làm quầy thông tin",
         ADMIN_TITLE: "Trưởng ban tổ chức",
         CONTRIBUTOR_TITLE:"Cộng tác viên nội dung",
-        SPEAKER_TITLE: "Speaker <i class='fa fa-microphone'></i>",
+        SPEAKER_TITLE: "<i class='fa fa-microphone'></i> Thuyết trình",
         DESIGN_TITLE: "Thiết kế",
         DESIGN_CONSULT_TITLE: "Thiết kế & Cố vấn dự án",
 
