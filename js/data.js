@@ -75,7 +75,7 @@ var staff = [
     {
         name: "HIEUANH_US_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "HIEUANH_US_BIO_1",
         secondBioLine: "HIEUANH_US_BIO_2",
         back: "HIEUANH_US_BACK_INFO",
@@ -87,7 +87,7 @@ var staff = [
     {
         name: "CHIHUYNH_US_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "CHIHUYNH_US_BIO_1",
         secondBioLine: "CHIHUYNH_US_BIO_2",
         back: "CHIHUYNH_US_BACK_INFO",
@@ -99,7 +99,7 @@ var staff = [
     {
         name: "DUCANH_US_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "DUCANH_US_BIO_1",
         secondBioLine: "DUCANH_US_BIO_2",
         back: "DUCANH_US_BACK_INFO",
@@ -111,7 +111,7 @@ var staff = [
     {
         name: "THUYNGAN_US_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "THUYNGAN_US_BIO_1",
         secondBioLine: "THUYNGAN_US_BIO_2",
         back: "THUYNGAN_US_BACK_INFO",
@@ -148,7 +148,7 @@ var staff = [
     {
         name: "THUYTRANG_FIN_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "THUYTRANG_FIN_BIO_1",
         secondBioLine: "THUYTRANG_FIN_BIO_2",
         back: "THUYTRANG_FIN_BACK_INFO",
@@ -173,7 +173,7 @@ var staff = [
     {
         name: "MYHANH_SG_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "MYHANH_SG_BIO_1",
         secondBioLine: "MYHANH_SG_BIO_2",
         back: "MYHANH_SG_BACK_INFO",
@@ -185,7 +185,7 @@ var staff = [
     {
         name: "KANH_JAP_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "KANH_JAP_BIO_1",
         secondBioLine: "KANH_JAP_BIO_2",
         back: "KANH_JAP_BACK_INFO",
@@ -197,7 +197,7 @@ var staff = [
     {
         name: "THUCANH_JAP_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "THUCANH_JAP_BIO_1",
         secondBioLine: "THUCANH_JAP_BIO_2",
         back: "THUCANH_JAP_BACK_INFO",
@@ -210,7 +210,7 @@ var staff = [
     {
         name: "PANH_KR_BIO_NAME",
         title: "SPEAKER_TITLE",
-        rank: "low",
+        rank: "speaker",
         firstBioLine: "PANH_KR_BIO_1",
         secondBioLine: "PANH_KR_BIO_2",
         back: "PANH_KR_BACK_INFO",

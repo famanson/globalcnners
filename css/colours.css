@@ -25,6 +25,11 @@
 
 /* "VIP" staff members */
 .staff-wrapper .pin.high {
+    background-color: #891E30;
+}
+
+/* Speakers */
+.staff-wrapper .pin.speaker {
     background-color: #DB6B4B;
 }
 
