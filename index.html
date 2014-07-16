@@ -122,13 +122,13 @@
             <div class="row featurette">
                 <h2 class="featurette-heading center"><b>{{ 'STAFF_HEADING' | translate }}</b></h2>
                 <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_1' | translate }}</b></h4>
-                <h4 class="featurette-heading center"><b>{{ 'STAFF_TEXT_2' | translate }}</b></h4>
+                <h4 class="featurette-heading center"><i>({{ 'STAFF_TEXT_2' | translate }})</i></h4>
             </div>
         </div>
         <div class="featurette-wrapper staff-wrapper" ng-controller="StaffCtrl">
             <div class="row featurette">
                 <div id="flag-picker-tip" class="center">
-                    <h4 id="flag-tip-1"><i class="fa fa-flag"></i>  <b>{{ 'FLAG_PICKER_TIP_1' | translate }}<b></h4>
+                    <h4 id="flag-tip-1"><i class="fa fa-flag"></i>  <b>{{ 'FLAG_PICKER_TIP_1' | translate }}</b></h4>
                     <h4 id="flag-tip-2"><b>{{ 'FLAG_PICKER_TIP_2_1' | translate }}</b>  <i class="fa fa-times"></i>  <b>{{ 'FLAG_PICKER_TIP_2_2' | translate }}</b>  <i class="fa fa-refresh"></i></h4>
                 </div>
                 <div id="flag-picker-wrapper" ng-if="staffWallEnabled">
@@ -139,9 +139,6 @@
                                 &nbsp;
                             </span>
                         </h1>
-                    </div>
-                    <div id="role-picker">
-
                     </div>
                 </div>
 

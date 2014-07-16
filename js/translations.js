@@ -59,7 +59,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SCHEDULE_TITLE_1600: "The End of Afternoon Section",
 
         //Staff section
-        STAFF_TEXT_1: "CNN Conference would not even exist in the first place without all these passionate globe trotters. Let's learn more about them!",
+        STAFF_TEXT_1: "CNN Conference would not even exist in the first place without all these passionate globe trotters.",
         STAFF_TEXT_2: "The administrator, speakers, all Q&A and booth staff will be available on the Conference day.",
         FLAG_PICKER_TIP_1: "Click a flag to filter by country",
         FLAG_PICKER_TIP_2_1: "Click active flag to clear filter",
@@ -269,7 +269,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SCHEDULE_TITLE_1600: "Kết thúc chương trình buổi chiều",
 
         //Staff section
-        STAFF_TEXT_1: "Hội thảo du học Chuyên Ngoại Ngữ không thể thiếu các bạn và anh chị du học sinh vô cùng nhiệt huyết. Hãy cùng tìm hiểu về họ nhé!",
+        STAFF_TEXT_1: "Hội thảo du học Chuyên Ngoại Ngữ không thể thiếu các bạn và anh chị du học sinh vô cùng nhiệt huyết.",
         STAFF_TEXT_2: "Trưởng BTC, các bạn làm thuyết trình, đối thoại, quầy thông tin sẽ có mặt trong ngày hội thảo",
         FLAG_PICKER_TIP_1: "Bấm vào cờ một nước để hiển thị các thành viên của nước đó",
         FLAG_PICKER_TIP_2_1: "Bấm vào cờ đang họat động để xóa bộ lọc",
