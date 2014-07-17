@@ -60,7 +60,6 @@ var staff = [
         picsize: "1024x1024",
         image: "MINHNGOC_UK.jpg"
     },
-    ,
     {
         name: "CHINHNGUYEN_UK_BIO_NAME",
         title: "SPEAKER_TITLE",
