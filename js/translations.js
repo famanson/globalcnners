@@ -333,6 +333,12 @@ app.config(function ($translateProvider, $locationProvider) {
         HONGCHAU_UK_BACK_INFO: "Tình nguyện viên câu lạc bộ CNN Shine | Ban PR Chương trình triển lãm từ thiện The point 2012 (do CNN Pencil Club tổ chức) | Head Admin nội san CNN Zoom (2013 – 2014) | Thành viên ban Kỷ yếu “Vân tay K43 – Trạm ký ức” (2014) | Thành viên ban Nội dung dự án Hanoi Food Rescue | Cộng tác viên tạp chí “Thế giới tuổi thơ” (NXB Kim Đồng)",
         HONGCHAU_UK_BACK_EXTRA: "Dream big. Work hard. Your dream will come true, just like mine!",
 
+        CHINHNGUYEN_UK_BIO_NAME: "Nguyễn Công Chính",
+        CHINHNGUYEN_UK_BIO_1: "K41 CNNer",
+        CHINHNGUYEN_UK_BIO_2: "Bosworth College & Uni of Essex '15",
+        CHINHNGUYEN_UK_BACK_INFO: "Học khóa A-Level 2 năm tại Bosworth College, UK (2010) | Nhập học University of Essex, UK (2012-15) | Hiện đang thực tập tại Cty CP Chứng Khoán Sài Gòn – Hà Nội SHS",
+
+
         // US Staff
 
         MPHUONG_US_BIO_NAME: "Nguyễn Mai Phương",
