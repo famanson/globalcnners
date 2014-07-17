@@ -82,7 +82,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         staffGroup[i] = [];
     }
     if (!$scope.staffWallEnabled) {
-        if ($(document).width() < 512) {
+        if ($(document).width() < 992) {
             staffPartitionSize = 1;
         } else if ($(document).width() < 1280) {
             staffPartitionSize = 2;
@@ -90,6 +90,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         for (key in staff) {
             var member = staff[key];
             var partition = key % staffPartitionSize;
+            console.log(partition);
             staffGroup[partition].push(member);
         }
         $scope.staffGroup = staffGroup;
