@@ -49,6 +49,17 @@ var staff = [
         image: "MINHDANG_UK.jpg"
     },
     {
+        name: "CHINHNGUYEN_UK_BIO_NAME",
+        title: "SPEAKER_TITLE",
+        rank: "speaker",
+        firstBioLine: "CHINHNGUYEN_UK_BIO_1",
+        secondBioLine: "CHINHNGUYEN_UK_BIO_2",
+        back: "CHINHNGUYEN_UK_BACK_INFO",
+        country: "gb",
+        picsize: "1024x1024",
+        image: "CHINHNGUYEN_UK.jpg"
+    },
+    {
         name: "MINHNGOC_UK_BIO_NAME",
         title: "CONTRIBUTOR_TITLE",
         rank: "low",
@@ -59,17 +70,6 @@ var staff = [
         country: "gb",
         picsize: "1024x1024",
         image: "MINHNGOC_UK.jpg"
-    },
-    {
-        name: "CHINHNGUYEN_UK_BIO_NAME",
-        title: "SPEAKER_TITLE",
-        rank: "speaker",
-        firstBioLine: "CHINHNGUYEN_UK_BIO_1",
-        secondBioLine: "CHINHNGUYEN_UK_BIO_2",
-        back: "CHINHNGUYEN_UK_BACK_INFO",
-        country: "gb",
-        picsize: "1024x1024",
-        image: "CHINHNGUYEN_UK.jpg"
     },
     {
         name: "HONGCHAU_UK_BIO_NAME",
