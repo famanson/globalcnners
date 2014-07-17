@@ -102,7 +102,7 @@ app.config(function ($translateProvider, $locationProvider) {
         SONPHAM_UK_BIO_NAME: "Pham Anh Son",
         SONPHAM_UK_BIO_1: "A37 CNNer, Oxford Uni Alumni, UK",
         SONPHAM_UK_BIO_2: "Software Engineer, UK",
-        SONPHAM_UK_BACK_INFO: "Award for Academic Excellence 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science graduate, Oxford Uni, UK (2012) | Software engineer at Ocado Technology, UK",
+        SONPHAM_UK_BACK_INFO: "Award for Academic Excellence 2006-07 | 3rd Prize English National contest 2006-07 | Media Team member of the first 10+ (2008) | Founding member of Global CNNers (2007) | CNN Conference Admin 2009 & 2010 | 50% A-Level scholarship, Padworth College, Reading, UK (2007) | Gold ('08) & Silver ('09) Prize UK Maths Challenge | Computer Science, Oxford Uni '12 | Software engineer at Ocado Technology, UK",
         SONPHAM_UK_BACK_EXTRA: "Message to CNNers: in order to succeed in anything, you need to really want it and pursue it to the end. My story can be summed up in a sentence: I believe there's an answer to every question, one just needs to look harder! Sheer determination can do lots of things.",
 
         MADMIN_UK_BIO_NAME: "Minh \"madmin\" Dang",

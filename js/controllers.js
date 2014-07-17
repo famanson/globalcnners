@@ -81,15 +81,22 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     for (var i = 0; i < staffPartitionSize; i += 1) {
         staffGroup[i] = [];
     }
-    for (key in staff) {
-        var member = staff[key];
-        var partition = key % staffPartitionSize;
-        staffGroup[partition].push(member);
+    if (!$scope.staffWallEnabled) {
+        if ($(document).width() < 512) {
+            staffPartitionSize = 1;
+        } else if ($(document).width() < 1280) {
+            staffPartitionSize = 2;
+        }
+        for (key in staff) {
+            var member = staff[key];
+            var partition = key % staffPartitionSize;
+            staffGroup[partition].push(member);
+        }
+        $scope.staffGroup = staffGroup;
+        $scope.staffPartitionSize = staffPartitionSize;
     }
 
-    $scope.staffGroup = staffGroup;
-    $scope.staffPartitionSize = staffPartitionSize;
-    $scope.walls={};
+    $scope.walls= {};
 
     $scope.buildStaffWall = function() {
         var staffWall = new freewall("#staff-view");
