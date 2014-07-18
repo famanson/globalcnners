@@ -55,6 +55,7 @@ var staff = [
         firstBioLine: "CHINHNGUYEN_UK_BIO_1",
         secondBioLine: "CHINHNGUYEN_UK_BIO_2",
         back: "CHINHNGUYEN_UK_BACK_INFO",
+        backExtra: "CHINHNGUYEN_UK_BACK_EXTRA",
         country: "gb",
         picsize: "1024x1024",
         image: "CHINHNGUYEN_UK.jpg"

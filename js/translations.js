@@ -198,6 +198,12 @@ app.config(function ($translateProvider, $locationProvider) {
         HONGCHAU_UK_BACK_INFO: "CNN Shine Member | PR Team, The Point Fund-raising Project, 2012 (hosted by CNN Pencil Club) | Head Admin, CNN Zoom Magazine, 2013 – 2014 | Organizing Team, “Finger Print K43 – Memory Station 2014” Yearbook | Content Developing Team, Hanoi Food Rescue Project Partner, “The Gioi Tuoi Tho” Magazine, Kim Dong Publisher",
         HONGCHAU_UK_BACK_EXTRA: "Message to CNNers: Dream big. Work hard. Your dream will come true, just like mine!",
 
+        CHINHNGUYEN_UK_BIO_NAME: "Nguyen Cong Chinh",
+        CHINHNGUYEN_UK_BIO_1: "K41 CNNer",
+        CHINHNGUYEN_UK_BIO_2: "Bosworth College & Uni of Essex '15",
+        CHINHNGUYEN_UK_BACK_INFO: "2-year A-Level at Bosworth College, UK (2010) | Studying at University of Essex, UK (2012-15) | Intern at Saigon- Hanoi Stock Ltd",
+        CHINHNGUYEN_UK_BACK_EXTRA: "There is nothing quite like the feeling of knowing that I am on the right track. I believe I am pursuing what I need for myself and my family. If you love your goals, respect it, care about it, think of it, prepare to meet it, love it enough to be with it to the end, all the time. Your goals will come to you at the end. If not, I believe Karma has already set you up with something you will definitely love.",
+
         HTRANG_KR_BIO_NAME: "Nguyen Hien Trang",
         HTRANG_KR_BIO_1: "G43 CNNer",
         HTRANG_KR_BIO_2: "Underwood Intl. College – Yonsei Uni, S.Korea",
@@ -337,7 +343,7 @@ app.config(function ($translateProvider, $locationProvider) {
         CHINHNGUYEN_UK_BIO_1: "K41 CNNer",
         CHINHNGUYEN_UK_BIO_2: "Bosworth College & Uni of Essex '15",
         CHINHNGUYEN_UK_BACK_INFO: "Học khóa A-Level 2 năm tại Bosworth College, UK (2010) | Nhập học University of Essex, UK (2012-15) | Hiện đang thực tập tại Cty CP Chứng Khoán Sài Gòn – Hà Nội SHS",
-
+        CHINHNGUYEN_UK_BACK_EXTRA: "Không có cảm giác nào giống như cảm giác biết rằng bản thân tôi đang đi trên con đường đúng cho mình. Tôi tin rằng niềm tin mà tôi theo đuổi, là điều cần thiết cho bản thân tôi và gia đình. Nếu bạn yêu mục tiêu bạn hướng tới, tôn trọng nó, để tâm đến nó, nghĩ về nó, chuẩn bị kỹ càng. Cuối cùng thì, nó sẽ đến với bạn.",
 
         // US Staff
 
