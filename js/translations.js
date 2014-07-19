@@ -208,7 +208,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HIEUNGUYEN_UK_BIO_1: "B41 CNNer",
         HIEUNGUYEN_UK_BIO_2: "Bosworth College & University of Bath '16, UK",
         HIEUNGUYEN_UK_BACK_INFO: "2-year A-Level at Bosworth College, UK 2011-13 | Gold Medal UKMT Senior Math Challenge ’11 | Merit Award Kangaroo | BSc Accounting and Finance, University of Bath 2013-16",
-        HIEUNGUYEN_UK_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Nếu các em được trao cơ hội để đi du học, hãy tận dụng nó. Anh tin CNN đã trang bị đầy đủ những gì các em cần để thực hiện điều này, ko chỉ về kiến thức mà còn về những kinh nghiệm sống. Đi du học không phải chỉ để được học, với anh, du học còn là 1 cơ hội để du lịch, được trải nghiệm những nền văn hóa mới, là cơ hội để kết bạn với những người từ rất nhiều các quốc gia khác trên thế giới. Du học thích lắm các em ah! mỗi tội nhớ mẹ thôi =))",
+        HIEUNGUYEN_UK_BACK_EXTRA: "If you want to study abroad and are given an opportunity to do so, then don’t hesitate to take it. I believe that CNN has prepared you well enough, in terms of both knowledge and life experiences. Going to study abroad is not only for studying. To me, it is also an opportunity to travel around, experience new cultures and make friends with people from all around the world. Studying abroad is great, I must say! It is only always missing mom that annoys me LOL",
 
         HTRANG_KR_BIO_NAME: "Nguyen Hien Trang",
         HTRANG_KR_BIO_1: "G43 CNNer",
@@ -355,7 +355,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HIEUNGUYEN_UK_BIO_1: "B41 CNNer",
         HIEUNGUYEN_UK_BIO_2: "Bosworth College & ĐH Bath '16, UK",
         HIEUNGUYEN_UK_BACK_INFO: "Học khóa A-Level 2 năm tại Bosworth College 2011-13, UK | Gold Medal UKMT Senior Math Challenge ’11 | Merit Award Kangaroo | Theo học Tài chính & Kế toán tại ĐH Bath 2013-16",
-        HIEUNGUYEN_UK_BACK_EXTRA: "If you want to study abroad and are given an opportunity to do so, then don’t hesitate to take it. I believe that CNN has prepared you well enough, in terms of both knowledge and life experiences. Going to study abroad is not only for studying. To me, it is also an opportunity to travel around, experience new cultures and make friends with people from all around the world. Studying abroad is great, I must say! It is only always missing mom that annoys me LOL",
+        HIEUNGUYEN_UK_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Nếu các em được trao cơ hội để đi du học, hãy tận dụng nó. Anh tin CNN đã trang bị đầy đủ những gì các em cần để thực hiện điều này, ko chỉ về kiến thức mà còn về những kinh nghiệm sống. Đi du học không phải chỉ để được học, với anh, du học còn là 1 cơ hội để du lịch, được trải nghiệm những nền văn hóa mới, là cơ hội để kết bạn với những người từ rất nhiều các quốc gia khác trên thế giới. Du học thích lắm các em ah! mỗi tội nhớ mẹ thôi =))",
 
         // US Staff
 
