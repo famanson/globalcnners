@@ -201,8 +201,14 @@ app.config(function ($translateProvider, $locationProvider) {
         CHINHNGUYEN_UK_BIO_NAME: "Nguyen Cong Chinh",
         CHINHNGUYEN_UK_BIO_1: "K41 CNNer, Uni of Essex '15, UK",
         CHINHNGUYEN_UK_BIO_2: "Intern at Saigon Hanoi Securities (SHS)",
-        CHINHNGUYEN_UK_BACK_INFO: "2-year A-Level at Bosworth College, UK (2010) | Studying at University of Essex, UK (2012-15) | Current intern at Saigon Hanoi Securities (SHS)",
+        CHINHNGUYEN_UK_BACK_INFO: "2-year A-Level at Bosworth College, UK 2010-12 | Studying at University of Essex, UK 2012-15 | Current intern at Saigon Hanoi Securities (SHS)",
         CHINHNGUYEN_UK_BACK_EXTRA: "There is nothing quite like the feeling of knowing that I am on the right track. I believe I am pursuing what I need for myself and my family. If you love your goals, respect it, care about it, think of it, prepare to meet it, love it enough to be with it to the end, all the time. Your goals will come to you at the end. If not, I believe Karma has already set you up with something you will definitely love.",
+
+        HIEUNGUYEN_UK_BIO_NAME: "Nguyen Trong Hieu",
+        HIEUNGUYEN_UK_BIO_1: "B41 CNNer",
+        HIEUNGUYEN_UK_BIO_2: "Bosworth College & University of Bath '16, UK",
+        HIEUNGUYEN_UK_BACK_INFO: "2-year A-Level at Bosworth College, UK 2011-13 | Gold Medal UKMT Senior Math Challenge ’11 | Merit Award Kangaroo | BSc Accounting and Finance, University of Bath 2013-16",
+        HIEUNGUYEN_UK_BACK_EXTRA: "Lời nhắn nhủ tới CNNers: Nếu các em được trao cơ hội để đi du học, hãy tận dụng nó. Anh tin CNN đã trang bị đầy đủ những gì các em cần để thực hiện điều này, ko chỉ về kiến thức mà còn về những kinh nghiệm sống. Đi du học không phải chỉ để được học, với anh, du học còn là 1 cơ hội để du lịch, được trải nghiệm những nền văn hóa mới, là cơ hội để kết bạn với những người từ rất nhiều các quốc gia khác trên thế giới. Du học thích lắm các em ah! mỗi tội nhớ mẹ thôi =))",
 
         HTRANG_KR_BIO_NAME: "Nguyen Hien Trang",
         HTRANG_KR_BIO_1: "G43 CNNer",
@@ -342,8 +348,14 @@ app.config(function ($translateProvider, $locationProvider) {
         CHINHNGUYEN_UK_BIO_NAME: "Nguyễn Công Chính",
         CHINHNGUYEN_UK_BIO_1: "K41 CNNer, Uni of Essex '15, UK",
         CHINHNGUYEN_UK_BIO_2: "Thực tập tại Cty Chứng Khoán Sài Gòn – Hà Nội SHS",
-        CHINHNGUYEN_UK_BACK_INFO: "Học khóa A-Level 2 năm tại Bosworth College, UK (2010) | Nhập học University of Essex, UK (2012-15) | Hiện đang thực tập tại Cty CP Chứng Khoán Sài Gòn – Hà Nội SHS",
+        CHINHNGUYEN_UK_BACK_INFO: "Học khóa A-Level 2 năm tại Bosworth College, UK | Nhập học University of Essex, UK (2012-15) | Hiện đang thực tập tại Cty CP Chứng Khoán Sài Gòn – Hà Nội SHS",
         CHINHNGUYEN_UK_BACK_EXTRA: "Không có cảm giác nào giống như cảm giác biết rằng bản thân tôi đang đi trên con đường đúng cho mình. Tôi tin rằng niềm tin mà tôi theo đuổi, là điều cần thiết cho bản thân tôi và gia đình. Nếu bạn yêu mục tiêu bạn hướng tới, tôn trọng nó, để tâm đến nó, nghĩ về nó, chuẩn bị kỹ càng. Cuối cùng thì, nó sẽ đến với bạn.",
+
+        HIEUNGUYEN_UK_BIO_NAME: "Nguyễn Trọng Hiếu",
+        HIEUNGUYEN_UK_BIO_1: "B41 CNNer",
+        HIEUNGUYEN_UK_BIO_2: "Bosworth College & ĐH Bath '16, UK",
+        HIEUNGUYEN_UK_BACK_INFO: "Học khóa A-Level 2 năm tại Bosworth College 2011-13, UK | Gold Medal UKMT Senior Math Challenge ’11 | Merit Award Kangaroo | Theo học Tài chính & Kế toán tại ĐH Bath 2013-16",
+        HIEUNGUYEN_UK_BACK_EXTRA: "If you want to study abroad and are given an opportunity to do so, then don’t hesitate to take it. I believe that CNN has prepared you well enough, in terms of both knowledge and life experiences. Going to study abroad is not only for studying. To me, it is also an opportunity to travel around, experience new cultures and make friends with people from all around the world. Studying abroad is great, I must say! It is only always missing mom that annoys me LOL",
 
         // US Staff
 

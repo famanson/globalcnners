@@ -61,6 +61,18 @@ var staff = [
         image: "CHINHNGUYEN_UK.jpg"
     },
     {
+        name: "HIEUNGUYEN_UK_BIO_NAME",
+        title: "SPEAKER_TITLE",
+        rank: "speaker",
+        firstBioLine: "HIEUNGUYEN_UK_BIO_1",
+        secondBioLine: "HIEUNGUYEN_UK_BIO_2",
+        back: "HIEUNGUYEN_UK_BACK_INFO",
+        backExtra: "HIEUNGUYEN_UK_BACK_EXTRA",
+        country: "gb",
+        picsize: "1024x1024",
+        image: "HIEUNGUYEN_UK.jpg"
+    },
+    {
         name: "MINHNGOC_UK_BIO_NAME",
         title: "CONTRIBUTOR_TITLE",
         rank: "low",
