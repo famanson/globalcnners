@@ -76,6 +76,11 @@ app.directive('flippable', function() {
         // responsible for registering DOM listeners as well as updating the DOM
         link: function(scope, element, attrs) {
             $(element).bind("click", function(){
+                $("#reveal").unbind("mouseenter mouseleave");
+                $("#reveal-button").removeClass("fa-lock");
+                $("#reveal-button").addClass("fa-unlock-alt");
+                $("#reveal-text").css("opacity", 1);
+                $("#start-text").css("opacity", 0);
                 $("#balloon").addClass("stop");
                 $("#cloud1,#cloud2,#cloud3").fadeOut(1000);
                 $("#balloon").animate({
