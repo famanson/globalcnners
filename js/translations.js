@@ -5,7 +5,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
     $translateProvider.translations("en", {
         // Headings
-        LANGUAGE_HEADING: "Ngôn ngữ",
+        LANGUAGE_HEADING: "Language/Ngôn ngữ",
         TITLE_HEADING: "CNN Conference 2014",
         CONTACT_HEADING: "Register/Contact Us",
         TESTIMONIALS_HEADING: "Testimonials",
@@ -19,8 +19,9 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_TEXT_1: "We are Global CNNers, we've all come together to bring CNN Conference back for the 6th time this summer!",
 
         // Schedule section
-        SCHEDULE_TEXT_1: "Date: 26/07/2014",
-        SCHEDULE_TEXT_2: "To attend, you will first need to Register using the link to a form at the bottom of the page",
+        SCHEDULE_TEXT_1: "<i class='fa fa-clock-o'></i> 26/07/2014",
+        SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> College of Foreign Language Gymnasium",
+        SCHEDULE_TEXT_3: "To attend, you will first need to Register using the link to a form at the bottom of the page",
         SCHEDULE_TITLE_0745: "Opening",
         SCHEDULE_0745: "­Welcome Students & Parents",
 
@@ -229,7 +230,7 @@ app.config(function ($translateProvider, $locationProvider) {
         MOCK_BACK_INFO: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }).translations("vn", {
         // Headings
-        LANGUAGE_HEADING: "Language",
+        LANGUAGE_HEADING: "Language/Ngôn ngữ",
         CONTACT_HEADING: "Đăng ký/Liên hệ",
         TESTIMONIALS_HEADING: "Testimonials",
         DOCS_HEADING: "Tài liệu",
@@ -241,8 +242,9 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_TEXT_1: "Chúng tôi là Hội du học sinh Chuyên Ngữ, tụ hội mùa hè này để đưa hội thảo du học CNN trở lại lần thứ 6!",
 
         // Schedule section
-        SCHEDULE_TEXT_1: "Ngày diễn ra hội thảo: 26/07/2014",
-        SCHEDULE_TEXT_2: "Lưu ý: Để tham dự hội thảo, xin vui lòng đăng ký tại đường dẫn ở cuối trang",
+        SCHEDULE_TEXT_1: "<i class='fa fa-clock-o'></i> 26/07/2014",
+        SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> Nhà tập đa năng ĐHNN-ĐHQGHN",
+        SCHEDULE_TEXT_3: "Lưu ý: Để tham dự hội thảo, xin vui lòng đăng ký tại đường dẫn ở cuối trang",
         SCHEDULE_TITLE_0745: "Hội thảo mở cửa",
         SCHEDULE_0745: "­Tiếp đón học sinh và phụ huynh",
 

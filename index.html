@@ -92,6 +92,7 @@
                 <div class="col-md-12">
                     <h2 class="featurette-heading center"><b>{{ 'HELLO_HEADING' | translate }}</b></h2>
                     <h2 class="center">{{ 'HELLO_TEXT_1' | translate }}</h2>
+                    <iframe width="480" height="360" src="http://www.youtube.com/embed/caoQ9UR8WdI" frameborder="0" allowfullscreen seamless></iframe>
                 </div>
             </div>
         </div>
@@ -101,8 +102,9 @@
                 <a class="anchor" id="schedule"></a>
                 <div class="col-md-12">
                     <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_HEADING' | translate }}</b></h2>
-                    <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_TEXT_1' | translate }}</b></h2>
-                    <h4 class="featurette-heading center text-schedule">{{ 'SCHEDULE_TEXT_2' | translate }}</h4>
+                    <h2 class="featurette-heading center text-schedule"><b ng-bind-html="'SCHEDULE_TEXT_2' | translate"></b></h2>
+                    <h2 class="featurette-heading center text-schedule"><b ng-bind-html="'SCHEDULE_TEXT_1' | translate"></b></h2>
+                    <h4 class="featurette-heading center text-schedule">{{ 'SCHEDULE_TEXT_3' | translate }}</h4>
                     <ul class="cbp_tmtimeline">
                         <li ng-repeat="entry in schedule">
                             <time class="cbp_tmtime" datetime="2014-01-01 {{ entry.time }}"><span>01/01/14</span> <span>{{ entry.time }}</span></time>

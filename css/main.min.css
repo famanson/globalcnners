@@ -210,8 +210,9 @@ body {
     padding: 10px;
 }
 
-#guests-view .guest {
-    margin: 20px 0;
+iframe {
+    display: block;
+    margin: 0 auto;
 }
 
 #staff-view {
