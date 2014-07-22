@@ -214,6 +214,7 @@ body {
 iframe {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 #staff-view {
@@ -524,6 +525,7 @@ iframe {
 @media (max-width: 1279px) {
     #main-header {
         position: relative;
+        top: 0;
     }
 
     #main-header ul li:not(.brand) {
