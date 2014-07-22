@@ -179,11 +179,14 @@ body.init {
 
 @media (max-height: 1200px) {
     #reveal {
-        bottom: 0;
+        bottom: 5%;
     }
 }
 
 @media (max-height: 1024px) {
+    #reveal {
+        bottom: 0;
+    }
     #prologue-header {
         top: 5%;
     }
