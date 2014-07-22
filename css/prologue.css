@@ -177,6 +177,12 @@ body.init {
     left: 110px;
 }
 
+@media (max-height: 1200px) {
+    #reveal {
+        bottom: 0;
+    }
+}
+
 @media (max-height: 1024px) {
     #prologue-header {
         top: 5%;
@@ -187,9 +193,6 @@ body.init {
     #start-text {
         margin-top: 5px;
         font-size: 30px;
-    }
-    #reveal {
-        bottom: 0;
     }
     #reveal-button {
         font-size: 40px;
