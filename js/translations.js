@@ -19,7 +19,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_TEXT_1: "We are Global CNNers, we've all come together to bring CNN Conference back for the 6th time this summer!",
 
         // Schedule section
-        SCHEDULE_TEXT_1: "<i class='fa fa-clock-o'></i> 26/07/2014",
+        SCHEDULE_TEXT_1: "<i class='fa fa-calendar'></i> 26/07/2014",
         SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> College of Foreign Language Gymnasium",
         SCHEDULE_TEXT_3: "To attend, you will first need to Register using the link to a form at the bottom of the page",
         SCHEDULE_TITLE_0745: "Opening",
@@ -242,7 +242,7 @@ app.config(function ($translateProvider, $locationProvider) {
         HELLO_TEXT_1: "Chúng tôi là Hội du học sinh Chuyên Ngữ, tụ hội mùa hè này để đưa hội thảo du học CNN trở lại lần thứ 6!",
 
         // Schedule section
-        SCHEDULE_TEXT_1: "<i class='fa fa-clock-o'></i> 26/07/2014",
+        SCHEDULE_TEXT_1: "<i class='fa fa-calendar'></i> 26/07/2014",
         SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> Nhà tập đa năng ĐHNN-ĐHQGHN",
         SCHEDULE_TEXT_3: "Lưu ý: Để tham dự hội thảo, xin vui lòng đăng ký tại đường dẫn ở cuối trang",
         SCHEDULE_TITLE_0745: "Hội thảo mở cửa",
