@@ -12,7 +12,7 @@ app.config(function ($translateProvider, $locationProvider) {
         DOCS_HEADING: "Resources",
         STAFF_HEADING: "Our Crew",
         SPEAKERS_HEADING: "Guest Speakers",
-        SCHEDULE_HEADING: "Conference Schedule",
+        SCHEDULE_HEADING: "Location & Schedule",
         HELLO_HEADING: "Hello!",
 
         // Hello section
@@ -21,7 +21,7 @@ app.config(function ($translateProvider, $locationProvider) {
         // Schedule section
         SCHEDULE_TEXT_1: "<i class='fa fa-calendar'></i> 26/07/2014",
         SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> College of Foreign Language Gymnasium",
-        SCHEDULE_TEXT_3: "To attend, you will first need to Register using the link to a form at the bottom of the page",
+        SCHEDULE_TEXT_3: "Notice: To attend, you will first need to Register using the link to a form at the bottom of the page",
         SCHEDULE_TITLE_0745: "Opening",
         SCHEDULE_0745: "­Welcome Students & Parents",
 
@@ -235,7 +235,7 @@ app.config(function ($translateProvider, $locationProvider) {
         TESTIMONIALS_HEADING: "Testimonials",
         DOCS_HEADING: "Tài liệu",
         STAFF_HEADING: "Thành viên BTC",
-        SCHEDULE_HEADING: "Lịch trình hội thảo",
+        SCHEDULE_HEADING: "Địa điểm & Thời gian",
         HELLO_HEADING: "Xin chào!",
 
         // Hello section

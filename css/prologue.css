@@ -1,9 +1,4 @@
-body > :not(#prologue) {
-    opacity: 0;
-}
-
 body.init {
-    background-color: #0a7a88;
     position: fixed;
     overflow: hidden;
     padding: 0;

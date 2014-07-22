@@ -77,12 +77,17 @@ app.directive('flippable', function() {
         link: function(scope, element, attrs) {
             $(element).bind("click", function(){
                 $("#balloon").addClass("stop");
+                $("#cloud1,#cloud2,#cloud3").fadeOut(1000);
                 $("#balloon").animate({
                     top: "-200%"
                 }, 1500, function() {
-                    $("#prologue").hide();
-                    $("body").removeClass("init");
-                    $("body > :not(#prologue)").fadeTo(1000, 1);
+                    //
+                    $("#main-header").animate({ top: 0 }, 500, function() {
+                        $("body").removeClass("init");
+                        $("#prologue").slideUp(700, function() {
+                            $("body").css("background-color", "#fff");
+                        });
+                    });
                 });
             });
         }

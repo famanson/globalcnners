@@ -69,7 +69,7 @@
             <div id="start-text">Click to Unlock</div>
         </div>
     </div>
-    <div class="main-header">
+    <div id="main-header">
         <div class="col-md-12">
             <ul id="topbar" class="nav navbar-nav">
                 <li class="brand"><span><b>{{ 'TITLE_HEADING' | translate }}</b></span></li>
@@ -97,17 +97,28 @@
             </div>
         </div>
 
+        <div class="featurette-wrapper scheloc-wrapper">
+            <a class="anchor" id="schedule"></a>
+            <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_HEADING' | translate }}</b></h2>
+            <div class="col-md-12">
+                <div>
+                    <h3 class="featurette-heading center text-schedule"><b ng-bind-html="'SCHEDULE_TEXT_2' | translate"></b></h3>
+                    <img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?center=21.039945,105.781976&zoom=15&size=500x500&markers=21.039945,105.781976">
+                </div>
+                <div>
+                    <h1 class="featurette-heading center text-schedule"><b ng-bind-html="'SCHEDULE_TEXT_1' | translate"></b></h1>
+                    <h4 class="featurette-heading center text-schedule">{{ 'SCHEDULE_TEXT_3' | translate }}</h4>
+                </div>
+            </div>
+            <div style='clear: both'></div>
+        </div>
+
         <div class="featurette-wrapper schedule-wrapper" ng-controller="ScheduleCtrl">
             <div class="row featurette">
-                <a class="anchor" id="schedule"></a>
                 <div class="col-md-12">
-                    <h2 class="featurette-heading center text-schedule"><b>{{ 'SCHEDULE_HEADING' | translate }}</b></h2>
-                    <h2 class="featurette-heading center text-schedule"><b ng-bind-html="'SCHEDULE_TEXT_2' | translate"></b></h2>
-                    <h2 class="featurette-heading center text-schedule"><b ng-bind-html="'SCHEDULE_TEXT_1' | translate"></b></h2>
-                    <h4 class="featurette-heading center text-schedule">{{ 'SCHEDULE_TEXT_3' | translate }}</h4>
                     <ul class="cbp_tmtimeline">
                         <li ng-repeat="entry in schedule">
-                            <time class="cbp_tmtime" datetime="2014-01-01 {{ entry.time }}"><span>01/01/14</span> <span>{{ entry.time }}</span></time>
+                            <time class="cbp_tmtime" datetime="2014-01-01 {{ entry.time }}"><span>{{ entry.time }}</span></time>
                             <div class="cbp_tmicon fa {{ entry.logo }} fa-lg"></div>
                             <div class="cbp_tmlabel">
                                 <h2 ng-bind-html="entry.title | translate"></h2>

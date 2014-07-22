@@ -9,7 +9,7 @@
 }
 
 .hello-wrapper {
-    background-color: #009999;
+    background-color: #6ebea5;
     color: #fff;
 }
 
@@ -53,12 +53,19 @@
     background-color: #F7C52C;
 }
 
+.scheloc-wrapper {
+    background-color: #009999;
+}
+
 /* Text color for schedule heading text*/
-.featurette-heading.text-schedule {
+.schedule-wrapper .text-schedule {
     color: #009999;
+}
+.scheloc-wrapper .text-schedule {
+    color: #fff;
 }
 
 /* Text color for top navigation bar */
-.main-header ul li a {
+#main-header ul li a {
     color: #009999;
 }
