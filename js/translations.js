@@ -20,7 +20,7 @@ app.config(function ($translateProvider, $locationProvider) {
 
         // Schedule section
         SCHEDULE_TEXT_1: "<i class='fa fa-calendar'></i> 26/07/2014",
-        SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> College of Foreign Language Gymnasium",
+        SCHEDULE_TEXT_2: "<i class='fa fa-map-marker'></i> College of Foreign Languages Gymnasium",
         SCHEDULE_TEXT_3: "Notice: To attend, you will first need to Register using the link to a form at the bottom of the page",
         SCHEDULE_TITLE_0745: "Opening",
         SCHEDULE_0745: "­Welcome Students & Parents",
