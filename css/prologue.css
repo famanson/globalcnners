@@ -256,6 +256,9 @@ body.init {
     #reveal-text {
         font-size: 20px;
     }
+    #cloud3 {
+        z-index: 1;
+    }
 }
 
 @media (max-height: 480px) {

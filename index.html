@@ -73,7 +73,7 @@
         <div class="col-md-12">
             <ul id="topbar" class="nav navbar-nav">
                 <li class="brand"><span><b>{{ 'TITLE_HEADING' | translate }}</b></span></li>
-                <li class="brand" ng-controller="LanguageCtrl" id="language">{{ 'LANGUAGE_HEADING' | translate }}: <span ng-class="{'grayscale':!isLangActive('en')}" langPicker="en" class="flag-icon flag-icon-gb"></span> <span ng-class="{'grayscale':!isLangActive('vn')}" langPicker="vn" class="flag-icon flag-icon-vn"></span></li>
+                <li class="brand" ng-controller="LanguageCtrl" id="language"><span id="lang-heading">{{ 'LANGUAGE_HEADING' | translate }}:</span> <span ng-class="{'grayscale':!isLangActive('en')}" langPicker="en" class="flag-icon flag-icon-gb"></span> <span ng-class="{'grayscale':!isLangActive('vn')}" langPicker="vn" class="flag-icon flag-icon-vn"></span></li>
                 <li><a href="#contact-us" class="last">{{ 'CONTACT_HEADING' | translate }}</a></li>
                 <li><a href="#docs">{{ 'DOCS_HEADING' | translate }}</a></li>
                 <li><a href="#staff">{{ 'STAFF_HEADING' | translate }}</a></li>

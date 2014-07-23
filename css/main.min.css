@@ -526,6 +526,10 @@ iframe {
     #main-header {
         position: relative;
         top: 0;
+        box-shadow: none;
+    }
+    #main-header ul li.brand {
+        font-size: 20px;
     }
 
     #main-header ul li:not(.brand) {
@@ -545,8 +549,19 @@ iframe {
         margin: 20px 0;
     }
 }
+@media (max-width: 512px) {
+    #lang-heading {
+        display: none;
+    }
+    #main-header ul li.brand {
+        font-size: 18px;
+    }
+}
 
 @media (max-width: 400px) {
+    #main-header ul li.brand {
+        font-size: 16px;
+    }
     .back {
         font-size: 14px;
     }
