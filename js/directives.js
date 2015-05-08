@@ -18,7 +18,7 @@ app.directive('flippable', function() {
     return {
         restrict: 'A',
         link: function (scope, element, attr) {
-            $timeout(function () {
+            $timeout(500, function () {
                 scope.$emit("finishLoad");
             });
         }
@@ -91,6 +91,7 @@ app.directive('flippable', function() {
                         $("body").removeClass("init");
                         $("#prologue").slideUp(700, function() {
                             $("body").css("background-color", "#fff");
+                            scope.$emit("finishLoad");
                         });
                     });
                 });

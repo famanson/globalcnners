@@ -65,7 +65,7 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
     $scope.isLangActive = function(key) {
         return $scope.currentLang === key;
     };
-}).controller("StaffCtrl", function($scope) {
+}).controller("StaffCtrl", function($scope, $timeout) {
     for (key in staff) {
         var member = staff[key];
         member['flippable'] = (member.back && member.back !== null && member.back !== '');
@@ -90,7 +90,6 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
         for (key in staff) {
             var member = staff[key];
             var partition = key % staffPartitionSize;
-            console.log(partition);
             staffGroup[partition].push(member);
         }
         $scope.staffGroup = staffGroup;
@@ -112,17 +111,19 @@ app.controller("ParentCtrl", function ($scope, $translate, $location) {
                 staffWall.fitWidth();
             }
         });
-        staffWall.fitWidth();
         $scope.walls.staffWall = staffWall;
+        staffWall.fitWidth();
     };
 
     $scope.$on("constructStaffWall", function(e) {
         if ($scope.staffWallEnabled) {
             $scope.buildStaffWall();
             $scope.$emit("correctFlippableHeight");
+            $timeout(function(){
+                $scope.walls.staffWall.fitWidth();
+            }, 1000);
         }
     });
-
 }).controller("GuestsCtrl", function($scope) {
     for (key in guests) {
         var member = guests[key];
